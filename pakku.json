@@ -2,7 +2,8 @@
     "name": "GT-Cataclysm",
     "version": "0.1.0",
     "overrides": [
-        "config"
+        "config",
+        "kubejs"
     ],
     "projects": {
         "ksyxis": {

@@ -85,18 +85,24 @@ jobs:
           cd server
           java -jar ../forge-installer.jar --installServer
 
-      - name: Assemble server directory
+      - name: Verify exported packs contain KubeJS
         run: |
-          # Prefer exported server pack; fall back to fetched mods/config in repo root
-          pack=$(find build/serverpack -name '*.zip' 2>/dev/null | head -n1 || true)
-          if [ -n "$pack" ]; then
-            unzip -oq "$pack" -d server
-          else
-            [ -d mods ] && cp -r mods server/
-            [ -d config ] && cp -r config server/
-            [ -d kubejs ] && cp -r kubejs server/
-            [ -d defaultconfigs ] && cp -r defaultconfigs server/
-          fi
+          mrpack=$(find build/modrinth -name '*.mrpack' | head -n1)
+          pack=$(find build/serverpack -name '*.zip' | head -n1)
+          [ -n "$mrpack" ] || { echo "::error::No mrpack exported"; exit 1; }
+          [ -n "$pack" ] || { echo "::error::No server pack exported"; exit 1; }
+          unzip -l "$mrpack" | grep -q 'overrides/kubejs/server_scripts/gating/.*\.js' \
+            || { echo "::error::mrpack lacks overrides/kubejs/"; exit 1; }
+          unzip -l "$mrpack" | grep -q 'overrides/kubejs/client_scripts/.*\.js' \
+            || { echo "::error::mrpack lacks overrides/kubejs/client_scripts"; exit 1; }
+          unzip -l "$pack" | grep -q ' kubejs/server_scripts/gating/.*\.js' \
+            || { echo "::error::server pack lacks kubejs/"; exit 1; }
+
+      - name: Assemble server directory (exported zip only)
+        run: |
+          pack=$(find build/serverpack -name '*.zip' | head -n1)
+          [ -n "$pack" ] || { echo "::error::No exported server pack"; exit 1; }
+          unzip -oq "$pack" -d server
           echo "eula=true" > server/eula.txt
           sed -i 's/^online-mode=.*/online-mode=false/' server/server.properties 2>/dev/null || true
 
@@ -111,6 +117,14 @@ jobs:
             if grep -q 'Done (' logs/ci-boot.log; then
               echo "Server booted OK"
               pkill -f 'unix_args.txt' || true
+              sleep 5
+              log=logs/kubejs/server.log
+              [ -f "$log" ] || { echo "::error::$log missing; KubeJS did not run"; exit 1; }
+              grep -E 'Loaded script server_scripts:gating/' "$log"
+              n=$(grep -c 'Loaded script server_scripts:gating/' "$log" || true)
+              [ "$n" -ge 7 ] || { echo "::error::Only $n gating scripts loaded (need >=7)"; cat "$log"; exit 1; }
+              grep -E 'Loaded ([0-9]+)/([0-9]+) KubeJS server scripts .* with 0 errors' "$log" \
+            || { echo "::error::KubeJS did not load all server scripts with 0 errors"; cat "$log"; exit 1; }
               exit 0
             fi
             kill -0 $pid 2>/dev/null || break
