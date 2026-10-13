@@ -1,0 +1,42 @@
+{
+  "display": {
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:lv_macerator"
+    },
+    "title": "LV macerator",
+    "subtitle": "Go electric",
+    "description": [
+      "Your first electric machine. It is faster and gives better output than the steam version."
+    ],
+    "groups": {
+      "Steam Age to LV": {
+        "position": [
+          176,
+          44
+        ]
+      }
+    }
+  },
+  "settings": {
+    "individual_progress": false,
+    "showDependencyArrow": true
+  },
+  "dependencies": [
+    "lv_circuit"
+  ],
+  "tasks": {
+    "task_1": {
+      "type": "heracles:item",
+      "item": "gtceu:lv_macerator",
+      "amount": 1
+    }
+  },
+  "rewards": {
+    "reward_1": {
+      "type": "heracles:xp",
+      "xptype": "LEVEL",
+      "amount": 1
+    }
+  }
+}

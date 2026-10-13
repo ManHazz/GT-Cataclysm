@@ -1,0 +1,42 @@
+{
+  "display": {
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:vacuum_freezer"
+    },
+    "title": "Vacuum freezer",
+    "subtitle": "Cool hot ingots",
+    "description": [
+      "Cools hot ingots from the Electric Blast Furnace into usable metal."
+    ],
+    "groups": {
+      "HV - Ignis": {
+        "position": [
+          176,
+          0
+        ]
+      }
+    }
+  },
+  "settings": {
+    "individual_progress": false,
+    "showDependencyArrow": true
+  },
+  "dependencies": [
+    "hv_stainless"
+  ],
+  "tasks": {
+    "task_1": {
+      "type": "heracles:item",
+      "item": "gtceu:vacuum_freezer",
+      "amount": 1
+    }
+  },
+  "rewards": {
+    "reward_1": {
+      "type": "heracles:xp",
+      "xptype": "LEVEL",
+      "amount": 1
+    }
+  }
+}

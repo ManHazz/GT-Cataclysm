@@ -1,0 +1,42 @@
+{
+  "display": {
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:iv_robot_arm"
+    },
+    "title": "IV robot arm",
+    "subtitle": "Key component",
+    "description": [
+      "A key component for IV machines and the assembly line."
+    ],
+    "groups": {
+      "IV - Ender Guardian": {
+        "position": [
+          264,
+          0
+        ]
+      }
+    }
+  },
+  "settings": {
+    "individual_progress": false,
+    "showDependencyArrow": true
+  },
+  "dependencies": [
+    "iv_assembly_line"
+  ],
+  "tasks": {
+    "task_1": {
+      "type": "heracles:item",
+      "item": "gtceu:iv_robot_arm",
+      "amount": 2
+    }
+  },
+  "rewards": {
+    "reward_1": {
+      "type": "heracles:xp",
+      "xptype": "LEVEL",
+      "amount": 1
+    }
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "display": {
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:luv_fusion_reactor"
+    },
+    "title": "Fusion reactor",
+    "subtitle": "Fusion power",
+    "description": [
+      "The Fusion Reactor Computer MK I, the start of fusion power."
+    ],
+    "groups": {
+      "LuV - Maledictus": {
+        "position": [
+          220,
+          0
+        ]
+      }
+    }
+  },
+  "settings": {
+    "individual_progress": false,
+    "showDependencyArrow": true
+  },
+  "dependencies": [
+    "luv_circuit"
+  ],
+  "tasks": {
+    "task_1": {
+      "type": "heracles:item",
+      "item": "gtceu:luv_fusion_reactor",
+      "amount": 1
+    }
+  },
+  "rewards": {
+    "reward_1": {
+      "type": "heracles:xp",
+      "xptype": "LEVEL",
+      "amount": 1
+    }
+  }
+}

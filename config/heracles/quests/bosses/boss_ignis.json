@@ -1,0 +1,50 @@
+{
+  "display": {
+    "icon": {
+      "type": "heracles:item",
+      "item": "cataclysm:flame_eye"
+    },
+    "title": "Ignis",
+    "subtitle": "Burning Arena",
+    "description": [
+      "Burning Arena: Nether Wastes structure. Drops the Ignitium Ingot (HV)."
+    ],
+    "groups": {
+      "Bosses": {
+        "position": [
+          88,
+          0
+        ]
+      }
+    }
+  },
+  "settings": {
+    "individual_progress": false,
+    "showDependencyArrow": true
+  },
+  "dependencies": [
+    "boss_monstrosity"
+  ],
+  "tasks": {
+    "task_1": {
+      "type": "heracles:structure",
+      "title": "Find the Burning Arena",
+      "structures": "cataclysm:burning_arena"
+    },
+    "task_2": {
+      "type": "heracles:kill_entity",
+      "title": "Ignis",
+      "entity": {
+        "type": "cataclysm:ignis"
+      },
+      "amount": 1
+    }
+  },
+  "rewards": {
+    "reward_1": {
+      "type": "heracles:xp",
+      "xptype": "LEVEL",
+      "amount": 5
+    }
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "display": {
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:ev_chemical_reactor"
+    },
+    "title": "EV chemical reactor",
+    "subtitle": "Better chemistry",
+    "description": [
+      "Faster chemistry, and more fluid slots for bigger recipes."
+    ],
+    "groups": {
+      "EV - The Harbinger": {
+        "position": [
+          264,
+          0
+        ]
+      }
+    }
+  },
+  "settings": {
+    "individual_progress": false,
+    "showDependencyArrow": true
+  },
+  "dependencies": [
+    "ev_circuit"
+  ],
+  "tasks": {
+    "task_1": {
+      "type": "heracles:item",
+      "item": "gtceu:ev_chemical_reactor",
+      "amount": 1
+    }
+  },
+  "rewards": {
+    "reward_1": {
+      "type": "heracles:xp",
+      "xptype": "LEVEL",
+      "amount": 1
+    }
+  }
+}

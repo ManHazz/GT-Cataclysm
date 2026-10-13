@@ -1,0 +1,42 @@
+{
+  "display": {
+    "icon": {
+      "type": "heracles:item",
+      "item": "ae2:fluix_crystal"
+    },
+    "title": "Fluix",
+    "subtitle": "Throw into water",
+    "description": [
+      "Fluix Crystals are made by throwing charged certus quartz, redstone and quartz into water. They are needed for most network parts."
+    ],
+    "groups": {
+      "AE2 Storage": {
+        "position": [
+          44,
+          0
+        ]
+      }
+    }
+  },
+  "settings": {
+    "individual_progress": false,
+    "showDependencyArrow": true
+  },
+  "dependencies": [
+    "ae2_certus"
+  ],
+  "tasks": {
+    "task_1": {
+      "type": "heracles:item",
+      "item": "ae2:fluix_crystal",
+      "amount": 8
+    }
+  },
+  "rewards": {
+    "reward_1": {
+      "type": "heracles:xp",
+      "xptype": "LEVEL",
+      "amount": 1
+    }
+  }
+}

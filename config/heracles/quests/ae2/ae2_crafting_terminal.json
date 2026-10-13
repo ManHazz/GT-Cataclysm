@@ -1,0 +1,42 @@
+{
+  "display": {
+    "icon": {
+      "type": "heracles:item",
+      "item": "ae2:crafting_terminal"
+    },
+    "title": "Crafting terminal",
+    "subtitle": "Request and relax",
+    "description": [
+      "A terminal with a built-in crafting grid and autocrafting requests. Request an item, and the network crafts it for you."
+    ],
+    "groups": {
+      "AE2 Storage": {
+        "position": [
+          44,
+          44
+        ]
+      }
+    }
+  },
+  "settings": {
+    "individual_progress": false,
+    "showDependencyArrow": true
+  },
+  "dependencies": [
+    "ae2_molecular"
+  ],
+  "tasks": {
+    "task_1": {
+      "type": "heracles:item",
+      "item": "ae2:crafting_terminal",
+      "amount": 1
+    }
+  },
+  "rewards": {
+    "reward_1": {
+      "type": "heracles:xp",
+      "xptype": "LEVEL",
+      "amount": 3
+    }
+  }
+}

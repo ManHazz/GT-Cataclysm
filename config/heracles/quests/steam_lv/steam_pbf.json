@@ -1,0 +1,42 @@
+{
+  "display": {
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:primitive_blast_furnace"
+    },
+    "title": "Primitive blast furnace",
+    "subtitle": "Iron to steel",
+    "description": [
+      "Iron plus coke in a Primitive Blast Furnace gives steel, your first big upgrade."
+    ],
+    "groups": {
+      "Steam Age to LV": {
+        "position": [
+          220,
+          0
+        ]
+      }
+    }
+  },
+  "settings": {
+    "individual_progress": false,
+    "showDependencyArrow": true
+  },
+  "dependencies": [
+    "steam_coke"
+  ],
+  "tasks": {
+    "task_1": {
+      "type": "heracles:item",
+      "item": "gtceu:primitive_blast_furnace",
+      "amount": 1
+    }
+  },
+  "rewards": {
+    "reward_1": {
+      "type": "heracles:xp",
+      "xptype": "LEVEL",
+      "amount": 1
+    }
+  }
+}

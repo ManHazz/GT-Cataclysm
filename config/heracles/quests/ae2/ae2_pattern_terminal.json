@@ -1,0 +1,42 @@
+{
+  "display": {
+    "icon": {
+      "type": "heracles:item",
+      "item": "ae2:pattern_encoding_terminal"
+    },
+    "title": "Pattern terminal",
+    "subtitle": "Teach recipes",
+    "description": [
+      "Encode recipes as patterns here. Patterns tell the network how to craft an item."
+    ],
+    "groups": {
+      "AE2 Storage": {
+        "position": [
+          176,
+          44
+        ]
+      }
+    }
+  },
+  "settings": {
+    "individual_progress": false,
+    "showDependencyArrow": true
+  },
+  "dependencies": [
+    "ae2_crafting_storage"
+  ],
+  "tasks": {
+    "task_1": {
+      "type": "heracles:item",
+      "item": "ae2:pattern_encoding_terminal",
+      "amount": 1
+    }
+  },
+  "rewards": {
+    "reward_1": {
+      "type": "heracles:xp",
+      "xptype": "LEVEL",
+      "amount": 1
+    }
+  }
+}

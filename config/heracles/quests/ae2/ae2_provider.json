@@ -1,0 +1,42 @@
+{
+  "display": {
+    "icon": {
+      "type": "heracles:item",
+      "item": "ae2:pattern_provider"
+    },
+    "title": "Pattern provider",
+    "subtitle": "Feed your machines",
+    "description": [
+      "Put patterns in a provider. It pushes the ingredients into the machine next to it, such as a GregTech machine."
+    ],
+    "groups": {
+      "AE2 Storage": {
+        "position": [
+          132,
+          44
+        ]
+      }
+    }
+  },
+  "settings": {
+    "individual_progress": false,
+    "showDependencyArrow": true
+  },
+  "dependencies": [
+    "ae2_pattern_terminal"
+  ],
+  "tasks": {
+    "task_1": {
+      "type": "heracles:item",
+      "item": "ae2:pattern_provider",
+      "amount": 1
+    }
+  },
+  "rewards": {
+    "reward_1": {
+      "type": "heracles:xp",
+      "xptype": "LEVEL",
+      "amount": 1
+    }
+  }
+}

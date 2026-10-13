@@ -1,0 +1,42 @@
+{
+  "display": {
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:electric_blast_furnace"
+    },
+    "title": "Electric blast furnace",
+    "subtitle": "High-temperature smelting",
+    "description": [
+      "A heat-based multiblock for high temperature smelting. Check the preview in JEI and build it with Cupronickel Coil Blocks."
+    ],
+    "groups": {
+      "MV - Netherite Monstrosity": {
+        "position": [
+          220,
+          0
+        ]
+      }
+    }
+  },
+  "settings": {
+    "individual_progress": false,
+    "showDependencyArrow": true
+  },
+  "dependencies": [
+    "mv_aluminium"
+  ],
+  "tasks": {
+    "task_1": {
+      "type": "heracles:item",
+      "item": "gtceu:electric_blast_furnace",
+      "amount": 1
+    }
+  },
+  "rewards": {
+    "reward_1": {
+      "type": "heracles:xp",
+      "xptype": "LEVEL",
+      "amount": 1
+    }
+  }
+}

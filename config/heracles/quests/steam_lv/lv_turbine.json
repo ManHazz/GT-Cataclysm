@@ -1,0 +1,43 @@
+{
+  "display": {
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:lv_steam_turbine"
+    },
+    "title": "LV steam turbine",
+    "subtitle": "Make EU",
+    "description": [
+      "A Steam Turbine turns steam into electricity (EU). Feed it with a boiler.",
+      "Power is the limit for most early machines, so build a few."
+    ],
+    "groups": {
+      "Steam Age to LV": {
+        "position": [
+          88,
+          44
+        ]
+      }
+    }
+  },
+  "settings": {
+    "individual_progress": false,
+    "showDependencyArrow": true
+  },
+  "dependencies": [
+    "lv_electric_furnace"
+  ],
+  "tasks": {
+    "task_1": {
+      "type": "heracles:item",
+      "item": "gtceu:lv_steam_turbine",
+      "amount": 1
+    }
+  },
+  "rewards": {
+    "reward_1": {
+      "type": "heracles:xp",
+      "xptype": "LEVEL",
+      "amount": 1
+    }
+  }
+}

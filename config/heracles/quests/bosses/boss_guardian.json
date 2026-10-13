@@ -1,0 +1,50 @@
+{
+  "display": {
+    "icon": {
+      "type": "heracles:item",
+      "item": "cataclysm:void_eye"
+    },
+    "title": "Ender Guardian",
+    "subtitle": "Ruined Citadel",
+    "description": [
+      "Ruined Citadel: End structure, found in End Highlands and End Midlands. Drops the Gauntlet of Guard (IV)."
+    ],
+    "groups": {
+      "Bosses": {
+        "position": [
+          176,
+          0
+        ]
+      }
+    }
+  },
+  "settings": {
+    "individual_progress": false,
+    "showDependencyArrow": true
+  },
+  "dependencies": [
+    "boss_harbinger"
+  ],
+  "tasks": {
+    "task_1": {
+      "type": "heracles:structure",
+      "title": "Find the Ruined Citadel",
+      "structures": "cataclysm:ruined_citadel"
+    },
+    "task_2": {
+      "type": "heracles:kill_entity",
+      "title": "Ender Guardian",
+      "entity": {
+        "type": "cataclysm:ender_guardian"
+      },
+      "amount": 1
+    }
+  },
+  "rewards": {
+    "reward_1": {
+      "type": "heracles:xp",
+      "xptype": "LEVEL",
+      "amount": 5
+    }
+  }
+}

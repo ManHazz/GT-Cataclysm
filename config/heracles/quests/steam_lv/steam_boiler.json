@@ -1,0 +1,43 @@
+{
+  "display": {
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:lp_steam_solid_boiler"
+    },
+    "title": "Make some steam",
+    "subtitle": "Steam boiler",
+    "description": [
+      "The Low Pressure Steam Solid Boiler burns fuel and water into steam, which powers the first machines.",
+      "Feed it coal or charcoal and keep it supplied with water."
+    ],
+    "groups": {
+      "Steam Age to LV": {
+        "position": [
+          44,
+          0
+        ]
+      }
+    }
+  },
+  "settings": {
+    "individual_progress": false,
+    "showDependencyArrow": true
+  },
+  "dependencies": [
+    "steam_bronze"
+  ],
+  "tasks": {
+    "task_1": {
+      "type": "heracles:item",
+      "item": "gtceu:lp_steam_solid_boiler",
+      "amount": 1
+    }
+  },
+  "rewards": {
+    "reward_1": {
+      "type": "heracles:xp",
+      "xptype": "LEVEL",
+      "amount": 1
+    }
+  }
+}

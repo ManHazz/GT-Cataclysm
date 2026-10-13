@@ -1340,6 +1340,48 @@
             ]
         },
         {
+            "pakku_id": "cRQgqtcD8SUMcg6g",
+            "pakku_links": [
+                "5RmgazCIkB0wJlka"
+            ],
+            "type": "MOD",
+            "side": "BOTH",
+            "slug": {
+                "modrinth": "odyssey-quests"
+            },
+            "name": {
+                "modrinth": "Odyssey Quests"
+            },
+            "id": {
+                "modrinth": "lo90fZoB"
+            },
+            "files": [
+                {
+                    "type": "modrinth",
+                    "file_name": "Heracles-forge-1.20.1-1.1.13.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/lo90fZoB/versions/9ZUSHiZa/Heracles-forge-1.20.1-1.1.13.jar",
+                    "id": "9ZUSHiZa",
+                    "parent_id": "lo90fZoB",
+                    "hashes": {
+                        "sha512": "e3baefb03efa84e3e5cc8f329d81bd9b2f27a878875acf8ad9977e6a89ee173733060f40980a130970383d6f15c268f63242789d57052fe545a7ba05d5a24949",
+                        "sha1": "ca6de15e1631ccbf5463fcf3df6d3ad37aa5d6e5"
+                    },
+                    "required_dependencies": [
+                        "G1hIVOrD"
+                    ],
+                    "size": 1420890,
+                    "date_published": "2024-06-07T19:09:22.578129Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "iZDwKLjzMS5rTWeA",
             "type": "MOD",
             "side": "BOTH",
@@ -1442,6 +1484,43 @@
                     "required_dependencies": [],
                     "size": 393109,
                     "date_published": "2023-06-13T11:44:16.843023Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "5RmgazCIkB0wJlka",
+            "type": "MOD",
+            "side": "BOTH",
+            "slug": {
+                "modrinth": "resourceful-lib"
+            },
+            "name": {
+                "modrinth": "Resourceful Lib"
+            },
+            "id": {
+                "modrinth": "G1hIVOrD"
+            },
+            "files": [
+                {
+                    "type": "modrinth",
+                    "file_name": "resourcefullib-forge-1.20.1-2.1.29.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/G1hIVOrD/versions/OhsHaCcW/resourcefullib-forge-1.20.1-2.1.29.jar",
+                    "id": "OhsHaCcW",
+                    "parent_id": "G1hIVOrD",
+                    "hashes": {
+                        "sha512": "8dbe951d431545a7d18081a8b11a52a248e6d8ff9862ae6462b0f5a6f57ff523af12704c3adb071ae99a7c5c1dd895bd7875dea59f9c4956c1597a668b6e8820",
+                        "sha1": "6fc590a7c56a720fec57e290cbb0a106efbb3ffa"
+                    },
+                    "required_dependencies": [],
+                    "size": 432753,
+                    "date_published": "2024-08-24T19:45:23.325509Z"
                 }
             ]
         },

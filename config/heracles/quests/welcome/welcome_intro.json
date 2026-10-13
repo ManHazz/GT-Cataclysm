@@ -1,0 +1,40 @@
+{
+  "display": {
+    "icon": {
+      "type": "heracles:item",
+      "item": "minecraft:book"
+    },
+    "title": "Welcome to GT: Cataclysm",
+    "subtitle": "Start here",
+    "description": [
+      "This pack combines GregTech progression with L_Ender's Cataclysm bosses.",
+      "Work through the chapters on the left. Start with Steam Age to LV, then one chapter per voltage tier."
+    ],
+    "groups": {
+      "Welcome": {
+        "position": [
+          0,
+          0
+        ]
+      }
+    }
+  },
+  "settings": {
+    "individual_progress": false,
+    "showDependencyArrow": true
+  },
+  "dependencies": [],
+  "tasks": {
+    "task_1": {
+      "type": "heracles:check",
+      "title": "Read the intro"
+    }
+  },
+  "rewards": {
+    "reward_1": {
+      "type": "heracles:xp",
+      "xptype": "LEVEL",
+      "amount": 1
+    }
+  }
+}

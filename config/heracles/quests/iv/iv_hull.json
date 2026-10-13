@@ -1,0 +1,43 @@
+{
+  "display": {
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:iv_machine_hull"
+    },
+    "title": "Craft the IV machine hull",
+    "subtitle": "Unlocks the tier",
+    "description": [
+      "Craft the hull in an Assembler. The recipe needs the Gauntlet of Guard as a catalyst and does not use it up.",
+      "Check the recipe in JEI for the exact inputs. Every machine of this tier is built from this hull."
+    ],
+    "groups": {
+      "IV - Ender Guardian": {
+        "position": [
+          88,
+          0
+        ]
+      }
+    }
+  },
+  "settings": {
+    "individual_progress": false,
+    "showDependencyArrow": true
+  },
+  "dependencies": [
+    "iv_catalyst"
+  ],
+  "tasks": {
+    "task_1": {
+      "type": "heracles:item",
+      "item": "gtceu:iv_machine_hull",
+      "amount": 1
+    }
+  },
+  "rewards": {
+    "reward_1": {
+      "type": "heracles:xp",
+      "xptype": "LEVEL",
+      "amount": 5
+    }
+  }
+}

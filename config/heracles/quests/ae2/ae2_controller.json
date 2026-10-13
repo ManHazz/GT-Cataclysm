@@ -1,0 +1,43 @@
+{
+  "display": {
+    "icon": {
+      "type": "heracles:item",
+      "item": "ae2:controller"
+    },
+    "title": "ME controller",
+    "subtitle": "Heart of the network",
+    "description": [
+      "The controller is the heart of a large network. Without one, a network works but is limited in size and channels.",
+      "Place it, then connect devices with cables. Cable colour and glass cables are all fine."
+    ],
+    "groups": {
+      "AE2 Storage": {
+        "position": [
+          88,
+          0
+        ]
+      }
+    }
+  },
+  "settings": {
+    "individual_progress": false,
+    "showDependencyArrow": true
+  },
+  "dependencies": [
+    "ae2_fluix"
+  ],
+  "tasks": {
+    "task_1": {
+      "type": "heracles:item",
+      "item": "ae2:controller",
+      "amount": 1
+    }
+  },
+  "rewards": {
+    "reward_1": {
+      "type": "heracles:xp",
+      "xptype": "LEVEL",
+      "amount": 1
+    }
+  }
+}

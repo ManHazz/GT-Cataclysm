@@ -1,0 +1,42 @@
+{
+  "display": {
+    "icon": {
+      "type": "heracles:item",
+      "item": "minecraft:iron_bars"
+    },
+    "title": "How the gates work",
+    "subtitle": "Boss drops unlock tiers",
+    "description": [
+      "Machine hulls for MV, HV, EV, IV, LuV and ZPM can only be made in an Assembler, and each recipe needs a Cataclysm boss drop as a catalyst.",
+      "The catalyst is NOT consumed. Kill each boss once, keep the drop, and craft as many hulls of that tier as you like."
+    ],
+    "groups": {
+      "Welcome": {
+        "position": [
+          44,
+          0
+        ]
+      }
+    }
+  },
+  "settings": {
+    "individual_progress": false,
+    "showDependencyArrow": true
+  },
+  "dependencies": [
+    "welcome_intro"
+  ],
+  "tasks": {
+    "task_1": {
+      "type": "heracles:check",
+      "title": "Understood"
+    }
+  },
+  "rewards": {
+    "reward_1": {
+      "type": "heracles:xp",
+      "xptype": "LEVEL",
+      "amount": 1
+    }
+  }
+}
