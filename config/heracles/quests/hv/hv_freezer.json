@@ -10,7 +10,7 @@
       "Cools hot ingots from the Electric Blast Furnace into usable metal."
     ],
     "groups": {
-      "HV - Ignis": {
+      "HV": {
         "position": [
           176,
           0

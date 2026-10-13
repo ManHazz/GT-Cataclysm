@@ -10,7 +10,7 @@
       "Certus Quartz is the base material of Applied Energistics. Find it as ore in the Overworld, often near water or in caves."
     ],
     "groups": {
-      "AE2 Storage": {
+      "AE2": {
         "position": [
           0,
           0

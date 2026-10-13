@@ -10,7 +10,7 @@
       "The HV circuit."
     ],
     "groups": {
-      "HV - Ignis": {
+      "HV": {
         "position": [
           264,
           0

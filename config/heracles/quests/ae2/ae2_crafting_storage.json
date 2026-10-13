@@ -10,7 +10,7 @@
       "Autocrafting needs a crafting CPU. Build one from a Crafting Unit and a Crafting Storage block, then place them together."
     ],
     "groups": {
-      "AE2 Storage": {
+      "AE2": {
         "position": [
           220,
           44

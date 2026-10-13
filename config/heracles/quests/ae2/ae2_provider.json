@@ -10,7 +10,7 @@
       "Put patterns in a provider. It pushes the ingredients into the machine next to it, such as a GregTech machine."
     ],
     "groups": {
-      "AE2 Storage": {
+      "AE2": {
         "position": [
           132,
           44

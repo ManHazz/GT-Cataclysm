@@ -11,7 +11,7 @@
       "Check the recipe in JEI for the exact inputs. Every machine of this tier is built from this hull."
     ],
     "groups": {
-      "ZPM - Scylla": {
+      "ZPM": {
         "position": [
           88,
           0

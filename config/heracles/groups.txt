@@ -1,10 +1,10 @@
 Welcome
-Steam Age to LV
-MV - Netherite Monstrosity
-HV - Ignis
-EV - The Harbinger
-IV - Ender Guardian
-LuV - Maledictus
-ZPM - Scylla
+Steam & LV
+MV
+HV
+EV
+IV
+LuV
+ZPM
 Bosses
-AE2 Storage
+AE2

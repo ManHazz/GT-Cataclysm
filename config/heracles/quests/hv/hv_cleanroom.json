@@ -10,7 +10,7 @@
       "The Nanoprocessor needs wafers made in a cleanroom. Check the multiblock preview in JEI."
     ],
     "groups": {
-      "HV - Ignis": {
+      "HV": {
         "position": [
           220,
           0

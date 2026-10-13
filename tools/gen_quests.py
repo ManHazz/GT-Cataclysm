@@ -48,7 +48,7 @@ def Q(qid, title, icon, desc, pos, tasks, deps=(), rewards=None, sub=""):
 chapter("Welcome", "welcome", [
     Q("welcome_intro", "Welcome to GT: Cataclysm", "minecraft:book",
       ["This pack combines GregTech progression with L_Ender's Cataclysm bosses.",
-       "Work through the chapters on the left. Start with Steam Age to LV, then one chapter per voltage tier.",
+       "Work through the chapters on the left. Start with Steam & LV, then one chapter per voltage tier.",
        "You received a Quest Book item: right-click it to open this questbook any time. The Open Quests key defaults to U, which clashes with JEI (Show Uses) and Xaero's waypoints, so rebind it in Controls > Key Binds."],
       (0, 0), [check("Read the intro")], sub="Start here"),
     Q("welcome_gates", "How the gates work", "minecraft:iron_bars",
@@ -78,7 +78,7 @@ chapter("Welcome", "welcome", [
 ])
 
 # ---------------------------------------------------------------- Steam Age -> LV
-chapter("Steam Age to LV", "steam_lv", [
+chapter("Steam & LV", "steam_lv", [
     Q("steam_bronze", "Bronze", "gtceu:bronze_ingot",
       ["Bronze is the backbone of the steam age. Alloy 3 copper with 1 tin to get it.",
        "Use JEI on the ingot to see every way of making it."],
@@ -151,7 +151,7 @@ def tier(name, folder, p, boss_id, boss_name, boss_text, catalyst, cat_name, cat
                     (3 + k, 0), [item(iid, amt)], deps=dep, sub=sub))
     chapter(name, folder, qs)
 
-tier("MV - Netherite Monstrosity", "mv", "mv",
+tier("MV", "mv", "mv",
      "cataclysm:netherite_monstrosity", "Netherite Monstrosity",
      ["A huge Nether boss guarding the Soul Forge. Bring strong armour, potions and plenty of food.",
       "Find the Soul Forge in the Nether (Crimson Forest, Warped Forest, Soul Sand Valley or Nether Wastes). An Eye of Monstrous, used like an Eye of Ender, points to it."],
@@ -168,7 +168,7 @@ tier("MV - Netherite Monstrosity", "mv", "mv",
           "The MV circuit. You will need many of them.", "MV circuit"),
      ], "boss_monstrosity", "lv_circuit_assembler")
 
-tier("HV - Ignis", "hv", "hv",
+tier("HV", "hv", "hv",
      "cataclysm:ignis", "Ignis",
      ["Ignis is a fire boss that fights in the Burning Arena, a Nether Wastes structure.",
       "An Eye of Flame, used like an Eye of Ender, points to the arena. Fire resistance helps a lot."],
@@ -187,7 +187,7 @@ tier("HV - Ignis", "hv", "hv",
           "Plastics and many other chemicals start here.", "Chemistry begins"),
      ], "boss_ignis", "mv_circuit")
 
-tier("EV - The Harbinger", "ev", "ev",
+tier("EV", "ev", "ev",
      "cataclysm:the_harbinger", "The Harbinger",
      ["A mechanical boss in the Ancient Factory, a large structure that can generate in caves or deep underground. Bring a good pickaxe and light sources.",
       "It is very hard to spot by chance, so the practical way to find it is an Eye of Mech, used like an Eye of Ender."],
@@ -203,7 +203,7 @@ tier("EV - The Harbinger", "ev", "ev",
           "Faster chemistry, and more fluid slots for bigger recipes.", "Better chemistry"),
      ], "boss_harbinger", "hv_circuit")
 
-tier("IV - Ender Guardian", "iv", "iv",
+tier("IV", "iv", "iv",
      "cataclysm:ender_guardian", "Ender Guardian",
      ["The Ender Guardian lives in the Ruined Citadel, which generates in the End (End Highlands and End Midlands).",
       "An Eye of Void, used like an Eye of Ender, points to the citadel. Be ready for the End first."],
@@ -220,7 +220,7 @@ tier("IV - Ender Guardian", "iv", "iv",
           "A key component for IV machines and the assembly line.", "Key component"),
      ], "boss_guardian", "ev_circuit")
 
-tier("LuV - Maledictus", "luv", "luv",
+tier("LuV", "luv", "luv",
      "cataclysm:maledictus", "Maledictus",
      ["Maledictus haunts the Frosted Prison, a structure in snowy plains. Expect undead.",
       "An Eye of Curse, used like an Eye of Ender, points to the prison."],
@@ -235,7 +235,7 @@ tier("LuV - Maledictus", "luv", "luv",
           "The Fusion Reactor Computer MK I, the start of fusion power.", "Fusion power"),
      ], "boss_maledictus", "iv_circuit")
 
-tier("ZPM - Scylla", "zpm", "zpm",
+tier("ZPM", "zpm", "zpm",
      "cataclysm:scylla", "Scylla",
      ["Scylla is the sea boss of the Acropolis, a structure that generates in warm ocean. Her allies guard it.",
       "An Eye of Storm, used like an Eye of Ender, points to the Acropolis. Water breathing is very handy."],
@@ -288,7 +288,7 @@ chapter("Bosses", "bosses", [
 ])
 
 # ---------------------------------------------------------------- AE2
-chapter("AE2 Storage", "ae2", [
+chapter("AE2", "ae2", [
     Q("ae2_certus", "Certus quartz", "ae2:certus_quartz_crystal",
       ["Certus Quartz is the base material of Applied Energistics. Find it as ore in the Overworld, often near water or in caves."],
       (0, 0), [item("ae2:certus_quartz_crystal", 8)], deps=["lv_circuit"], sub="The basic resource"),

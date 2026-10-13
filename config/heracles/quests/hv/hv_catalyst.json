@@ -10,7 +10,7 @@
       "Ignis drops Ignitium Ingots. Keep one; it is the HV catalyst and is not consumed."
     ],
     "groups": {
-      "HV - Ignis": {
+      "HV": {
         "position": [
           44,
           0

@@ -10,7 +10,7 @@
       "Encode recipes as patterns here. Patterns tell the network how to craft an item."
     ],
     "groups": {
-      "AE2 Storage": {
+      "AE2": {
         "position": [
           176,
           44

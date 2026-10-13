@@ -10,7 +10,7 @@
       "Only needed for LuV and higher assembly line recipes, where it creates the research data."
     ],
     "groups": {
-      "LuV - Maledictus": {
+      "LuV": {
         "position": [
           132,
           0
