@@ -74,6 +74,7 @@ All verified on Modrinth for Forge 1.20.1 unless noted.
 | Entity Culling | Skip hidden entities | Client | |
 | Model Gap Fix | Fix model seams | Client | |
 | Dynamic FPS | Reduce FPS when unfocused | Client | Defaults set in `defaultconfigs/` |
+| Controlling + Searchables | Searchable, readable Key Binds screen (fixes cut-off long names) | Client | Searchables is its dep |
 
 ### Shaders
 
