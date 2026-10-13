@@ -1,0 +1,134 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Validate JSON files
+        run: |
+          fail=0
+          while IFS= read -r -d '' f; do
+            if ! python3 -m json.tool "$f" > /dev/null; then
+              echo "::error file=$f::Invalid JSON"
+              fail=1
+            fi
+          done < <(find . -name '*.json' -not -path './.git/*' -print0)
+          exit $fail
+
+      - name: Syntax-check KubeJS scripts
+        run: |
+          if [ -d kubejs ]; then
+            fail=0
+            while IFS= read -r -d '' f; do
+              node --check "$f" || { echo "::error file=$f::Syntax error"; fail=1; }
+            done < <(find kubejs -name '*.js' -print0)
+            exit $fail
+          fi
+
+      - name: Check required docs
+        run: |
+          for f in PLAN.md README.md CLAUDE.md; do
+            [ -f "$f" ] || { echo "::error::Missing $f"; exit 1; }
+          done
+
+  server-boot:
+    needs: validate
+    if: hashFiles('pakku-lock.json') != ''
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    env:
+      FORGE_VERSION: 1.20.1-47.4.13
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: '17'
+
+      - name: Cache Pakku / mod downloads
+        uses: actions/cache@v4
+        with:
+          path: |
+            ~/.pakku
+            .pakku
+            ~/.cache/pakku
+          key: pakku-${{ hashFiles('pakku-lock.json') }}
+          restore-keys: pakku-
+
+      - name: Get Pakku
+        run: |
+          if [ ! -f pakku.jar ]; then
+            url=$(curl -fsSL https://api.github.com/repos/juraj-hrivnak/Pakku/releases/latest \
+              | python3 -c "import sys,json; print(next(a['browser_download_url'] for a in json.load(sys.stdin)['assets'] if a['name'].endswith('.jar')))")
+            curl -fsSL -o pakku.jar "$url"
+          fi
+
+      - name: Fetch mods and export server pack
+        run: |
+          java -jar pakku.jar fetch
+          java -jar pakku.jar export --server-pack || java -jar pakku.jar export
+          ls -la build || true
+
+      - name: Install Forge server
+        run: |
+          mkdir -p server
+          curl -fsSL -o forge-installer.jar \
+            "https://maven.minecraftforge.net/net/minecraftforge/forge/${FORGE_VERSION}/forge-${FORGE_VERSION}-installer.jar"
+          cd server
+          java -jar ../forge-installer.jar --installServer
+
+      - name: Assemble server directory
+        run: |
+          # Prefer exported server pack; fall back to fetched mods/config in repo root
+          pack=$(find build -name '*server*.zip' 2>/dev/null | head -n1 || true)
+          if [ -n "$pack" ]; then
+            unzip -oq "$pack" -d server
+          else
+            [ -d mods ] && cp -r mods server/
+            [ -d config ] && cp -r config server/
+            [ -d kubejs ] && cp -r kubejs server/
+            [ -d defaultconfigs ] && cp -r defaultconfigs server/
+          fi
+          echo "eula=true" > server/eula.txt
+          sed -i 's/^online-mode=.*/online-mode=false/' server/server.properties 2>/dev/null || true
+
+      - name: Boot server headless
+        working-directory: server
+        run: |
+          args=$(find libraries -name unix_args.txt | head -n1)
+          mkdir -p logs
+          timeout 600 java -Xmx4G @user_jvm_args.txt @"$args" nogui < <(tail -f /dev/null) > logs/ci-boot.log 2>&1 &
+          pid=$!
+          for i in $(seq 1 120); do
+            if grep -q 'Done (' logs/ci-boot.log; then
+              echo "Server booted OK"
+              pkill -f 'unix_args.txt' || true
+              exit 0
+            fi
+            kill -0 $pid 2>/dev/null || break
+            sleep 5
+          done
+          echo "::error::Server did not reach 'Done (' in time"
+          tail -n 100 logs/ci-boot.log || true
+          pkill -f 'unix_args.txt' || true
+          exit 1
+
+      - name: Upload logs
+        if: failure()
+        uses: actions/upload-artifact@v4
+        with:
+          name: server-boot-logs
+          path: |
+            server/logs/
+            server/crash-reports/
+          if-no-files-found: ignore

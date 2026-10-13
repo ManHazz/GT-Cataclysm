@@ -1,0 +1,143 @@
+# GT-Cataclysm Modpack Plan
+
+**Target:** Minecraft 1.20.1, Forge 47.4.13 (same pin as Monifactory and TerraFirmaGreg-Modern).
+**Style:** GregTech progression with Cataclysm bosses as tier gates.
+**Priorities:** Performance-first, lightweight shaders. No Create.
+
+## 1. Reference Packs and Lessons
+
+| Pack | Repository | Structure | Notable points |
+|---|---|---|---|
+| Monifactory | github.com/ThePansmith/Monifactory | CurseForge `manifest.json` (~223 mods); `config/`, `config-overrides/`, `defaultconfigs/`, `kubejs/` | GitHub Actions build on PRs |
+| TerraFirmaGreg-Modern | github.com/TerraFirmaGreg-Team/Modpack-Modern | Pakku (`pakku.json` + `pakku-lock.json`), `dev` branch; `config/`, `defaultconfigs/`, `kubejs/` | Uses AE2 Unofficial Extended Life Modern, AllTheLeaks, Adaptive Performance Tweaks |
+
+**Adopted:**
+- Pakku lockfile (exports both CurseForge and Modrinth).
+- The folder layout above.
+- KubeJS for all gating logic.
+- CI boot test.
+
+## 2. Repository Structure
+
+```
+GT-Cataclysm/
+├── pakku.json               # Pakku project config (MC version, loader, export targets)
+├── pakku-lock.json          # Locked mod versions; source of truth for exports
+├── config/                  # Shared mod configs
+├── config-overrides/        # Client vs server config variants
+├── defaultconfigs/          # Per-world defaults (e.g. Cataclysm structure spacing)
+├── kubejs/
+│   ├── server_scripts/
+│   │   └── gating/          # Boss gate recipes
+│   ├── client_scripts/      # Client-side scripts
+│   └── startup_scripts/     # Startup-time registration
+├── shaderpacks/             # Bundled shader pack
+├── .github/workflows/       # Build + headless server boot test
+├── README.md                # Install notes, JVM args
+├── CHANGELOG.md             # Release history
+├── CLAUDE.md                # Assistant working notes
+└── PLAN.md                  # This document
+```
+
+## 3. Mod List
+
+All verified on Modrinth for Forge 1.20.1 unless noted.
+
+### Core
+
+| Mod | Role | Side | Notes |
+|---|---|---|---|
+| GregTechCEu Modern 7.5.3 | Progression backbone | Both | Embeds LDLib + Configuration; do NOT add them separately |
+| L_Ender's Cataclysm 3.28 | Bosses / gates | Both | Needs Lionfish-API; verify required version range in `mods.toml` |
+| Lionfish-API | Cataclysm dependency | Both | See above |
+| Applied Energistics 2 | Storage / automation | Both | Evaluate AE2-UEL vs stock AE2 |
+| AE2 Wireless Terminals | AE2 convenience | Both | Follows the AE2 decision |
+| KubeJS | Recipe and gating scripts | Both | Holds all gating logic |
+| JEI | Recipe viewer | Both | |
+| Jade | Block/entity tooltips | Both | Defaults set in `defaultconfigs/` |
+
+### Map
+
+| Mod | Role | Side | Notes |
+|---|---|---|---|
+| Xaero's Minimap | Minimap | Client | Chosen over JourneyMap as lighter |
+| Xaero's World Map | World map | Client | Verify Forge 1.20.1 build at lock time |
+
+### Rendering (client)
+
+| Mod | Role | Side | Notes |
+|---|---|---|---|
+| Embeddium | Rendering engine optimization | Client | Replaces Rubidium |
+| Oculus | Shader loader | Client | Loads Iris-format packs |
+| ImmediatelyFast | Immediate-mode rendering speedup | Client | |
+| Entity Culling | Skip hidden entities | Client | |
+| Model Gap Fix | Fix model seams | Client | |
+| Dynamic FPS | Reduce FPS when unfocused | Client | Defaults set in `defaultconfigs/` |
+
+### Shaders
+
+| Pack | Role | Notes |
+|---|---|---|
+| Potato Shaders | Default, lightest | Bundled in `shaderpacks/` |
+| MakeUp - Ultra Fast | Optional fallback, nicer visuals | Both are Iris-format packs loaded by Oculus |
+
+### Memory / CPU / Load
+
+| Mod | Side | Notes |
+|---|---|---|
+| ModernFix | Both | Check dynamic resources vs GT + KubeJS |
+| FerriteCore | Both | |
+| Saturn | Both | |
+| Memory Leak Fix | Both | |
+| AllTheLeaks | Both | Not found on Modrinth by that slug; source from CurseForge |
+| Canary | Both | Check vs GT machine logic |
+| Noisium | Both | |
+| Ksyxis | Both | |
+| Clumps | Both | |
+| FastFurnace | Both | |
+| FastWorkbench | Both | |
+| FastSuite | Both | |
+
+### Excluded
+
+| Mod | Reason |
+|---|---|
+| Create | User choice |
+| OptiFine | Breaks Embeddium/Oculus |
+| Rubidium | Superseded by Embeddium |
+
+## 4. Boss Gating (draft, tune later)
+
+| Tier step | Boss | Gate item |
+|---|---|---|
+| LV -> MV | Netherite Monstrosity | Monstrous horn |
+| MV -> HV | Ignis | Ignitium |
+| HV -> EV | Harbinger / Leviathan | Witherite / tidal claws |
+| EV -> IV | Ender Guardian | Gauntlet core |
+| IV -> LuV | Maledictus | Cursium |
+| LuV+ | Scylla, Ancient Remnant | Late drops |
+
+**Mechanism:** the boss drop becomes a required ingredient in that tier's first key machine or circuit recipe, implemented via KubeJS in `kubejs/server_scripts/gating/`.
+
+## 5. Conflict Audit Checklist
+
+- [ ] Duplicate mod IDs / embedded libraries
+- [ ] ModernFix dynamic resources vs GT + KubeJS
+- [ ] Canary vs GT machine logic
+- [ ] GT emissive textures under Oculus
+- [ ] Every jar's `mods.toml` dependency ranges against Forge 47.4.13
+- [ ] Client-only mods excluded from server export
+
+## 6. Build Steps
+
+1. Init Pakku; pin MC and Forge.
+2. Add mods by group; generate lockfile.
+3. Run conflict audit.
+4. Write KubeJS gating and `defaultconfigs/` (Cataclysm structure spacing, Jade, Dynamic FPS).
+5. Boot headless server and client, read `latest.log`; export `.mrpack` and CurseForge zip.
+6. Write README with JVM args (Java 17, G1GC, 6-8 GB) and changelog.
+
+## 7. Open Items
+
+- Java 17+ is needed for both Pakku and the game.
+- AE2 vs AE2-UEL decision.

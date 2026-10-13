@@ -1,0 +1,38 @@
+# Build / runtime output
+build/
+run/
+logs/
+crash-reports/
+saves/
+screenshots/
+*.log
+
+# Mods are fetched by Pakku (pakku.json, pakku-lock.json, pakku.jar stay tracked)
+mods/
+.pakku/cache/
+.pakku/tmp/
+
+# Local game state
+options.txt
+servers.dat
+usercache.json
+usernamecache.json
+local/
+
+# Local map data
+XaeroWorldMap/
+XaeroWaypoints/
+journeymap/data/
+
+# Claude / env
+.claude/settings.local.json
+CLAUDE.local.md
+.env*
+
+# IDE / OS
+.idea/
+.vscode/
+*.iml
+Thumbs.db
+desktop.ini
+.DS_Store
