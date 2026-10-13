@@ -22,7 +22,9 @@
     "individual_progress": false,
     "showDependencyArrow": true
   },
-  "dependencies": [],
+  "dependencies": [
+    "lv_circuit"
+  ],
   "tasks": {
     "task_1": {
       "type": "heracles:item",

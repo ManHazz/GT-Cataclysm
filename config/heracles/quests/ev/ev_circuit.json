@@ -12,7 +12,7 @@
     "groups": {
       "EV - The Harbinger": {
         "position": [
-          220,
+          176,
           0
         ]
       }
@@ -23,7 +23,7 @@
     "showDependencyArrow": true
   },
   "dependencies": [
-    "ev_cleanroom"
+    "ev_titanium"
   ],
   "tasks": {
     "task_1": {

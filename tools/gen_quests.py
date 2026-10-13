@@ -68,8 +68,8 @@ chapter("Welcome", "welcome", [
       (4, 0), [check("Got it")], deps=["welcome_jade"], sub="Never get lost"),
     Q("welcome_shaders", "Shaders (optional)", "minecraft:glowstone",
       ["Go to Options > Video Settings > Shader Packs and pick Potato Shaders for a light, fast look.",
-       "If your FPS drops, set Shader Packs back to Off."],
-      (5, 0), [check("Got it")], deps=["welcome_map"], sub="Potato Shaders"),
+       "MakeUp - Ultra Fast is a nicer-looking alternative if your PC can handle it. If your FPS drops, set Shader Packs back to Off."],
+      (5, 0), [check("Got it")], deps=["welcome_map"], sub="Potato or MakeUp"),
     Q("welcome_ram", "Memory", "minecraft:redstone",
       ["Give the game 6 to 8 GB of RAM (for example -Xms6G -Xmx8G in your launcher's Java arguments).",
        "Much less causes lag spikes in big GregTech setups, and much more does not help."],
@@ -81,7 +81,7 @@ chapter("Steam Age to LV", "steam_lv", [
     Q("steam_bronze", "Bronze", "gtceu:bronze_ingot",
       ["Bronze is the backbone of the steam age. Alloy 3 copper with 1 tin to get it.",
        "Use JEI on the ingot to see every way of making it."],
-      (0, 0), [item("gtceu:bronze_ingot", 8)], sub="3 copper + 1 tin"),
+      (0, 0), [item("gtceu:bronze_ingot", 8)], deps=["welcome_intro"], sub="3 copper + 1 tin"),
     Q("steam_boiler", "Make some steam", "gtceu:lp_steam_solid_boiler",
       ["The Low Pressure Steam Solid Boiler burns fuel and water into steam, which powers the first machines.",
        "Feed it coal or charcoal and keep it supplied with water."],
@@ -131,11 +131,12 @@ chapter("Steam Age to LV", "steam_lv", [
 
 # ---------------------------------------------------------------- tier chapters
 def tier(name, folder, p, boss_id, boss_name, boss_text, catalyst, cat_name, cat_text,
-         hull, milestones, prev=None):
+         hull, milestones, boss_q, prev):
     """p = id prefix, milestones = [(id, title, icon, item_id, amount, text, sub)]"""
     qs = [
         Q(f"{p}_boss", f"Kill the {boss_name}", catalyst,
-          boss_text, (0, 0), [kill(boss_id, boss_name)], rewards=[xp(5)], sub="Boss kill"),
+          boss_text + ["The kill itself is tracked once, in the Bosses chapter. This quest completes after that one; just tick it off."],
+          (0, 0), [check(f"{boss_name} defeated")], deps=[boss_q, prev], rewards=[xp(5)], sub="Boss kill"),
         Q(f"{p}_catalyst", f"Get the {cat_name}", catalyst, cat_text, (1, 0),
           [item(catalyst)], deps=[f"{p}_boss"], rewards=[xp(2)], sub="Catalyst (not consumed)"),
         Q(f"{p}_hull", f"Craft the {name.split()[0]} machine hull", hull,
@@ -158,13 +159,13 @@ tier("MV - Netherite Monstrosity", "mv", "mv",
      "gtceu:mv_machine_hull", [
          ("assembler", "MV assembler", "gtceu:mv_assembler", "gtceu:mv_assembler", 1,
           "Faster assembling and bigger recipes. Needed for most MV parts.", "Faster crafting"),
-         ("aluminium", "Aluminium", "gtceu:aluminium_ingot", "gtceu:aluminium_ingot", 8,
-          "Aluminium is the key MV metal and needs an Electric Blast Furnace to make.", "Key MV metal"),
          ("ebf", "Electric blast furnace", "gtceu:electric_blast_furnace", "gtceu:electric_blast_furnace", 1,
-          "A heat-based multiblock for high temperature smelting. Check the preview in JEI and build it with Cupronickel Coil Blocks.", "High-temperature smelting"),
+          ["A heat-based multiblock for high temperature smelting. Check the preview in JEI and build it with Cupronickel Coil Blocks.", "Aluminium smelting in it needs an MV Energy Hatch, which in turn needs the gated MV machine hull you just unlocked."], "High-temperature smelting"),
+         ("aluminium", "Aluminium", "gtceu:aluminium_ingot", "gtceu:aluminium_ingot", 8,
+          "Aluminium is the key MV metal. Smelt it in the Electric Blast Furnace from the previous quest.", "Key MV metal"),
          ("circuit", "Good circuits", "gtceu:good_electronic_circuit", "gtceu:good_electronic_circuit", 4,
           "The MV circuit. You will need many of them.", "MV circuit"),
-     ])
+     ], "boss_monstrosity", "lv_circuit_assembler")
 
 tier("HV - Ignis", "hv", "hv",
      "cataclysm:ignis", "Ignis",
@@ -177,29 +178,29 @@ tier("HV - Ignis", "hv", "hv",
           "Stainless steel is the HV workhorse alloy.", "HV alloy"),
          ("freezer", "Vacuum freezer", "gtceu:vacuum_freezer", "gtceu:vacuum_freezer", 1,
           "Cools hot ingots from the Electric Blast Furnace into usable metal.", "Cool hot ingots"),
+         ("cleanroom", "Cleanroom", "gtceu:cleanroom", "gtceu:cleanroom", 1,
+          "The Nanoprocessor needs wafers made in a cleanroom. Check the multiblock preview in JEI.", "Clean circuit production"),
          ("circuit", "Nanoprocessor", "gtceu:nano_processor", "gtceu:nano_processor", 4,
           "The HV circuit.", "HV circuit"),
          ("chem", "HV chemical reactor", "gtceu:hv_chemical_reactor", "gtceu:hv_chemical_reactor", 1,
           "Plastics and many other chemicals start here.", "Chemistry begins"),
-     ])
+     ], "boss_ignis", "mv_circuit")
 
 tier("EV - The Harbinger", "ev", "ev",
      "cataclysm:the_harbinger", "The Harbinger",
-     ["A mechanical boss in the Ancient Factory, a large structure found underground. Bring a good pickaxe and light sources.",
-      "An Eye of Mech, used like an Eye of Ender, points to the factory."],
+     ["A mechanical boss in the Ancient Factory, a large structure that can generate in caves or deep underground. Bring a good pickaxe and light sources.",
+      "It is very hard to spot by chance, so the practical way to find it is an Eye of Mech, used like an Eye of Ender."],
      "cataclysm:witherite_ingot", "Witherite Ingot",
      ["The Harbinger drops a Block of Witherite. Put it alone in a crafting grid to get 9 Witherite Ingots.",
       "Keep one ingot; it is the EV catalyst and is not consumed."],
      "gtceu:ev_machine_hull", [
          ("titanium", "Titanium", "gtceu:titanium_ingot", "gtceu:titanium_ingot", 8,
           "Titanium is the main EV metal.", "Main EV metal"),
-         ("cleanroom", "Cleanroom", "gtceu:cleanroom", "gtceu:cleanroom", 1,
-          "Advanced circuits need a clean environment. Check the multiblock preview in JEI.", "Clean circuit production"),
          ("circuit", "Quantum processor", "gtceu:quantum_processor", "gtceu:quantum_processor", 4,
           "The EV circuit.", "EV circuit"),
          ("chem", "EV chemical reactor", "gtceu:ev_chemical_reactor", "gtceu:ev_chemical_reactor", 1,
           "Faster chemistry, and more fluid slots for bigger recipes.", "Better chemistry"),
-     ])
+     ], "boss_harbinger", "hv_circuit")
 
 tier("IV - Ender Guardian", "iv", "iv",
      "cataclysm:ender_guardian", "Ender Guardian",
@@ -213,10 +214,10 @@ tier("IV - Ender Guardian", "iv", "iv",
          ("circuit", "Crystal processor", "gtceu:crystal_processor", "gtceu:crystal_processor", 4,
           "The IV circuit.", "IV circuit"),
          ("assembly_line", "Assembly line", "gtceu:assembly_line", "gtceu:assembly_line", 1,
-          "A long multiblock that builds the most complex parts. Many recipes need research first.", "Complex parts"),
+          "A long multiblock that builds the most complex parts. Recipes from LuV onward need research first.", "Complex parts"),
          ("arm", "IV robot arm", "gtceu:iv_robot_arm", "gtceu:iv_robot_arm", 2,
           "A key component for IV machines and the assembly line.", "Key component"),
-     ])
+     ], "boss_guardian", "ev_circuit")
 
 tier("LuV - Maledictus", "luv", "luv",
      "cataclysm:maledictus", "Maledictus",
@@ -226,12 +227,12 @@ tier("LuV - Maledictus", "luv", "luv",
      ["Maledictus drops Cursium Ingots. Keep one; it is the LuV catalyst and is not consumed."],
      "gtceu:luv_machine_hull", [
          ("research", "Research station", "gtceu:research_station", "gtceu:research_station", 1,
-          "Needed to research the data for assembly line recipes.", "Unlock recipes"),
+          "Only needed for LuV and higher assembly line recipes, where it creates the research data.", "Unlock recipes"),
          ("circuit", "Wetware processor", "gtceu:wetware_processor", "gtceu:wetware_processor", 4,
           "The LuV circuit.", "LuV circuit"),
          ("fusion", "Fusion reactor", "gtceu:luv_fusion_reactor", "gtceu:luv_fusion_reactor", 1,
           "The Fusion Reactor Computer MK I, the start of fusion power.", "Fusion power"),
-     ])
+     ], "boss_maledictus", "iv_circuit")
 
 tier("ZPM - Scylla", "zpm", "zpm",
      "cataclysm:scylla", "Scylla",
@@ -246,7 +247,7 @@ tier("ZPM - Scylla", "zpm", "zpm",
           "The heating coil for the hottest blast furnace recipes.", "Top-tier heating"),
          ("fusion", "Fusion reactor MK II", "gtceu:zpm_fusion_reactor", "gtceu:zpm_fusion_reactor", 1,
           "A bigger fusion reactor, more output.", "More fusion power"),
-     ])
+     ], "boss_scylla", "luv_circuit")
 
 # ---------------------------------------------------------------- Bosses
 def boss(qid, title, icon, ent, ent_name, struct_id, struct_name, text, pos, deps=()):
@@ -258,7 +259,7 @@ chapter("Bosses", "bosses", [
     Q("boss_overview", "Boss overview", "cataclysm:flame_eye",
       ["Six Cataclysm bosses each unlock one machine tier. Each structure below was checked against Cataclysm's data.",
        "Craft the matching Eye (see JEI), which needs an Eye of Ender, and use it like an Eye of Ender to find the structure."],
-      (0, 0), [check("Got it")], sub="Where to find them"),
+      (0, 0), [check("Got it")], deps=["welcome_gates"], sub="Where to find them"),
     boss("boss_monstrosity", "Netherite Monstrosity", "cataclysm:monstrous_eye", "cataclysm:netherite_monstrosity",
          "Netherite Monstrosity", "cataclysm:soul_black_smith", "Soul Forge",
          ["Soul Forge: Nether structure, found in Crimson Forest, Warped Forest, Soul Sand Valley and Nether Wastes. Drops the Monstrous Horn (MV)."],
@@ -269,7 +270,7 @@ chapter("Bosses", "bosses", [
          (2, 0), ["boss_monstrosity"]),
     boss("boss_harbinger", "The Harbinger", "cataclysm:mech_eye", "cataclysm:the_harbinger",
          "The Harbinger", "cataclysm:ancient_factory", "Ancient Factory",
-         ["Ancient Factory: an underground structure. Drops a Block of Witherite, which you uncraft into Witherite Ingots (EV)."],
+         ["Ancient Factory: can generate in caves and deep underground; use the Eye of Mech to find it. Drops a Block of Witherite, which you uncraft into Witherite Ingots (EV)."],
          (3, 0), ["boss_ignis"]),
     boss("boss_guardian", "Ender Guardian", "cataclysm:void_eye", "cataclysm:ender_guardian",
          "Ender Guardian", "cataclysm:ruined_citadel", "Ruined Citadel",
@@ -289,7 +290,7 @@ chapter("Bosses", "bosses", [
 chapter("AE2 Storage", "ae2", [
     Q("ae2_certus", "Certus quartz", "ae2:certus_quartz_crystal",
       ["Certus Quartz is the base material of Applied Energistics. Find it as ore in the Overworld, often near water or in caves."],
-      (0, 0), [item("ae2:certus_quartz_crystal", 8)], sub="The basic resource"),
+      (0, 0), [item("ae2:certus_quartz_crystal", 8)], deps=["lv_circuit"], sub="The basic resource"),
     Q("ae2_fluix", "Fluix", "ae2:fluix_crystal",
       ["Fluix Crystals are made by throwing charged certus quartz, redstone and quartz into water. They are needed for most network parts."],
       (1, 0), [item("ae2:fluix_crystal", 8)], deps=["ae2_certus"], sub="Throw into water"),

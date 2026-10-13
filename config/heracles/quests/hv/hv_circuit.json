@@ -12,7 +12,7 @@
     "groups": {
       "HV - Ignis": {
         "position": [
-          220,
+          264,
           0
         ]
       }
@@ -23,7 +23,7 @@
     "showDependencyArrow": true
   },
   "dependencies": [
-    "hv_freezer"
+    "hv_cleanroom"
   ],
   "tasks": {
     "task_1": {

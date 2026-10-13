@@ -7,7 +7,7 @@
     "title": "Assembly line",
     "subtitle": "Complex parts",
     "description": [
-      "A long multiblock that builds the most complex parts. Many recipes need research first."
+      "A long multiblock that builds the most complex parts. Recipes from LuV onward need research first."
     ],
     "groups": {
       "IV - Ender Guardian": {

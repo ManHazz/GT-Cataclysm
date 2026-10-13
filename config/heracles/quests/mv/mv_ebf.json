@@ -7,12 +7,13 @@
     "title": "Electric blast furnace",
     "subtitle": "High-temperature smelting",
     "description": [
-      "A heat-based multiblock for high temperature smelting. Check the preview in JEI and build it with Cupronickel Coil Blocks."
+      "A heat-based multiblock for high temperature smelting. Check the preview in JEI and build it with Cupronickel Coil Blocks.",
+      "Aluminium smelting in it needs an MV Energy Hatch, which in turn needs the gated MV machine hull you just unlocked."
     ],
     "groups": {
       "MV - Netherite Monstrosity": {
         "position": [
-          220,
+          176,
           0
         ]
       }
@@ -23,7 +24,7 @@
     "showDependencyArrow": true
   },
   "dependencies": [
-    "mv_aluminium"
+    "mv_assembler"
   ],
   "tasks": {
     "task_1": {

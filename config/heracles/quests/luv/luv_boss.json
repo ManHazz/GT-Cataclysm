@@ -8,7 +8,8 @@
     "subtitle": "Boss kill",
     "description": [
       "Maledictus haunts the Frosted Prison, a structure in snowy plains. Expect undead.",
-      "An Eye of Curse, used like an Eye of Ender, points to the prison."
+      "An Eye of Curse, used like an Eye of Ender, points to the prison.",
+      "The kill itself is tracked once, in the Bosses chapter. This quest completes after that one; just tick it off."
     ],
     "groups": {
       "LuV - Maledictus": {
@@ -23,15 +24,14 @@
     "individual_progress": false,
     "showDependencyArrow": true
   },
-  "dependencies": [],
+  "dependencies": [
+    "boss_maledictus",
+    "iv_circuit"
+  ],
   "tasks": {
     "task_1": {
-      "type": "heracles:kill_entity",
-      "title": "Maledictus",
-      "entity": {
-        "type": "cataclysm:maledictus"
-      },
-      "amount": 1
+      "type": "heracles:check",
+      "title": "Maledictus defeated"
     }
   },
   "rewards": {

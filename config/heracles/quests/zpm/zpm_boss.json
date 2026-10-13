@@ -8,7 +8,8 @@
     "subtitle": "Boss kill",
     "description": [
       "Scylla is the sea boss of the Acropolis, a structure that generates in warm ocean. Her allies guard it.",
-      "An Eye of Storm, used like an Eye of Ender, points to the Acropolis. Water breathing is very handy."
+      "An Eye of Storm, used like an Eye of Ender, points to the Acropolis. Water breathing is very handy.",
+      "The kill itself is tracked once, in the Bosses chapter. This quest completes after that one; just tick it off."
     ],
     "groups": {
       "ZPM - Scylla": {
@@ -23,15 +24,14 @@
     "individual_progress": false,
     "showDependencyArrow": true
   },
-  "dependencies": [],
+  "dependencies": [
+    "boss_scylla",
+    "luv_circuit"
+  ],
   "tasks": {
     "task_1": {
-      "type": "heracles:kill_entity",
-      "title": "Scylla",
-      "entity": {
-        "type": "cataclysm:scylla"
-      },
-      "amount": 1
+      "type": "heracles:check",
+      "title": "Scylla defeated"
     }
   },
   "rewards": {

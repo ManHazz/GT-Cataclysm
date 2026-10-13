@@ -23,7 +23,7 @@
     "showDependencyArrow": true
   },
   "dependencies": [
-    "mv_ebf"
+    "mv_aluminium"
   ],
   "tasks": {
     "task_1": {

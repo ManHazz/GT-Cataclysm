@@ -23,7 +23,9 @@
     "individual_progress": false,
     "showDependencyArrow": true
   },
-  "dependencies": [],
+  "dependencies": [
+    "welcome_gates"
+  ],
   "tasks": {
     "task_1": {
       "type": "heracles:check",

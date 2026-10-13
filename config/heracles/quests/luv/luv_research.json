@@ -7,7 +7,7 @@
     "title": "Research station",
     "subtitle": "Unlock recipes",
     "description": [
-      "Needed to research the data for assembly line recipes."
+      "Only needed for LuV and higher assembly line recipes, where it creates the research data."
     ],
     "groups": {
       "LuV - Maledictus": {

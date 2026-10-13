@@ -7,12 +7,12 @@
     "title": "Cleanroom",
     "subtitle": "Clean circuit production",
     "description": [
-      "Advanced circuits need a clean environment. Check the multiblock preview in JEI."
+      "The Nanoprocessor needs wafers made in a cleanroom. Check the multiblock preview in JEI."
     ],
     "groups": {
-      "EV - The Harbinger": {
+      "HV - Ignis": {
         "position": [
-          176,
+          220,
           0
         ]
       }
@@ -23,7 +23,7 @@
     "showDependencyArrow": true
   },
   "dependencies": [
-    "ev_titanium"
+    "hv_freezer"
   ],
   "tasks": {
     "task_1": {

@@ -7,12 +7,12 @@
     "title": "Aluminium",
     "subtitle": "Key MV metal",
     "description": [
-      "Aluminium is the key MV metal and needs an Electric Blast Furnace to make."
+      "Aluminium is the key MV metal. Smelt it in the Electric Blast Furnace from the previous quest."
     ],
     "groups": {
       "MV - Netherite Monstrosity": {
         "position": [
-          176,
+          220,
           0
         ]
       }
@@ -23,7 +23,7 @@
     "showDependencyArrow": true
   },
   "dependencies": [
-    "mv_assembler"
+    "mv_ebf"
   ],
   "tasks": {
     "task_1": {
