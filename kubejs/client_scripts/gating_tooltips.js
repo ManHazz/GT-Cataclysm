@@ -11,7 +11,6 @@ ItemEvents.tooltip(event => {
   Object.keys(gates).forEach(id => {
     const boss = gates[id][0];
     const drop = Item.of(gates[id][1]).getHoverName();
-    event.add(id, Text.gold('Boss-gated: requires a drop from ' + boss));
-    event.add(id, Text.gray('Recipe ingredient: ').append(Text.yellow(drop)));
+    event.add(id, Text.gold('Requires ').append(Text.yellow(drop)).append(Text.gold(' (not consumed) - ' + boss)));
   });
 });

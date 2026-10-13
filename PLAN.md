@@ -106,18 +106,18 @@ All verified on Modrinth for Forge 1.20.1 unless noted.
 | OptiFine | Breaks Embeddium/Oculus |
 | Rubidium | Superseded by Embeddium |
 
-## 4. Boss Gating (draft, tune later)
+## 4. Boss Gating
 
-| Tier step | Boss | Gate item |
-|---|---|---|
-| LV -> MV | Netherite Monstrosity | Monstrous horn |
-| MV -> HV | Ignis | Ignitium |
-| HV -> EV | Harbinger / Leviathan | Witherite / tidal claws |
-| EV -> IV | Ender Guardian | Gauntlet core |
-| IV -> LuV | Maledictus | Cursium |
-| LuV+ | Scylla, Ancient Remnant | Late drops |
+| Tier step | Boss | Catalyst item | Tier hull |
+|---|---|---|---|
+| LV -> MV | Netherite Monstrosity | `cataclysm:monstrous_horn` | `gtceu:mv_machine_hull` |
+| MV -> HV | Ignis | `cataclysm:ignitium_ingot` | `gtceu:hv_machine_hull` |
+| HV -> EV | The Harbinger | `cataclysm:witherite_ingot` | `gtceu:ev_machine_hull` |
+| EV -> IV | Ender Guardian | `cataclysm:gauntlet_of_guard` | `gtceu:iv_machine_hull` |
+| IV -> LuV | Maledictus | `cataclysm:cursium_ingot` | `gtceu:luv_machine_hull` |
+| LuV -> ZPM | Scylla | `cataclysm:essence_of_the_storm` | `gtceu:zpm_machine_hull` |
 
-**Mechanism:** the boss drop becomes a required ingredient in that tier's first key machine or circuit recipe, implemented via KubeJS in `kubejs/server_scripts/gating/`.
+**Mechanism:** the tier machine hull is craftable only in the assembler (crafting-table hull recipes removed). The boss item is a not-consumed catalyst: one kill unlocks the tier. Implemented via KubeJS in `kubejs/server_scripts/gating/`.
 
 ## 5. Conflict Audit Checklist
 
