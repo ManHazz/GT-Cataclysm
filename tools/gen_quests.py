@@ -48,7 +48,8 @@ def Q(qid, title, icon, desc, pos, tasks, deps=(), rewards=None, sub=""):
 chapter("Welcome", "welcome", [
     Q("welcome_intro", "Welcome to GT: Cataclysm", "minecraft:book",
       ["This pack combines GregTech progression with L_Ender's Cataclysm bosses.",
-       "Work through the chapters on the left. Start with Steam Age to LV, then one chapter per voltage tier."],
+       "Work through the chapters on the left. Start with Steam Age to LV, then one chapter per voltage tier.",
+       "You received a Quest Book item: right-click it to open this questbook any time. The Open Quests key defaults to U, which clashes with JEI (Show Uses) and Xaero's waypoints, so rebind it in Controls > Key Binds."],
       (0, 0), [check("Read the intro")], sub="Start here"),
     Q("welcome_gates", "How the gates work", "minecraft:iron_bars",
       ["Machine hulls for MV, HV, EV, IV, LuV and ZPM can only be made in an Assembler, and each recipe needs a Cataclysm boss drop as a catalyst.",
