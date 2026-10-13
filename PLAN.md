@@ -107,6 +107,7 @@ All verified on Modrinth for Forge 1.20.1 unless noted.
 | FastFurnace | Both | |
 | FastWorkbench | Both | |
 | FastSuite | Both | |
+| FallingTree 4.3.4 | Both | Tree felling; no required deps (Cloth Config optional, client); config generated on boot |
 
 ### Excluded
 

@@ -20,6 +20,9 @@
         },
         "just-enough-resources-jer": {
             "side": "BOTH"
+        },
+        "fallingtree": {
+            "side": "BOTH"
         }
     }
 }

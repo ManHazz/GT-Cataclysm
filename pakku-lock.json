@@ -794,6 +794,44 @@
             ]
         },
         {
+            "pakku_id": "mqCZzNvtY9HaK0hW",
+            "type": "MOD",
+            "side": "SERVER",
+            "slug": {
+                "modrinth": "fallingtree"
+            },
+            "name": {
+                "modrinth": "FallingTree"
+            },
+            "id": {
+                "modrinth": "Fb4jn8m6"
+            },
+            "files": [
+                {
+                    "type": "modrinth",
+                    "file_name": "FallingTree-1.20.1-4.3.4.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "fabric",
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/Fb4jn8m6/versions/NrtzFkZE/FallingTree-1.20.1-4.3.4.jar",
+                    "id": "NrtzFkZE",
+                    "parent_id": "Fb4jn8m6",
+                    "hashes": {
+                        "sha512": "487cd36886cb791a3f252c90818d5c1cedeec5080a7f874b0bfafff328c8fcc9b2acee03fe40f8397355e8a2a092d2f34cb40671c786c0d9d035728c971d4e9c",
+                        "sha1": "617b79628fca3968979c1cc5f42edda882a55adb"
+                    },
+                    "required_dependencies": [],
+                    "size": 420181,
+                    "date_published": "2024-01-05T20:31:19.975883Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "1z7X6M7QvWkyzoBi",
             "pakku_links": [
                 "iZDwKLjzMS5rTWeA"
@@ -1161,7 +1199,7 @@
                 "drs2XEaIDni1HITi"
             ],
             "type": "MOD",
-            "side": "CLIENT",
+            "side": "BOTH",
             "slug": {
                 "modrinth": "just-enough-resources-jer"
             },
@@ -1857,7 +1895,7 @@
         {
             "pakku_id": "y3iu5XYyLM8XXbo4",
             "type": "MOD",
-            "side": "SERVER",
+            "side": "BOTH",
             "slug": {
                 "modrinth": "open-parties-and-claims"
             },
