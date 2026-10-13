@@ -1,0 +1,1 @@
+key_key.heracles.open_quests:key.keyboard.j

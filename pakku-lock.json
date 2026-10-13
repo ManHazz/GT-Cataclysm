@@ -8,6 +8,43 @@
     },
     "projects": [
         {
+            "pakku_id": "ZeHArBv4jWD7v1aI",
+            "type": "MOD",
+            "side": "BOTH",
+            "slug": {
+                "modrinth": "appleskin"
+            },
+            "name": {
+                "modrinth": "AppleSkin"
+            },
+            "id": {
+                "modrinth": "EsAfCjCV"
+            },
+            "files": [
+                {
+                    "type": "modrinth",
+                    "file_name": "appleskin-forge-mc1.20.1-2.5.1.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/EsAfCjCV/versions/XdXDExVF/appleskin-forge-mc1.20.1-2.5.1.jar",
+                    "id": "XdXDExVF",
+                    "parent_id": "EsAfCjCV",
+                    "hashes": {
+                        "sha512": "3176f928fb6c60d27f5edb610ca4ab0236175404eebf32797a1ec6cdd794bb294a260231579578536d03571377e43c6181adc75d8dd2c0733f17fce4f7e636b9",
+                        "sha1": "81919356f84eab14258db98924b66c3c38e372b1"
+                    },
+                    "required_dependencies": [],
+                    "size": 47428,
+                    "date_published": "2023-09-27T05:07:37.394825Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "WUyQLa73w9F8wIyj",
             "pakku_links": [
                 "5juw2iFyh1yRaDvt"
@@ -136,6 +173,118 @@
             ]
         },
         {
+            "pakku_id": "0ysdFycUT1SFYSpT",
+            "type": "MOD",
+            "side": "BOTH",
+            "slug": {
+                "modrinth": "balm"
+            },
+            "name": {
+                "modrinth": "Balm"
+            },
+            "id": {
+                "modrinth": "MBAkmtvl"
+            },
+            "files": [
+                {
+                    "type": "modrinth",
+                    "file_name": "balm-forge-1.20.1-7.3.44.jar",
+                    "mc_versions": [
+                        "1.20",
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/MBAkmtvl/versions/dDN38ae7/balm-forge-1.20.1-7.3.44.jar",
+                    "id": "dDN38ae7",
+                    "parent_id": "MBAkmtvl",
+                    "hashes": {
+                        "sha512": "bdabc656c7f60d6476a7d8c3d1f7a3d174854c9c4a466a9ff9b220737b717bc8069229471f7cf7eac574ba15e1263b76da8fef2ed1a5273d53e1c9cbf041ad9b",
+                        "sha1": "dae7e647fc54609e66e4f910931be65776352b72"
+                    },
+                    "required_dependencies": [],
+                    "size": 561741,
+                    "date_published": "2026-09-25T05:55:37.282932Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "zAaXf0ehgOcdRFQa",
+            "type": "MOD",
+            "side": "CLIENT",
+            "slug": {
+                "modrinth": "better-advancements"
+            },
+            "name": {
+                "modrinth": "Better Advancements"
+            },
+            "id": {
+                "modrinth": "Q2OqKxDG"
+            },
+            "files": [
+                {
+                    "type": "modrinth",
+                    "file_name": "BetterAdvancements-Forge-1.20.1-0.6.0.73.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/Q2OqKxDG/versions/zKOCnRdK/BetterAdvancements-Forge-1.20.1-0.6.0.73.jar",
+                    "id": "zKOCnRdK",
+                    "parent_id": "Q2OqKxDG",
+                    "hashes": {
+                        "sha512": "1279a47be84e5f24c2518bd75a276e09ed5262a96573657b48d4bf0160a7f3f6749a38f8d51200cd2883e9fd90dbb4a3cbca59c09ce1b998d212db98cb677dea",
+                        "sha1": "a62ed641fe95d9fea041dea8689f5a037aece597"
+                    },
+                    "required_dependencies": [],
+                    "size": 100436,
+                    "date_published": "2026-08-03T14:15:00.011700Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "0hyJCAmyLQUAw3xt",
+            "type": "MOD",
+            "side": "BOTH",
+            "slug": {
+                "modrinth": "bookshelf-lib"
+            },
+            "name": {
+                "modrinth": "Bookshelf"
+            },
+            "id": {
+                "modrinth": "uy4Cnpcm"
+            },
+            "files": [
+                {
+                    "type": "modrinth",
+                    "file_name": "Bookshelf-Forge-1.20.1-20.2.15.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/uy4Cnpcm/versions/7eS5OIHj/Bookshelf-Forge-1.20.1-20.2.15.jar",
+                    "id": "7eS5OIHj",
+                    "parent_id": "uy4Cnpcm",
+                    "hashes": {
+                        "sha512": "b5e3d6031ea91aca65b059c84d813d248347a870fac4811cd1e9d649f2a37c857bbd32f2f071b69589c7b3940bf5bb4bdc0b82f62818bb03255be14d23cef170",
+                        "sha1": "9df4908f606c6dc62a358b3e04e3fdedba59a12c"
+                    },
+                    "required_dependencies": [],
+                    "size": 343925,
+                    "date_published": "2026-02-12T01:55:56.923989Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "PGe0wpFAYarNH9Jr",
             "type": "MOD",
             "side": "BOTH",
@@ -169,6 +318,44 @@
                     "required_dependencies": [],
                     "size": 594191,
                     "date_published": "2024-02-08T15:53:14.088443Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "P39e3IaujAN45DMj",
+            "type": "MOD",
+            "side": "CLIENT",
+            "slug": {
+                "modrinth": "chat-heads"
+            },
+            "name": {
+                "modrinth": "Chat Heads"
+            },
+            "id": {
+                "modrinth": "Wb5oqrBJ"
+            },
+            "files": [
+                {
+                    "type": "modrinth",
+                    "file_name": "chat_heads-0.15.7-forge-1.20.jar",
+                    "mc_versions": [
+                        "1.20",
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/Wb5oqrBJ/versions/UJALMfLK/chat_heads-0.15.7-forge-1.20.jar",
+                    "id": "UJALMfLK",
+                    "parent_id": "Wb5oqrBJ",
+                    "hashes": {
+                        "sha512": "e5e063b25986c67d1c9493d767803efc31cb94f02adb70ff95942b49d740f30802099ab8a1998727903b2f34ff4f18e311d1b7af36d27b92c94d465dd8314c10",
+                        "sha1": "80582e413216eb014d83252b05c731a4a151fe9b"
+                    },
+                    "required_dependencies": [],
+                    "size": 724902,
+                    "date_published": "2026-08-13T20:21:34.431665Z"
                 }
             ]
         },
@@ -290,6 +477,86 @@
             ]
         },
         {
+            "pakku_id": "XScnvzxZAWtUW3xc",
+            "type": "MOD",
+            "side": "BOTH",
+            "slug": {
+                "modrinth": "corpse"
+            },
+            "name": {
+                "modrinth": "Corpse"
+            },
+            "id": {
+                "modrinth": "WrpuIfhw"
+            },
+            "files": [
+                {
+                    "type": "modrinth",
+                    "file_name": "corpse-forge-1.20.1-1.0.23.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/WrpuIfhw/versions/7fc0hJN6/corpse-forge-1.20.1-1.0.23.jar",
+                    "id": "7fc0hJN6",
+                    "parent_id": "WrpuIfhw",
+                    "hashes": {
+                        "sha512": "c9ddf7d243aac2cbf88fc2fd7e71ce4470354765d602dadf0fa68105a0561cb14b482c60d9e04084845bcf2237442d913888dcfb45b392bc700b0f3470517c96",
+                        "sha1": "78a776f057588a84a86c57dbe376b9b26f69f2c4"
+                    },
+                    "required_dependencies": [],
+                    "size": 245643,
+                    "date_published": "2025-09-21T09:09:35.879376Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "1ebfYypQJEScbYVm",
+            "pakku_links": [
+                "0ysdFycUT1SFYSpT"
+            ],
+            "type": "MOD",
+            "side": "BOTH",
+            "slug": {
+                "modrinth": "crafting-tweaks"
+            },
+            "name": {
+                "modrinth": "Crafting Tweaks"
+            },
+            "id": {
+                "modrinth": "DMu0oBKf"
+            },
+            "files": [
+                {
+                    "type": "modrinth",
+                    "file_name": "craftingtweaks-forge-1.20.1-18.2.9.jar",
+                    "mc_versions": [
+                        "1.20",
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/DMu0oBKf/versions/KOqT9kSZ/craftingtweaks-forge-1.20.1-18.2.9.jar",
+                    "id": "KOqT9kSZ",
+                    "parent_id": "DMu0oBKf",
+                    "hashes": {
+                        "sha512": "8bb7eb24d119cee809bad8f4166d18bc580ff0b20f18af4760546ec0410a70e857d063830776025acf907ff19856b5471e93db8b6d5a645c8215b73161d77207",
+                        "sha1": "0e49f431b105050fbf1b6a0e83de6e9cddccad3a"
+                    },
+                    "required_dependencies": [
+                        "MBAkmtvl"
+                    ],
+                    "size": 230696,
+                    "date_published": "2026-05-01T06:45:53.655613Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "CUigU1wSia3BvlGh",
             "type": "MOD",
             "side": "BOTH",
@@ -325,6 +592,49 @@
                     "required_dependencies": [],
                     "size": 398066,
                     "date_published": "2025-04-13T13:09:28.168539Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "fhKnB5yl3u03NG3m",
+            "pakku_links": [
+                "0ysdFycUT1SFYSpT"
+            ],
+            "type": "MOD",
+            "side": "CLIENT",
+            "slug": {
+                "modrinth": "default-options"
+            },
+            "name": {
+                "modrinth": "Default Options"
+            },
+            "id": {
+                "modrinth": "WEg59z5b"
+            },
+            "files": [
+                {
+                    "type": "modrinth",
+                    "file_name": "defaultoptions-forge-1.20.1-18.0.5.jar",
+                    "mc_versions": [
+                        "1.20",
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/WEg59z5b/versions/AVz3mvZZ/defaultoptions-forge-1.20.1-18.0.5.jar",
+                    "id": "AVz3mvZZ",
+                    "parent_id": "WEg59z5b",
+                    "hashes": {
+                        "sha512": "703f2a710ab099fadaaeb96a02fd381ef8eda2f60bb80537c2e7855fc505bf36bbff3e1df216bc85fd60841bb548c3785314fdcef39d12c2ebfabb224b066e0d",
+                        "sha1": "7189cbc87aaa982a44514bf92b139f7b43203a91"
+                    },
+                    "required_dependencies": [
+                        "MBAkmtvl"
+                    ],
+                    "size": 101393,
+                    "date_published": "2026-06-20T12:47:15.845893Z"
                 }
             ]
         },
@@ -401,6 +711,48 @@
                     "required_dependencies": [],
                     "size": 1320675,
                     "date_published": "2024-08-31T23:11:49.184634Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "7VmBJNdjeEjEeTgb",
+            "pakku_links": [
+                "0hyJCAmyLQUAw3xt"
+            ],
+            "type": "MOD",
+            "side": "CLIENT",
+            "slug": {
+                "modrinth": "enchantment-descriptions"
+            },
+            "name": {
+                "modrinth": "Enchantment Descriptions"
+            },
+            "id": {
+                "modrinth": "UVtY3ZAC"
+            },
+            "files": [
+                {
+                    "type": "modrinth",
+                    "file_name": "EnchantmentDescriptions-Forge-1.20.1-17.1.21.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/UVtY3ZAC/versions/OPgBRfTQ/EnchantmentDescriptions-Forge-1.20.1-17.1.21.jar",
+                    "id": "OPgBRfTQ",
+                    "parent_id": "UVtY3ZAC",
+                    "hashes": {
+                        "sha512": "5581f7d706809f079bb1847637c8ce8f9abbf0102c647960b54908e0080387702fdaedb31c87ec1e30f729051e3f7194d6ca33e3016a033bc794981b492def5e",
+                        "sha1": "0328a8350cf0a6d1c44265367a077649088b354b"
+                    },
+                    "required_dependencies": [
+                        "uy4Cnpcm"
+                    ],
+                    "size": 66883,
+                    "date_published": "2026-02-12T03:26:40.728795Z"
                 }
             ]
         },
@@ -800,6 +1152,48 @@
                     ],
                     "size": 2232177,
                     "date_published": "2026-10-04T12:38:59.580407Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "NSUmrYzFGFP3xtid",
+            "pakku_links": [
+                "drs2XEaIDni1HITi"
+            ],
+            "type": "MOD",
+            "side": "CLIENT",
+            "slug": {
+                "modrinth": "just-enough-resources-jer"
+            },
+            "name": {
+                "modrinth": "Just Enough Resources (JER)"
+            },
+            "id": {
+                "modrinth": "uEfK2CXF"
+            },
+            "files": [
+                {
+                    "type": "modrinth",
+                    "file_name": "JustEnoughResources-1.20.1-1.4.0.247.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "forge"
+                    ],
+                    "release_type": "beta",
+                    "url": "https://cdn.modrinth.com/data/uEfK2CXF/versions/jW52tbTk/JustEnoughResources-1.20.1-1.4.0.247.jar",
+                    "id": "jW52tbTk",
+                    "parent_id": "uEfK2CXF",
+                    "hashes": {
+                        "sha512": "84568db84d4486e70ddd06c280b6ec69657d53e99cdd1d974db40bf53397ce2fd371e8dd0567fd06f757f2bb6e802a5c54de73f70033f9236dad04b316d33462",
+                        "sha1": "526e788a9b38afc5171fab49b64a5a54e1bb25d7"
+                    },
+                    "required_dependencies": [
+                        "u6dRKJwZ"
+                    ],
+                    "size": 276231,
+                    "date_published": "2024-01-24T19:30:02.460341Z"
                 }
             ]
         },
@@ -1300,6 +1694,43 @@
             ]
         },
         {
+            "pakku_id": "WGU20lx1ONUnp3UE",
+            "type": "MOD",
+            "side": "CLIENT",
+            "slug": {
+                "modrinth": "mouse-tweaks"
+            },
+            "name": {
+                "modrinth": "Mouse Tweaks"
+            },
+            "id": {
+                "modrinth": "aC3cM3Vq"
+            },
+            "files": [
+                {
+                    "type": "modrinth",
+                    "file_name": "MouseTweaks-forge-mc1.20.1-2.25.1.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/aC3cM3Vq/versions/7JVXOe3K/MouseTweaks-forge-mc1.20.1-2.25.1.jar",
+                    "id": "7JVXOe3K",
+                    "parent_id": "aC3cM3Vq",
+                    "hashes": {
+                        "sha512": "a3bb0272c0a1a3be9250dfee030bb8f86217fa6a32bd534be8c940fdd8c466c800c2df85874877983ced36ecfc28c8ced6c0d42107c1ab621385b4be9a7c65eb",
+                        "sha1": "d751153e722a4e014691c83f39f5b07c6ec5333c"
+                    },
+                    "required_dependencies": [],
+                    "size": 76237,
+                    "date_published": "2024-05-12T16:27:50.280746Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "aS0khPzBtVrjYeOh",
             "type": "MOD",
             "side": "SERVER",
@@ -1424,6 +1855,44 @@
             ]
         },
         {
+            "pakku_id": "y3iu5XYyLM8XXbo4",
+            "type": "MOD",
+            "side": "SERVER",
+            "slug": {
+                "modrinth": "open-parties-and-claims"
+            },
+            "name": {
+                "modrinth": "Open Parties and Claims"
+            },
+            "id": {
+                "modrinth": "gF3BGWvG"
+            },
+            "files": [
+                {
+                    "type": "modrinth",
+                    "file_name": "open-parties-and-claims-forge-1.20.1-0.32.7.jar",
+                    "mc_versions": [
+                        "1.20",
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "forge"
+                    ],
+                    "release_type": "beta",
+                    "url": "https://cdn.modrinth.com/data/gF3BGWvG/versions/PkZL3SuC/open-parties-and-claims-forge-1.20.1-0.32.7.jar",
+                    "id": "PkZL3SuC",
+                    "parent_id": "gF3BGWvG",
+                    "hashes": {
+                        "sha512": "eed600ad9daddccb00e797a7e5c5adaa7e9dc492ff1bd07ada3912998fdf46aaf1e5f309c476c7c7ef18d50179d4bfa6896dff8c28cbc78ebcf06c3efa33f1d0",
+                        "sha1": "a42e6c94af7067c33e186029bcce42417d694579"
+                    },
+                    "required_dependencies": [],
+                    "size": 1875093,
+                    "date_published": "2026-10-05T06:34:14.022554Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "iZDwKLjzMS5rTWeA",
             "type": "MOD",
             "side": "BOTH",
@@ -1457,6 +1926,44 @@
                     "required_dependencies": [],
                     "size": 282474,
                     "date_published": "2026-06-14T08:31:50.827163Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "JFosJ2vdaDvRvK1F",
+            "type": "MOD",
+            "side": "BOTH",
+            "slug": {
+                "modrinth": "polymorph"
+            },
+            "name": {
+                "modrinth": "Polymorph"
+            },
+            "id": {
+                "modrinth": "tagwiZkJ"
+            },
+            "files": [
+                {
+                    "type": "modrinth",
+                    "file_name": "polymorph-forge-0.49.11+1.20.1.jar",
+                    "mc_versions": [
+                        "1.20",
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "forge"
+                    ],
+                    "release_type": "beta",
+                    "url": "https://cdn.modrinth.com/data/tagwiZkJ/versions/5lNATnbO/polymorph-forge-0.49.11+1.20.1.jar",
+                    "id": "5lNATnbO",
+                    "parent_id": "tagwiZkJ",
+                    "hashes": {
+                        "sha512": "807b830ece5f2569682b16471263fdc589db41403ba49ec1b92d6c88043ec3cdc5b912be5e112fb1f1933654b428d26d9f707b64c2c3abf00480dd4611e4905f",
+                        "sha1": "4f464a183a2df82978c3f6cf55e714bde694af68"
+                    },
+                    "required_dependencies": [],
+                    "size": 301935,
+                    "date_published": "2026-09-11T01:01:40.062087Z"
                 }
             ]
         },
@@ -1674,6 +2181,48 @@
                     "required_dependencies": [],
                     "size": 77732,
                     "date_published": "2024-04-23T06:56:56.381361Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "giqtgwUMt1tx9XOj",
+            "pakku_links": [
+                "iZDwKLjzMS5rTWeA"
+            ],
+            "type": "MOD",
+            "side": "CLIENT",
+            "slug": {
+                "modrinth": "toast-control"
+            },
+            "name": {
+                "modrinth": "Toast Control"
+            },
+            "id": {
+                "modrinth": "CnOG2wlS"
+            },
+            "files": [
+                {
+                    "type": "modrinth",
+                    "file_name": "ToastControl-1.20.1-8.0.3.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/CnOG2wlS/versions/q8jNIVj8/ToastControl-1.20.1-8.0.3.jar",
+                    "id": "q8jNIVj8",
+                    "parent_id": "CnOG2wlS",
+                    "hashes": {
+                        "sha512": "af43d6a136bc1be2ee84370e966bcaf5548c91aa7d24899ed3401ba514f6f75bb2fea688fafac0a3b0119d90400fc4cc9616c99a6f086db24b8d0df843b22739",
+                        "sha1": "e9ef48672f01b076ea3b8c7c5e6a139c2491a67c"
+                    },
+                    "required_dependencies": [
+                        "tCkE8p2N"
+                    ],
+                    "size": 26957,
+                    "date_published": "2026-06-19T01:50:04.726399Z"
                 }
             ]
         },

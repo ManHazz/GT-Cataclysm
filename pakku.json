@@ -14,6 +14,12 @@
         },
         "l_enders-cataclysm": {
             "update_strategy": "NONE"
+        },
+        "open-parties-and-claims": {
+            "side": "BOTH"
+        },
+        "just-enough-resources-jer": {
+            "side": "BOTH"
         }
     }
 }
