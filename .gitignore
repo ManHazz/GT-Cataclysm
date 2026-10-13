@@ -39,3 +39,6 @@ desktop.ini
 
 # Pakku-fetched shader packs
 shaderpacks/*.zip
+
+# Pakku generated CLI docs
+.pakku/docs/
