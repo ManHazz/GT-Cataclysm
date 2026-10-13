@@ -1,0 +1,60 @@
+name: Release
+
+on:
+  push:
+    tags: ['v*']
+
+permissions:
+  contents: write
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: '17'
+
+      - name: Check tag matches pakku.json version
+        run: |
+          tag="${GITHUB_REF_NAME#v}"
+          ver=$(python3 -I -c "import json; print(json.load(open('pakku.json'))['version'])")
+          if [ "$tag" != "$ver" ]; then
+            echo "::error::Tag version $tag != pakku.json version $ver"
+            exit 1
+          fi
+
+      - name: Get Pakku
+        run: |
+          if [ ! -f pakku.jar ]; then
+            curl -fsSL -o pakku.jar https://github.com/juraj-hrivnak/Pakku/releases/download/v1.5.0/pakku.jar
+          fi
+
+      - name: Fetch and export
+        run: |
+          java -jar pakku.jar -y fetch
+          java -jar pakku.jar -y export
+          ls -laR build || true
+
+      - name: Extract changelog section
+        run: |
+          ver="${GITHUB_REF_NAME#v}"
+          awk -v v="$ver" '
+            /^## / { if (found) exit; if (index($0, "## " v " ") == 1 || $0 == "## " v) found=1; next }
+            found { print }
+          ' CHANGELOG.md > release-notes.md
+          [ -s release-notes.md ] || { echo "::error::No CHANGELOG section for $ver"; exit 1; }
+          cat release-notes.md
+
+      - name: Create GitHub release
+        uses: softprops/action-gh-release@v2
+        with:
+          body_path: release-notes.md
+          files: |
+            build/modrinth/*.mrpack
+            build/serverpack/*.zip
+          fail_on_unmatched_files: true
