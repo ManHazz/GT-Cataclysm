@@ -42,7 +42,6 @@ jobs:
 
   server-boot:
     needs: validate
-    if: hashFiles('pakku-lock.json') != ''
     runs-on: ubuntu-latest
     timeout-minutes: 30
     env:
