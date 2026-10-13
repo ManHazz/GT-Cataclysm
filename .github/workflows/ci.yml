@@ -68,16 +68,15 @@ jobs:
       - name: Get Pakku
         run: |
           if [ ! -f pakku.jar ]; then
-            url=$(curl -fsSL https://api.github.com/repos/juraj-hrivnak/Pakku/releases/latest \
-              | python3 -c "import sys,json; print(next(a['browser_download_url'] for a in json.load(sys.stdin)['assets'] if a['name'].endswith('.jar')))")
-            curl -fsSL -o pakku.jar "$url"
+            curl -fsSL -o pakku.jar https://github.com/juraj-hrivnak/Pakku/releases/download/v1.5.0/pakku.jar
           fi
 
       - name: Fetch mods and export server pack
         run: |
-          java -jar pakku.jar fetch
-          java -jar pakku.jar export --server-pack || java -jar pakku.jar export
-          ls -la build || true
+          java -jar pakku.jar -y fetch
+          python3 -I tools/audit_deps.py mods
+          java -jar pakku.jar -y export
+          ls -laR build || true
 
       - name: Install Forge server
         run: |
@@ -90,7 +89,7 @@ jobs:
       - name: Assemble server directory
         run: |
           # Prefer exported server pack; fall back to fetched mods/config in repo root
-          pack=$(find build -name '*server*.zip' 2>/dev/null | head -n1 || true)
+          pack=$(find build/serverpack -name '*.zip' 2>/dev/null | head -n1 || true)
           if [ -n "$pack" ]; then
             unzip -oq "$pack" -d server
           else

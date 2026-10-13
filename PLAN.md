@@ -48,7 +48,7 @@ All verified on Modrinth for Forge 1.20.1 unless noted.
 | Mod | Role | Side | Notes |
 |---|---|---|---|
 | GregTechCEu Modern 7.5.3 | Progression backbone | Both | Embeds LDLib + Configuration; do NOT add them separately |
-| L_Ender's Cataclysm 3.28 | Bosses / gates | Both | Needs Lionfish-API; verify required version range in `mods.toml` |
+| L_Ender's Cataclysm 3.31 | Bosses / gates | Both | Needs Lionfish-API; verify required version range in `mods.toml` |
 | Lionfish-API | Cataclysm dependency | Both | See above |
 | Applied Energistics 2 | Storage / automation | Both | Evaluate AE2-UEL vs stock AE2 |
 | AE2 Wireless Terminals | AE2 convenience | Both | Follows the AE2 decision |
@@ -89,7 +89,7 @@ All verified on Modrinth for Forge 1.20.1 unless noted.
 | FerriteCore | Both | |
 | Saturn | Both | |
 | Memory Leak Fix | Both | |
-| AllTheLeaks | Both | Not found on Modrinth by that slug; source from CurseForge |
+| AllTheLeaks | Both | skipped: CurseForge-only, pack targets Modrinth (needs CurseForge API key) |
 | Canary | Both | Check vs GT machine logic |
 | Noisium | Both | |
 | Ksyxis | Both | |

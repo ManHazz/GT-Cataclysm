@@ -36,3 +36,6 @@ CLAUDE.local.md
 Thumbs.db
 desktop.ini
 .DS_Store
+
+# Pakku-fetched shader packs
+shaderpacks/*.zip

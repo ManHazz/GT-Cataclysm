@@ -4,7 +4,7 @@
 ![Minecraft](https://img.shields.io/badge/Minecraft-1.20.1-62B47A)
 ![Forge](https://img.shields.io/badge/Forge-47.4.13-DFA86A)
 ![GregTech CEu Modern](https://img.shields.io/badge/GregTech%20CEu%20Modern-7.5.3-blue)
-![L_Ender's Cataclysm](https://img.shields.io/badge/L__Ender's%20Cataclysm-3.28-red)
+![L_Ender's Cataclysm](https://img.shields.io/badge/L__Ender's%20Cataclysm-3.31-red)
 ![Java](https://img.shields.io/badge/Java-17-orange)
 
 ## About
