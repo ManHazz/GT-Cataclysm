@@ -16,7 +16,7 @@ global.gateHull = function (event, cfg) {
     event.recipes.gtceu.assembler(`kubejs:gated/hull_${cfg.tier}${i ? '_' + cable : ''}`)
       .itemInputs(casing, `2x gtceu:${cable}_single_cable`)
       .notConsumable(cfg.boss)
-      .inputFluids(`${cfg.fluid} 288`)
+      .inputFluids(`#${cfg.fluid.replace("gtceu:", "forge:")} 288`)
       .itemOutputs(hull)
       .duration(50)
       .EUt(16);
