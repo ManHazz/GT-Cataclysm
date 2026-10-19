@@ -1,5 +1,18 @@
 # Changelog
 
+## 0.2.1 - 2026-10-20
+
+Clients must re-import the 0.2.1 mrpack.
+
+### Added
+- Patchouli GregTech Field Guide with a Pokedex-style Boss Index.
+- Players receive the field guide on first login.
+- New tooltips for machine hulls, boss drops, eyes, and the Quest Book.
+
+### Changed
+- Tooltips are wrapped at 40 characters.
+- Welcome and Bosses quests now mention the field guide.
+
 ## 0.2.0 - 2026-10-13
 
 ### Added
