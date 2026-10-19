@@ -1,0 +1,12 @@
+{
+  "name": "Machine hulls",
+  "category": "machines",
+  "icon": "gtceu:lv_machine_hull",
+  "sortnum": 1,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "The hull is the base of every single-block machine of a tier. LV is not gated. MV and above hulls are Assembler-only and need a boss drop catalyst (see Pack Specifics)."
+    }
+  ]
+}

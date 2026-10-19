@@ -1,0 +1,16 @@
+{
+  "name": "Boilers and steam",
+  "category": "steam",
+  "icon": "gtceu:lp_steam_solid_boiler",
+  "sortnum": 2,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Boilers turn water and fuel into steam. Solid boilers burn coal or charcoal, liquid boilers burn fuel, solar boilers use daylight. Low Pressure (bronze) and High Pressure (steel) versions exist."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Warning: never let a hot boiler run out of water. The wiki warns that steam can get explosive."
+    }
+  ]
+}

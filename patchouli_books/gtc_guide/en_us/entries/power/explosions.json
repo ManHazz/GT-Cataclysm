@@ -1,0 +1,12 @@
+{
+  "name": "Explosion warning",
+  "category": "power",
+  "icon": "minecraft:tnt",
+  "sortnum": 4,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Feeding a machine a higher voltage than its tier can destroy it. Put a transformer between tiers, and place a cheap low-tier cable as a fuse in front of expensive machines."
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "name": "Circuit chain",
+  "category": "circuits",
+  "icon": "gtceu:basic_electronic_circuit",
+  "sortnum": 1,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "LV: Basic Electronic Circuit$(br2)MV: Good Electronic Circuit$(br2)HV: Nanoprocessor (cleanroom wafers)$(br2)EV: Quantum Processor"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "IV: Crystal Processor (Assembly Line)$(br2)LuV: Wetware Processor$(br2)Build a Circuit Assembler early to automate them."
+    }
+  ]
+}

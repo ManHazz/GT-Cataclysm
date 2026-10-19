@@ -1,0 +1,12 @@
+{
+  "name": "Bronze",
+  "category": "steam",
+  "icon": "gtceu:bronze_ingot",
+  "sortnum": 1,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Bronze is the backbone of the steam age: alloy 3 copper with 1 tin. It makes the bronze hulls and casings of your first steam machines."
+    }
+  ]
+}

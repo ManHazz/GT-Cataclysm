@@ -1,0 +1,16 @@
+{
+  "name": "Assembly Line and Research",
+  "category": "machines",
+  "icon": "gtceu:assembly_line",
+  "sortnum": 5,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "The Assembly Line is a long multiblock for the most complex parts (IV and up). Recipes from LuV onward need research first."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "The Research Station creates the research data for those recipes."
+    }
+  ]
+}

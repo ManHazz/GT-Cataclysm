@@ -796,7 +796,7 @@
         {
             "pakku_id": "mqCZzNvtY9HaK0hW",
             "type": "MOD",
-            "side": "SERVER",
+            "side": "BOTH",
             "slug": {
                 "modrinth": "fallingtree"
             },
@@ -1927,6 +1927,43 @@
                     "required_dependencies": [],
                     "size": 1875093,
                     "date_published": "2026-10-05T06:34:14.022554Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "F07qyeN0yF2HKj2a",
+            "type": "MOD",
+            "side": "BOTH",
+            "slug": {
+                "modrinth": "patchouli"
+            },
+            "name": {
+                "modrinth": "Patchouli"
+            },
+            "id": {
+                "modrinth": "nU0bVIaL"
+            },
+            "files": [
+                {
+                    "type": "modrinth",
+                    "file_name": "Patchouli-1.20.1-85-FORGE.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/nU0bVIaL/versions/94dtOLgZ/Patchouli-1.20.1-85-FORGE.jar",
+                    "id": "94dtOLgZ",
+                    "parent_id": "nU0bVIaL",
+                    "hashes": {
+                        "sha512": "15aedda4efcc553d5e3c83aa867b62554bc2fab298b43f55ed324e10507a3605f0ec2c59c01476e6d80b2a49275ef080142e43a6e663f9463b62f520960fc203",
+                        "sha1": "d4614507d6e4c7cb464bba5eca891978272062ef"
+                    },
+                    "required_dependencies": [],
+                    "size": 642732,
+                    "date_published": "2026-03-08T21:08:41.512166Z"
                 }
             ]
         },

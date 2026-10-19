@@ -1,0 +1,17 @@
+{
+  "name": "No. 02: ???",
+  "category": "boss_index",
+  "icon": "minecraft:barrier",
+  "sortnum": 4,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Unknown. Rumour: Only in the barren wastes of the Nether, a scorched arena burns.$(br2)Defeat it to record it here."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Recorded. See the entry named Ignis.",
+      "advancement": "cataclysm:kill_ignis"
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "name": "Early veins",
+  "category": "ores",
+  "icon": "gtceu:tin_ingot",
+  "sortnum": 3,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "All Overworld, from GTCEu 7.5.3 data.$(br2)Coal: Y 10 to 140, in stone.$(br2)Iron: Y -10 to 60. Goethite, Limonite, Hematite, Malachite."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Tin: Cassiterite vein, Y 10 to 80. Tin and Cassiterite ores.$(br2)Copper-Tin: Y -10 to 160. Chalcopyrite, Zeolite, Cassiterite, Realgar."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Copper: Y -40 to 10, in deepslate. Chalcopyrite, Iron, Pyrite, Copper.$(br2)Many more veins exist (redstone, lapis, diamond, nickel...). Browse them in JEI."
+    }
+  ]
+}

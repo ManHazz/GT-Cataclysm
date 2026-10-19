@@ -1,0 +1,20 @@
+{
+  "name": "Netherite Monstrosity",
+  "category": "boss_index",
+  "icon": "cataclysm:monstrous_eye",
+  "sortnum": 3,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(l)No. 01: Netherite Monstrosity$()$(br2)Structure: Soul Forge$(br2)Where: Nether: Crimson Forest, Warped Forest, Soul Sand Valley, Nether Wastes$(br2)Finder: Eye of Monstrous (use like an Eye of Ender)."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "cataclysm:monstrous_horn",
+      "title": "Drops",
+      "text": "Drops: Infernal Forge, Monstrous Horn, Lava Power Cell.$(br2)Opens: MV machine hull (Monstrous Horn)."
+    }
+  ],
+  "advancement": "cataclysm:kill_monstrosity",
+  "secret": true
+}

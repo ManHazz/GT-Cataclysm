@@ -4,6 +4,7 @@ Project: GT-Cataclysm — Minecraft 1.20.1 Forge modpack (GregTech CEu Modern + 
 
 ## Orchestration
 - Main model (Opus) orchestrates only. Delegate writing and editing to cheaper subagents (haiku for simple writes, sonnet for multi-file or reasoning-heavy edits).
+- Mundane operational tasks (launching the game or server, restarts, deploys, log checks, file syncs) also go to a sonnet subagent; Opus never runs them itself.
 - The user has authorized subagent use for write/edit work in this project.
 - Git: never add Co-Authored-By or other Claude attribution lines to commits or PRs. Commit after clean tasks; never push without explicit user approval.
 

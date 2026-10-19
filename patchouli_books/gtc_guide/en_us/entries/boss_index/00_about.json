@@ -1,0 +1,16 @@
+{
+  "name": "About the Index",
+  "category": "boss_index",
+  "icon": "minecraft:book",
+  "sortnum": 1,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Each boss has a '???' entry with a rumour of where it lives. Defeat it and its full entry appears: name, home, drops and what it unlocks."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Unlock uses Cataclysm's own kill advancements. For testing: /advancement grant @s only cataclysm:kill_ignis"
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "name": "Ender Guardian",
+  "category": "boss_index",
+  "icon": "cataclysm:void_eye",
+  "sortnum": 9,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(l)No. 04: Ender Guardian$()$(br2)Structure: Ruined Citadel$(br2)Where: The End: End Highlands, End Midlands$(br2)Finder: Eye of Void (use like an Eye of Ender)."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "cataclysm:gauntlet_of_guard",
+      "title": "Drops",
+      "text": "Drops: Gauntlet of Guard.$(br2)Opens: IV machine hull (Gauntlet of Guard)."
+    }
+  ],
+  "advancement": "cataclysm:kill_ender_guardian",
+  "secret": true
+}

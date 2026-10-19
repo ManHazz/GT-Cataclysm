@@ -1,0 +1,17 @@
+{
+  "name": "No. 03: ???",
+  "category": "boss_index",
+  "icon": "minecraft:barrier",
+  "sortnum": 6,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Unknown. Rumour: Far underground, in the caves, something mechanical still hums.$(br2)Defeat it to record it here."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Recorded. See the entry named The Harbinger.",
+      "advancement": "cataclysm:kill_harbinger"
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "name": "Scylla",
+  "category": "boss_index",
+  "icon": "cataclysm:storm_eye",
+  "sortnum": 13,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(l)No. 06: Scylla$()$(br2)Structure: Acropolis$(br2)Where: Overworld: Warm Ocean$(br2)Finder: Eye of Storm (use like an Eye of Ender)."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "cataclysm:essence_of_the_storm",
+      "title": "Drops",
+      "text": "Drops: Lacrima, Essence of the Storm.$(br2)Opens: ZPM machine hull (Essence of the Storm)."
+    }
+  ],
+  "advancement": "cataclysm:kill_scylla",
+  "secret": true
+}

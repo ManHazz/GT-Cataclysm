@@ -1,0 +1,16 @@
+{
+  "name": "Electric Blast Furnace",
+  "category": "machines",
+  "icon": "gtceu:electric_blast_furnace",
+  "sortnum": 2,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "A heat-based multiblock for high temperature smelting, built with heating coils (start with Cupronickel). Aluminium needs it. Check the multiblock preview in JEI."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "It needs an Energy Hatch, which uses a machine hull. At MV that is the gated MV hull. The Vacuum Freezer cools hot ingots made in it."
+    }
+  ]
+}

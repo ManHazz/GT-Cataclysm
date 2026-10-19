@@ -1,0 +1,20 @@
+{
+  "name": "Ignis",
+  "category": "boss_index",
+  "icon": "cataclysm:flame_eye",
+  "sortnum": 5,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(l)No. 02: Ignis$()$(br2)Structure: Burning Arena$(br2)Where: Nether: Nether Wastes$(br2)Finder: Eye of Flame (use like an Eye of Ender)."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "cataclysm:ignitium_ingot",
+      "title": "Drops",
+      "text": "Drops: Ignitium Ingot.$(br2)Opens: HV machine hull (Ignitium Ingot)."
+    }
+  ],
+  "advancement": "cataclysm:kill_ignis",
+  "secret": true
+}

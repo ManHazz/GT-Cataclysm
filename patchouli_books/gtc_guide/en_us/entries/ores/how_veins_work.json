@@ -1,0 +1,24 @@
+{
+  "name": "How ore veins work",
+  "category": "ores",
+  "icon": "minecraft:raw_iron",
+  "sortnum": 1,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "GT ore comes in veins: big clusters (about 40 to 50 blocks wide) of several ores at once. Each vein has a weight, a height range and a dimension. Mine the whole cluster, it holds more than one material."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Veins are placed on a grid of 3 chunks, with up to 12 blocks of random offset (pack config). Ore indicators are on: Surface Rocks of a material mark where a vein lies below."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Surface Rocks: break one to get 3 Tiny Piles of the dust (Fortune adds more). Look for them on the ground, then dig down in that area."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "In JEI, the 'Show GT Ore Veins' button lists every vein: ores inside, Weight, Spawn Range and Dimensions."
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "name": "Transformers and batteries",
+  "category": "power",
+  "icon": "gtceu:lv_machine_hull",
+  "sortnum": 3,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "A transformer steps 1 amp of a higher tier to 4 amps of the lower tier, or the reverse. Use a Soft Mallet to switch Up/Down. 2A, 4A and 16A versions exist."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Batteries and battery buffers store EU to smooth out generation."
+    }
+  ]
+}

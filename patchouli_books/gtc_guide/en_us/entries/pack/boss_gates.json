@@ -1,0 +1,20 @@
+{
+  "name": "Boss-gated hulls",
+  "category": "pack",
+  "icon": "cataclysm:monstrous_horn",
+  "sortnum": 1,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "MV to ZPM machine hulls are craftable only in an Assembler. The recipe needs a boss drop as a non-consumed catalyst: kill each boss once, keep the item, craft all you like."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "MV: Netherite Monstrosity, Monstrous Horn$(br2)HV: Ignis, Ignitium Ingot$(br2)EV: The Harbinger, Witherite Ingot$(br2)IV: Ender Guardian, Gauntlet of Guard"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "LuV: Maledictus, Cursium Ingot$(br2)ZPM: Scylla, Essence of the Storm$(br2)The Harbinger drops a Block of Witherite: uncraft it into ingots."
+    }
+  ]
+}

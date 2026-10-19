@@ -1,0 +1,20 @@
+{
+  "name": "Maledictus",
+  "category": "boss_index",
+  "icon": "cataclysm:cursed_eye",
+  "sortnum": 11,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(l)No. 05: Maledictus$()$(br2)Structure: Frosted Prison$(br2)Where: Overworld: Snowy Plains$(br2)Finder: Eye of Curse (use like an Eye of Ender)."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "cataclysm:cursium_ingot",
+      "title": "Drops",
+      "text": "Drops: Cursium Ingot.$(br2)Opens: LuV machine hull (Cursium Ingot)."
+    }
+  ],
+  "advancement": "cataclysm:kill_maledictus",
+  "secret": true
+}

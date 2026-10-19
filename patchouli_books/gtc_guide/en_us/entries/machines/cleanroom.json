@@ -1,0 +1,12 @@
+{
+  "name": "Cleanroom",
+  "category": "machines",
+  "icon": "gtceu:cleanroom",
+  "sortnum": 4,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Needed for wafers and the HV Nanoprocessor onward. Build the cleanroom multiblock (see JEI preview), it uses Cleanroom Glass and filter casings."
+    }
+  ]
+}

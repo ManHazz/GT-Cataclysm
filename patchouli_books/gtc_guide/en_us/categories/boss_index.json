@@ -1,0 +1,6 @@
+{
+  "name": "Boss Index",
+  "description": "Every Cataclysm boss. Entries unlock when you defeat them.",
+  "icon": "cataclysm:void_eye",
+  "sortnum": 8
+}
