@@ -2048,7 +2048,7 @@
                 "7hfEWQCkQvqugs8g"
             ],
             "type": "MOD",
-            "side": "CLIENT",
+            "side": "BOTH",
             "slug": {
                 "modrinth": "ponder"
             },
@@ -2340,6 +2340,48 @@
                     ],
                     "size": 26957,
                     "date_published": "2026-06-19T01:50:04.726399Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "jJ9AIlYG2RTE496l",
+            "type": "MOD",
+            "side": "CLIENT",
+            "slug": {
+                "modrinth": "tooltip-scaler"
+            },
+            "name": {
+                "modrinth": "Tooltip Scaler"
+            },
+            "id": {
+                "modrinth": "XryPYNmV"
+            },
+            "files": [
+                {
+                    "type": "modrinth",
+                    "file_name": "tooltipscaler-0.1.2.jar",
+                    "mc_versions": [
+                        "1.20.1",
+                        "1.20.2",
+                        "1.20.3",
+                        "1.20.4",
+                        "1.20.5",
+                        "1.20.6"
+                    ],
+                    "loaders": [
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/XryPYNmV/versions/bvI1XZQN/tooltipscaler-0.1.2.jar",
+                    "id": "bvI1XZQN",
+                    "parent_id": "XryPYNmV",
+                    "hashes": {
+                        "sha512": "161411677589021eace7b77d81c3231d4e6865fe4e6e9053a040f90493cc96de6ca115b159668ca35ea36514697cc882c8124688d32f0c08e0850645b692785b",
+                        "sha1": "2211a97e3e52906ad9e585a55762cd77b1a63ea9"
+                    },
+                    "required_dependencies": [],
+                    "size": 8996,
+                    "date_published": "2025-10-31T01:25:23.639831Z"
                 }
             ]
         },
