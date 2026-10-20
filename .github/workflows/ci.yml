@@ -200,7 +200,7 @@ jobs:
           java: '17'
           xvfb: 'true'
           headlessmc-command: >-
-            --jvm "-Djava.awt.headless=true -Dguideme.validateAtStartup=gtc:gtguide -Xmx6G"
+            --jvm "-Djava.awt.headless=true -Xmx6G"
 
       - name: Check client logs
         if: always()
