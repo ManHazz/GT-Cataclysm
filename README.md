@@ -16,6 +16,8 @@ A Minecraft 1.20.1 Forge modpack where GregTech progression is gated by L_Ender'
 
 Get the latest `.mrpack` (client) and server pack from the [Releases page](https://github.com/ManHazz/GT-Cataclysm/releases).
 
+For automatic updates, see [docs/AUTO_UPDATE.md](docs/AUTO_UPDATE.md).
+
 ## Status
 
 Pre-alpha: planning stage. See [PLAN.md](PLAN.md).
