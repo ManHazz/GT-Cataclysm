@@ -1,6 +1,6 @@
 {
   "name": "Cleanroom",
-  "category": "machines",
+  "category": "patchouli:machines",
   "icon": "gtceu:cleanroom",
   "sortnum": 4,
   "pages": [

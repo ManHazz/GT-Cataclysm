@@ -40,7 +40,7 @@ def S(item, title, text):
 
 def entry(cid, eid, name, icon, pages, **extra):
     CATS[cid] += 1
-    d = {"name": name, "category": cid, "icon": icon, "sortnum": CATS[cid], "pages": pages}
+    d = {"name": name, "category": f"patchouli:{cid}", "icon": icon, "sortnum": CATS[cid], "pages": pages}
     d.update(extra)
     w(LANG / "entries" / cid / f"{eid}.json", d)
 

@@ -1,6 +1,6 @@
 {
   "name": "Bronze",
-  "category": "steam",
+  "category": "patchouli:steam",
   "icon": "gtceu:bronze_ingot",
   "sortnum": 1,
   "pages": [

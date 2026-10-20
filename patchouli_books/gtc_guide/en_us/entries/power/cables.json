@@ -1,6 +1,6 @@
 {
   "name": "Cables and loss",
-  "category": "power",
+  "category": "patchouli:power",
   "icon": "gtceu:tin_single_cable",
   "sortnum": 2,
   "pages": [

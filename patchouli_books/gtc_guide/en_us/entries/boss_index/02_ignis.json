@@ -1,6 +1,6 @@
 {
   "name": "Ignis",
-  "category": "boss_index",
+  "category": "patchouli:boss_index",
   "icon": "cataclysm:flame_eye",
   "sortnum": 5,
   "pages": [

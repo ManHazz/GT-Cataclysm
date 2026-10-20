@@ -1,6 +1,6 @@
 {
   "name": "Electric Blast Furnace",
-  "category": "machines",
+  "category": "patchouli:machines",
   "icon": "gtceu:electric_blast_furnace",
   "sortnum": 2,
   "pages": [

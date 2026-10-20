@@ -1,6 +1,6 @@
 {
   "name": "Boilers and steam",
-  "category": "steam",
+  "category": "patchouli:steam",
   "icon": "gtceu:lp_steam_solid_boiler",
   "sortnum": 2,
   "pages": [

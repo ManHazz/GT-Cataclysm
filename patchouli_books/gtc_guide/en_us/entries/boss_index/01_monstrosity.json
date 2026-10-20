@@ -1,6 +1,6 @@
 {
   "name": "Netherite Monstrosity",
-  "category": "boss_index",
+  "category": "patchouli:boss_index",
   "icon": "cataclysm:monstrous_eye",
   "sortnum": 3,
   "pages": [

@@ -1,6 +1,6 @@
 {
   "name": "The Harbinger",
-  "category": "boss_index",
+  "category": "patchouli:boss_index",
   "icon": "cataclysm:mech_eye",
   "sortnum": 7,
   "pages": [

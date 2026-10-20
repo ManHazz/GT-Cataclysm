@@ -1,6 +1,6 @@
 {
   "name": "Pyrolyse Oven",
-  "category": "machines",
+  "category": "patchouli:machines",
   "icon": "gtceu:pyrolyse_oven",
   "sortnum": 3,
   "pages": [

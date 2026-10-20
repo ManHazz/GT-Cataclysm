@@ -1,6 +1,6 @@
 {
   "name": "How ore veins work",
-  "category": "ores",
+  "category": "patchouli:ores",
   "icon": "minecraft:raw_iron",
   "sortnum": 1,
   "pages": [

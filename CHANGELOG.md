@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.2.2 - 2026-10-20
+
+### Fixed
+- Field guide "Loading error!": all entry categories are now fully qualified (patchouli:<category>).
+- Disabled the Heracles "Discover Quests!" toast (heracles_options.json, showTutorial=false).
+
 ## 0.2.1 - 2026-10-20
 
 Clients must re-import the 0.2.1 mrpack.

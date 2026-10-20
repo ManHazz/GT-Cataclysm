@@ -1,6 +1,6 @@
 {
   "name": "Scylla",
-  "category": "boss_index",
+  "category": "patchouli:boss_index",
   "icon": "cataclysm:storm_eye",
   "sortnum": 13,
   "pages": [

@@ -1,6 +1,6 @@
 {
   "name": "Machine hulls",
-  "category": "machines",
+  "category": "patchouli:machines",
   "icon": "gtceu:lv_machine_hull",
   "sortnum": 1,
   "pages": [

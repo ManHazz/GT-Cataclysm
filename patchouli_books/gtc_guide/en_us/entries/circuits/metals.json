@@ -1,6 +1,6 @@
 {
   "name": "Key metals by tier",
-  "category": "circuits",
+  "category": "patchouli:circuits",
   "icon": "gtceu:steel_ingot",
   "sortnum": 2,
   "pages": [

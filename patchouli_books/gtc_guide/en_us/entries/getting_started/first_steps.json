@@ -1,6 +1,6 @@
 {
   "name": "First steps",
-  "category": "getting_started",
+  "category": "patchouli:getting_started",
   "icon": "gtceu:bronze_ingot",
   "sortnum": 2,
   "pages": [

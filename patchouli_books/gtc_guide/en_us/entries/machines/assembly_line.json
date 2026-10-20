@@ -1,6 +1,6 @@
 {
   "name": "Assembly Line and Research",
-  "category": "machines",
+  "category": "patchouli:machines",
   "icon": "gtceu:assembly_line",
   "sortnum": 5,
   "pages": [

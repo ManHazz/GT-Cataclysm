@@ -1,6 +1,6 @@
 {
   "name": "Wiki links",
-  "category": "pack",
+  "category": "patchouli:pack",
   "icon": "minecraft:writable_book",
   "sortnum": 3,
   "pages": [

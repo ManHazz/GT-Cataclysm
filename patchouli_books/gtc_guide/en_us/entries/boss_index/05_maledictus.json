@@ -1,6 +1,6 @@
 {
   "name": "Maledictus",
-  "category": "boss_index",
+  "category": "patchouli:boss_index",
   "icon": "cataclysm:cursed_eye",
   "sortnum": 11,
   "pages": [

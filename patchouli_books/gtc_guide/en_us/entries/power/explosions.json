@@ -1,6 +1,6 @@
 {
   "name": "Explosion warning",
-  "category": "power",
+  "category": "patchouli:power",
   "icon": "minecraft:tnt",
   "sortnum": 4,
   "pages": [

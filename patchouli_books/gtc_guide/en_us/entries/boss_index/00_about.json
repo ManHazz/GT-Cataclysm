@@ -1,6 +1,6 @@
 {
   "name": "About the Index",
-  "category": "boss_index",
+  "category": "patchouli:boss_index",
   "icon": "minecraft:book",
   "sortnum": 1,
   "pages": [

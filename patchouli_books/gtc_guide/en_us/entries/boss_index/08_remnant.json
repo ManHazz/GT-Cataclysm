@@ -1,6 +1,6 @@
 {
   "name": "Ancient Remnant",
-  "category": "boss_index",
+  "category": "patchouli:boss_index",
   "icon": "cataclysm:desert_eye",
   "sortnum": 17,
   "pages": [

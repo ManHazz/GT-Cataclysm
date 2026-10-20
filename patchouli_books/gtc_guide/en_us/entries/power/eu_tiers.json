@@ -1,6 +1,6 @@
 {
   "name": "EU and voltage tiers",
-  "category": "power",
+  "category": "patchouli:power",
   "icon": "gtceu:lv_machine_hull",
   "sortnum": 1,
   "pages": [

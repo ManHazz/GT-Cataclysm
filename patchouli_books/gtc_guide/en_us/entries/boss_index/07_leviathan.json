@@ -1,6 +1,6 @@
 {
   "name": "The Leviathan",
-  "category": "boss_index",
+  "category": "patchouli:boss_index",
   "icon": "cataclysm:abyss_eye",
   "sortnum": 15,
   "pages": [

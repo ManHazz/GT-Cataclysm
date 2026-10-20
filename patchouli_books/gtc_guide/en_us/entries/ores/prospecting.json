@@ -1,6 +1,6 @@
 {
   "name": "Prospecting",
-  "category": "ores",
+  "category": "patchouli:ores",
   "icon": "gtceu:lv_machine_hull",
   "sortnum": 2,
   "pages": [

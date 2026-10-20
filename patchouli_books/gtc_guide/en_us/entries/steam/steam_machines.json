@@ -1,6 +1,6 @@
 {
   "name": "Steam machines",
-  "category": "steam",
+  "category": "patchouli:steam",
   "icon": "gtceu:lp_steam_macerator",
   "sortnum": 3,
   "pages": [

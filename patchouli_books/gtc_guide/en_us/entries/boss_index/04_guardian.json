@@ -1,6 +1,6 @@
 {
   "name": "Ender Guardian",
-  "category": "boss_index",
+  "category": "patchouli:boss_index",
   "icon": "cataclysm:void_eye",
   "sortnum": 9,
   "pages": [

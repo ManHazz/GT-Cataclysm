@@ -1,6 +1,6 @@
 {
   "name": "Transformers and batteries",
-  "category": "power",
+  "category": "patchouli:power",
   "icon": "gtceu:lv_machine_hull",
   "sortnum": 3,
   "pages": [

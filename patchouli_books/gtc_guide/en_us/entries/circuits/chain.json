@@ -1,6 +1,6 @@
 {
   "name": "Circuit chain",
-  "category": "circuits",
+  "category": "patchouli:circuits",
   "icon": "gtceu:basic_electronic_circuit",
   "sortnum": 1,
   "pages": [
