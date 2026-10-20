@@ -1,0 +1,12 @@
+{
+  "name": "Prospecting",
+  "category": "patchouli:ores",
+  "icon": "gtceu:lv_machine_hull",
+  "sortnum": 2,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Prospectors scan for ore around you: Ore Prospector (LV), Advanced Prospector (HV), Super Prospector (LuV).$(br2)They have modes: ores, fluids and bedrock ore, and use battery power."
+    }
+  ]
+}

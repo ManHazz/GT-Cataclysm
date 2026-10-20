@@ -1,0 +1,16 @@
+{
+  "name": "EU and voltage tiers",
+  "category": "patchouli:power",
+  "icon": "gtceu:lv_machine_hull",
+  "sortnum": 1,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Energy is EU. Power per tick = voltage x amps.$(br2)ULV 8, LV 32, MV 128, HV 512 EU/t"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "EV 2048, IV 8192, LuV 32768, ZPM 131072 EU/t.$(br2)Each tier is 4 times the voltage of the one below. Machines need the voltage of their tier or lower."
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "name": "Ancient Remnant",
+  "category": "patchouli:boss_index",
+  "icon": "cataclysm:desert_eye",
+  "sortnum": 17,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(l)No. 08: Ancient Remnant$()$(br2)Structure: Cursed Pyramid$(br2)Where: Overworld: Desert$(br2)Finder: Eye of Desert (use like an Eye of Ender)."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "cataclysm:sandstorm_in_a_bottle",
+      "title": "Drops",
+      "text": "Drops: Sandstorm in a Bottle, Remnant's Skull, Block of Ancient Metal.$(br2)Opens: No hull gate in this pack."
+    }
+  ],
+  "advancement": "cataclysm:kill_remnant",
+  "secret": true
+}

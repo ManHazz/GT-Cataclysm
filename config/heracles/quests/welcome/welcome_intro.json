@@ -9,7 +9,8 @@
     "description": [
       "This pack combines GregTech progression with L_Ender's Cataclysm bosses.",
       "Work through the chapters on the left. Start with Steam & LV, then one chapter per voltage tier.",
-      "You received a Quest Book item: right-click it to open this questbook any time. The Open Quests key defaults to U, which clashes with JEI (Show Uses) and Xaero's waypoints, so rebind it in Controls > Key Binds."
+      "You received a Quest Book item: right-click it to open this questbook any time. The Open Quests key defaults to U, which clashes with JEI (Show Uses) and Xaero's waypoints, so rebind it in Controls > Key Binds.",
+      "You also received the GregTech Field Guide (a Patchouli book): right-click it for GT basics, ore veins, power, pack specifics and the Boss Index."
     ],
     "groups": {
       "Welcome": {

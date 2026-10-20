@@ -1,0 +1,16 @@
+{
+  "name": "Key metals by tier",
+  "category": "patchouli:circuits",
+  "icon": "gtceu:steel_ingot",
+  "sortnum": 2,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "LV: steel$(br2)MV: aluminium (Electric Blast Furnace)$(br2)HV: stainless steel$(br2)EV: titanium$(br2)IV: tungsten steel"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Hull cables: MV copper, HV gold, EV aluminium, IV platinum, LuV niobium-titanium, ZPM vanadium-gallium."
+    }
+  ]
+}

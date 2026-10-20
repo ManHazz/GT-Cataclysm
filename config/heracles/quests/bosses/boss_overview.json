@@ -8,7 +8,8 @@
     "subtitle": "Where to find them",
     "description": [
       "Six Cataclysm bosses each unlock one machine tier. Each structure below was checked against Cataclysm's data.",
-      "Craft the matching Eye (see JEI), which needs an Eye of Ender, and use it like an Eye of Ender to find the structure."
+      "Craft the matching Eye (see JEI), which needs an Eye of Ender, and use it like an Eye of Ender to find the structure.",
+      "The GregTech Field Guide has a Boss Index: every boss starts as a ??? hint and its full entry unlocks when you defeat it."
     ],
     "groups": {
       "Bosses": {

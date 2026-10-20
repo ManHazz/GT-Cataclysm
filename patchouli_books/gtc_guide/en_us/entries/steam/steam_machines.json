@@ -1,0 +1,16 @@
+{
+  "name": "Steam machines",
+  "category": "patchouli:steam",
+  "icon": "gtceu:lp_steam_macerator",
+  "sortnum": 3,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Steam machines (macerator, furnace, forge hammer, alloy smelter, compressor, extractor, rock crusher, miner) exist as Low and High Pressure versions. High Pressure uses the improved steel hull and is faster."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Chain: Coke Oven (coal to coke + creosote), Primitive Blast Furnace (iron + coke to steel), then craft the LV machine hull. Steel ends the steam age."
+    }
+  ]
+}

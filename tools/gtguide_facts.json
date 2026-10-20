@@ -1,0 +1,5405 @@
+{
+ "_source": "Dumped from a booted GTCEu 7.5.3 / KubeJS 2001.6.5 server (recipe manager after datapack load, machine registry, ICoilType, material wire/fluid-pipe properties). Not hand-edited.",
+ "coils": [
+  {
+   "discount": 1,
+   "level": 1,
+   "name": "cupronickel",
+   "temp": 1800,
+   "tier": 0
+  },
+  {
+   "discount": 1,
+   "level": 2,
+   "name": "kanthal",
+   "temp": 2700,
+   "tier": 1
+  },
+  {
+   "discount": 2,
+   "level": 2,
+   "name": "nichrome",
+   "temp": 3600,
+   "tier": 2
+  },
+  {
+   "discount": 2,
+   "level": 4,
+   "name": "rtm_alloy",
+   "temp": 4500,
+   "tier": 3
+  },
+  {
+   "discount": 4,
+   "level": 4,
+   "name": "hssg",
+   "temp": 5400,
+   "tier": 4
+  },
+  {
+   "discount": 4,
+   "level": 8,
+   "name": "naquadah",
+   "temp": 7200,
+   "tier": 5
+  },
+  {
+   "discount": 8,
+   "level": 8,
+   "name": "trinium",
+   "temp": 9001,
+   "tier": 6
+  },
+  {
+   "discount": 8,
+   "level": 16,
+   "name": "tritanium",
+   "temp": 10800,
+   "tier": 7
+  }
+ ],
+ "crafted": [
+  "gtceu:aluminium_dust",
+  "gtceu:ash_dust",
+  "gtceu:assembly_line",
+  "gtceu:assembly_line_casing",
+  "gtceu:assembly_line_grating",
+  "gtceu:assembly_line_unit",
+  "gtceu:basic_electronic_circuit",
+  "gtceu:bronze_brick_casing",
+  "gtceu:bronze_dust",
+  "gtceu:bronze_firebox_casing",
+  "gtceu:bronze_foil",
+  "gtceu:bronze_large_boiler",
+  "gtceu:bronze_machine_casing",
+  "gtceu:bronze_normal_fluid_pipe",
+  "gtceu:bronze_pipe_casing",
+  "gtceu:calcium_hydroxide_dust",
+  "gtceu:cleanroom",
+  "gtceu:cobalt_plate",
+  "gtceu:coke_gem",
+  "gtceu:copper_dust",
+  "gtceu:copper_hex_wire",
+  "gtceu:diamond_dust",
+  "gtceu:double_tin_plate",
+  "gtceu:electric_blast_furnace",
+  "gtceu:ev_machine_casing",
+  "gtceu:filter_casing",
+  "gtceu:fine_tin_wire",
+  "gtceu:frostproof_machine_casing",
+  "gtceu:good_electronic_circuit",
+  "gtceu:heatproof_machine_casing",
+  "gtceu:hp_steam_macerator",
+  "gtceu:hp_steam_solid_boiler",
+  "gtceu:hv_diode",
+  "gtceu:hv_machine_casing",
+  "gtceu:implosion_compressor",
+  "gtceu:impure_iron_dust",
+  "gtceu:iron_dust",
+  "gtceu:iv_machine_casing",
+  "gtceu:lp_steam_alloy_smelter",
+  "gtceu:lp_steam_liquid_boiler",
+  "gtceu:lp_steam_macerator",
+  "gtceu:lp_steam_solid_boiler",
+  "gtceu:luv_machine_casing",
+  "gtceu:lv_assembler",
+  "gtceu:lv_battery_buffer_16x",
+  "gtceu:lv_battery_buffer_4x",
+  "gtceu:lv_battery_buffer_8x",
+  "gtceu:lv_bender",
+  "gtceu:lv_centrifuge",
+  "gtceu:lv_chemical_reactor",
+  "gtceu:lv_circuit_assembler",
+  "gtceu:lv_combustion",
+  "gtceu:lv_compressor",
+  "gtceu:lv_diode",
+  "gtceu:lv_electric_furnace",
+  "gtceu:lv_electrolyzer",
+  "gtceu:lv_energy_input_hatch",
+  "gtceu:lv_extractor",
+  "gtceu:lv_gas_turbine",
+  "gtceu:lv_macerator",
+  "gtceu:lv_machine_casing",
+  "gtceu:lv_machine_hull",
+  "gtceu:lv_muffler_hatch",
+  "gtceu:lv_ore_washer",
+  "gtceu:lv_steam_turbine",
+  "gtceu:lv_thermal_centrifuge",
+  "gtceu:lv_transformer_1a",
+  "gtceu:lv_wiremill",
+  "gtceu:maintenance_hatch",
+  "gtceu:mv_combustion",
+  "gtceu:mv_macerator",
+  "gtceu:mv_machine_casing",
+  "gtceu:nickel_single_wire",
+  "gtceu:programmed_circuit",
+  "gtceu:pure_iron_dust",
+  "gtceu:pyrolyse_oven",
+  "gtceu:quicklime_dust",
+  "gtceu:raw_rubber_dust",
+  "gtceu:sodium_hydroxide_dust",
+  "gtceu:solid_machine_casing",
+  "gtceu:steam_grinder",
+  "gtceu:steam_machine_casing",
+  "gtceu:steel_large_boiler",
+  "gtceu:sterilizing_filter_casing",
+  "gtceu:sulfur_dust",
+  "gtceu:tin_double_cable",
+  "gtceu:tin_dust",
+  "gtceu:tin_hex_cable",
+  "gtceu:tin_octal_cable",
+  "gtceu:tin_quadruple_cable",
+  "gtceu:tin_single_cable",
+  "gtceu:titanium_large_boiler",
+  "gtceu:tungstensteel_large_boiler",
+  "gtceu:ulv_machine_hull",
+  "gtceu:vacuum_freezer",
+  "gtceu:wrought_iron_dust",
+  "gtceu:zinc_dust",
+  "gtceu:zpm_machine_casing",
+  "minecraft:coal",
+  "minecraft:diamond",
+  "minecraft:iron_nugget"
+ ],
+ "machine_types": {
+  "gtceu:air_scrubber": [
+   [
+    "gtceu:lv_air_scrubber",
+    1
+   ],
+   [
+    "gtceu:mv_air_scrubber",
+    2
+   ],
+   [
+    "gtceu:ev_air_scrubber",
+    4
+   ],
+   [
+    "gtceu:hv_air_scrubber",
+    3
+   ]
+  ],
+  "gtceu:alloy_blast_smelter": [
+   [
+    "gtceu:alloy_blast_smelter",
+    0
+   ]
+  ],
+  "gtceu:alloy_smelter": [
+   [
+    "gtceu:uv_alloy_smelter",
+    8
+   ],
+   [
+    "gtceu:hv_alloy_smelter",
+    3
+   ],
+   [
+    "gtceu:luv_alloy_smelter",
+    6
+   ],
+   [
+    "gtceu:ev_alloy_smelter",
+    4
+   ],
+   [
+    "gtceu:zpm_alloy_smelter",
+    7
+   ],
+   [
+    "gtceu:hp_steam_alloy_smelter",
+    1
+   ],
+   [
+    "gtceu:iv_alloy_smelter",
+    5
+   ],
+   [
+    "gtceu:lp_steam_alloy_smelter",
+    0
+   ],
+   [
+    "gtceu:lv_alloy_smelter",
+    1
+   ],
+   [
+    "gtceu:mv_alloy_smelter",
+    2
+   ]
+  ],
+  "gtceu:arc_furnace": [
+   [
+    "gtceu:ev_arc_furnace",
+    4
+   ],
+   [
+    "gtceu:hv_arc_furnace",
+    3
+   ],
+   [
+    "gtceu:large_arc_smelter",
+    0
+   ],
+   [
+    "gtceu:iv_arc_furnace",
+    5
+   ],
+   [
+    "gtceu:zpm_arc_furnace",
+    7
+   ],
+   [
+    "gtceu:lv_arc_furnace",
+    1
+   ],
+   [
+    "gtceu:uv_arc_furnace",
+    8
+   ],
+   [
+    "gtceu:mv_arc_furnace",
+    2
+   ],
+   [
+    "gtceu:luv_arc_furnace",
+    6
+   ]
+  ],
+  "gtceu:assembler": [
+   [
+    "gtceu:uv_assembler",
+    8
+   ],
+   [
+    "gtceu:large_assembler",
+    0
+   ],
+   [
+    "gtceu:lv_assembler",
+    1
+   ],
+   [
+    "gtceu:iv_assembler",
+    5
+   ],
+   [
+    "gtceu:ev_assembler",
+    4
+   ],
+   [
+    "gtceu:mv_assembler",
+    2
+   ],
+   [
+    "gtceu:zpm_assembler",
+    7
+   ],
+   [
+    "gtceu:hv_assembler",
+    3
+   ],
+   [
+    "gtceu:luv_assembler",
+    6
+   ]
+  ],
+  "gtceu:assembly_line": [
+   [
+    "gtceu:assembly_line",
+    0
+   ]
+  ],
+  "gtceu:autoclave": [
+   [
+    "gtceu:luv_autoclave",
+    6
+   ],
+   [
+    "gtceu:mv_autoclave",
+    2
+   ],
+   [
+    "gtceu:hv_autoclave",
+    3
+   ],
+   [
+    "gtceu:large_autoclave",
+    0
+   ],
+   [
+    "gtceu:uv_autoclave",
+    8
+   ],
+   [
+    "gtceu:lv_autoclave",
+    1
+   ],
+   [
+    "gtceu:ev_autoclave",
+    4
+   ],
+   [
+    "gtceu:zpm_autoclave",
+    7
+   ],
+   [
+    "gtceu:iv_autoclave",
+    5
+   ]
+  ],
+  "gtceu:bender": [
+   [
+    "gtceu:luv_bender",
+    6
+   ],
+   [
+    "gtceu:mv_bender",
+    2
+   ],
+   [
+    "gtceu:zpm_bender",
+    7
+   ],
+   [
+    "gtceu:ev_bender",
+    4
+   ],
+   [
+    "gtceu:lv_bender",
+    1
+   ],
+   [
+    "gtceu:iv_bender",
+    5
+   ],
+   [
+    "gtceu:hv_bender",
+    3
+   ],
+   [
+    "gtceu:uv_bender",
+    8
+   ]
+  ],
+  "gtceu:bender,gtceu:compressor,gtceu:forge_hammer,gtceu:forming_press": [
+   [
+    "gtceu:large_material_press",
+    0
+   ]
+  ],
+  "gtceu:brewery": [
+   [
+    "gtceu:iv_brewery",
+    5
+   ],
+   [
+    "gtceu:uv_brewery",
+    8
+   ],
+   [
+    "gtceu:luv_brewery",
+    6
+   ],
+   [
+    "gtceu:hv_brewery",
+    3
+   ],
+   [
+    "gtceu:ev_brewery",
+    4
+   ],
+   [
+    "gtceu:zpm_brewery",
+    7
+   ],
+   [
+    "gtceu:lv_brewery",
+    1
+   ],
+   [
+    "gtceu:mv_brewery",
+    2
+   ]
+  ],
+  "gtceu:brewery,gtceu:fermenter,gtceu:fluid_heater": [
+   [
+    "gtceu:large_brewer",
+    0
+   ]
+  ],
+  "gtceu:canner": [
+   [
+    "gtceu:ev_canner",
+    4
+   ],
+   [
+    "gtceu:luv_canner",
+    6
+   ],
+   [
+    "gtceu:zpm_canner",
+    7
+   ],
+   [
+    "gtceu:iv_canner",
+    5
+   ],
+   [
+    "gtceu:lv_canner",
+    1
+   ],
+   [
+    "gtceu:uv_canner",
+    8
+   ],
+   [
+    "gtceu:mv_canner",
+    2
+   ],
+   [
+    "gtceu:hv_canner",
+    3
+   ]
+  ],
+  "gtceu:centrifuge": [
+   [
+    "gtceu:luv_centrifuge",
+    6
+   ],
+   [
+    "gtceu:iv_centrifuge",
+    5
+   ],
+   [
+    "gtceu:lv_centrifuge",
+    1
+   ],
+   [
+    "gtceu:zpm_centrifuge",
+    7
+   ],
+   [
+    "gtceu:mv_centrifuge",
+    2
+   ],
+   [
+    "gtceu:ev_centrifuge",
+    4
+   ],
+   [
+    "gtceu:uv_centrifuge",
+    8
+   ],
+   [
+    "gtceu:hv_centrifuge",
+    3
+   ]
+  ],
+  "gtceu:centrifuge,gtceu:thermal_centrifuge": [
+   [
+    "gtceu:large_centrifuge",
+    0
+   ]
+  ],
+  "gtceu:chemical_bath": [
+   [
+    "gtceu:luv_chemical_bath",
+    6
+   ],
+   [
+    "gtceu:hv_chemical_bath",
+    3
+   ],
+   [
+    "gtceu:uv_chemical_bath",
+    8
+   ],
+   [
+    "gtceu:ev_chemical_bath",
+    4
+   ],
+   [
+    "gtceu:iv_chemical_bath",
+    5
+   ],
+   [
+    "gtceu:mv_chemical_bath",
+    2
+   ],
+   [
+    "gtceu:lv_chemical_bath",
+    1
+   ],
+   [
+    "gtceu:zpm_chemical_bath",
+    7
+   ]
+  ],
+  "gtceu:chemical_bath,gtceu:ore_washer": [
+   [
+    "gtceu:large_chemical_bath",
+    0
+   ]
+  ],
+  "gtceu:chemical_reactor": [
+   [
+    "gtceu:zpm_chemical_reactor",
+    7
+   ],
+   [
+    "gtceu:mv_chemical_reactor",
+    2
+   ],
+   [
+    "gtceu:lv_chemical_reactor",
+    1
+   ],
+   [
+    "gtceu:iv_chemical_reactor",
+    5
+   ],
+   [
+    "gtceu:luv_chemical_reactor",
+    6
+   ],
+   [
+    "gtceu:uv_chemical_reactor",
+    8
+   ],
+   [
+    "gtceu:hv_chemical_reactor",
+    3
+   ],
+   [
+    "gtceu:ev_chemical_reactor",
+    4
+   ]
+  ],
+  "gtceu:circuit_assembler": [
+   [
+    "gtceu:luv_circuit_assembler",
+    6
+   ],
+   [
+    "gtceu:zpm_circuit_assembler",
+    7
+   ],
+   [
+    "gtceu:uv_circuit_assembler",
+    8
+   ],
+   [
+    "gtceu:mv_circuit_assembler",
+    2
+   ],
+   [
+    "gtceu:ev_circuit_assembler",
+    4
+   ],
+   [
+    "gtceu:iv_circuit_assembler",
+    5
+   ],
+   [
+    "gtceu:large_circuit_assembler",
+    0
+   ],
+   [
+    "gtceu:hv_circuit_assembler",
+    3
+   ],
+   [
+    "gtceu:lv_circuit_assembler",
+    1
+   ]
+  ],
+  "gtceu:coke_oven": [
+   [
+    "gtceu:coke_oven",
+    0
+   ]
+  ],
+  "gtceu:combustion_generator": [
+   [
+    "gtceu:extreme_combustion_engine",
+    0
+   ],
+   [
+    "gtceu:hv_combustion",
+    3
+   ],
+   [
+    "gtceu:large_combustion_engine",
+    0
+   ],
+   [
+    "gtceu:mv_combustion",
+    2
+   ],
+   [
+    "gtceu:lv_combustion",
+    1
+   ]
+  ],
+  "gtceu:compressor": [
+   [
+    "gtceu:luv_compressor",
+    6
+   ],
+   [
+    "gtceu:hp_steam_compressor",
+    1
+   ],
+   [
+    "gtceu:lp_steam_compressor",
+    0
+   ],
+   [
+    "gtceu:zpm_compressor",
+    7
+   ],
+   [
+    "gtceu:lv_compressor",
+    1
+   ],
+   [
+    "gtceu:iv_compressor",
+    5
+   ],
+   [
+    "gtceu:mv_compressor",
+    2
+   ],
+   [
+    "gtceu:ev_compressor",
+    4
+   ],
+   [
+    "gtceu:hv_compressor",
+    3
+   ],
+   [
+    "gtceu:uv_compressor",
+    8
+   ]
+  ],
+  "gtceu:cracker": [
+   [
+    "gtceu:cracker",
+    0
+   ]
+  ],
+  "gtceu:cutter": [
+   [
+    "gtceu:lv_cutter",
+    1
+   ],
+   [
+    "gtceu:uv_cutter",
+    8
+   ],
+   [
+    "gtceu:zpm_cutter",
+    7
+   ],
+   [
+    "gtceu:iv_cutter",
+    5
+   ],
+   [
+    "gtceu:mv_cutter",
+    2
+   ],
+   [
+    "gtceu:luv_cutter",
+    6
+   ],
+   [
+    "gtceu:ev_cutter",
+    4
+   ],
+   [
+    "gtceu:hv_cutter",
+    3
+   ]
+  ],
+  "gtceu:cutter,gtceu:lathe": [
+   [
+    "gtceu:large_cutter",
+    0
+   ]
+  ],
+  "gtceu:distillation_tower": [
+   [
+    "gtceu:distillation_tower",
+    0
+   ]
+  ],
+  "gtceu:distillation_tower,gtceu:distillery": [
+   [
+    "gtceu:large_distillery",
+    0
+   ]
+  ],
+  "gtceu:distillery": [
+   [
+    "gtceu:luv_distillery",
+    6
+   ],
+   [
+    "gtceu:ev_distillery",
+    4
+   ],
+   [
+    "gtceu:hv_distillery",
+    3
+   ],
+   [
+    "gtceu:mv_distillery",
+    2
+   ],
+   [
+    "gtceu:uv_distillery",
+    8
+   ],
+   [
+    "gtceu:iv_distillery",
+    5
+   ],
+   [
+    "gtceu:lv_distillery",
+    1
+   ],
+   [
+    "gtceu:zpm_distillery",
+    7
+   ]
+  ],
+  "gtceu:dummy": [
+   [
+    "gtceu:uv_world_accelerator",
+    8
+   ],
+   [
+    "gtceu:hv_world_accelerator",
+    3
+   ],
+   [
+    "gtceu:ev_item_collector",
+    4
+   ],
+   [
+    "gtceu:hv_item_collector",
+    3
+   ],
+   [
+    "gtceu:mv_fluid_drilling_rig",
+    2
+   ],
+   [
+    "gtceu:hv_miner",
+    3
+   ],
+   [
+    "gtceu:high_performance_computation_array",
+    0
+   ],
+   [
+    "gtceu:zpm_world_accelerator",
+    7
+   ],
+   [
+    "gtceu:central_monitor",
+    0
+   ],
+   [
+    "gtceu:cleanroom",
+    0
+   ],
+   [
+    "gtceu:mv_bedrock_ore_miner",
+    2
+   ],
+   [
+    "gtceu:ev_bedrock_ore_miner",
+    4
+   ],
+   [
+    "gtceu:ev_fluid_drilling_rig",
+    4
+   ],
+   [
+    "gtceu:luv_world_accelerator",
+    6
+   ],
+   [
+    "gtceu:data_bank",
+    0
+   ],
+   [
+    "gtceu:network_switch",
+    0
+   ],
+   [
+    "gtceu:lv_miner",
+    1
+   ],
+   [
+    "gtceu:hv_bedrock_ore_miner",
+    3
+   ],
+   [
+    "gtceu:ev_world_accelerator",
+    4
+   ],
+   [
+    "gtceu:hv_fluid_drilling_rig",
+    3
+   ],
+   [
+    "gtceu:steel_multiblock_tank",
+    0
+   ],
+   [
+    "gtceu:lp_steam_miner",
+    0
+   ],
+   [
+    "gtceu:hp_steam_miner",
+    1
+   ],
+   [
+    "gtceu:wooden_multiblock_tank",
+    0
+   ],
+   [
+    "gtceu:charcoal_pile_igniter",
+    0
+   ],
+   [
+    "gtceu:lv_world_accelerator",
+    1
+   ],
+   [
+    "gtceu:mv_item_collector",
+    2
+   ],
+   [
+    "gtceu:mv_world_accelerator",
+    2
+   ],
+   [
+    "gtceu:lv_item_collector",
+    1
+   ],
+   [
+    "gtceu:mv_miner",
+    2
+   ],
+   [
+    "gtceu:iv_world_accelerator",
+    5
+   ],
+   [
+    "gtceu:bronze_multiblock_tank",
+    0
+   ],
+   [
+    "gtceu:power_substation",
+    0
+   ],
+   [
+    "gtceu:active_transformer",
+    0
+   ]
+  ],
+  "gtceu:electric_blast_furnace": [
+   [
+    "gtceu:mega_blast_furnace",
+    0
+   ],
+   [
+    "gtceu:electric_blast_furnace",
+    0
+   ]
+  ],
+  "gtceu:electric_furnace": [
+   [
+    "gtceu:hv_electric_furnace",
+    3
+   ],
+   [
+    "gtceu:lv_electric_furnace",
+    1
+   ],
+   [
+    "gtceu:mv_electric_furnace",
+    2
+   ],
+   [
+    "gtceu:ev_electric_furnace",
+    4
+   ],
+   [
+    "gtceu:iv_electric_furnace",
+    5
+   ],
+   [
+    "gtceu:zpm_electric_furnace",
+    7
+   ],
+   [
+    "gtceu:steam_oven",
+    0
+   ],
+   [
+    "gtceu:lp_steam_furnace",
+    0
+   ],
+   [
+    "gtceu:hp_steam_furnace",
+    1
+   ],
+   [
+    "gtceu:uv_electric_furnace",
+    8
+   ],
+   [
+    "gtceu:luv_electric_furnace",
+    6
+   ]
+  ],
+  "gtceu:electric_furnace,gtceu:alloy_smelter": [
+   [
+    "gtceu:multi_smelter",
+    0
+   ]
+  ],
+  "gtceu:electrolyzer": [
+   [
+    "gtceu:zpm_electrolyzer",
+    7
+   ],
+   [
+    "gtceu:mv_electrolyzer",
+    2
+   ],
+   [
+    "gtceu:lv_electrolyzer",
+    1
+   ],
+   [
+    "gtceu:hv_electrolyzer",
+    3
+   ],
+   [
+    "gtceu:uv_electrolyzer",
+    8
+   ],
+   [
+    "gtceu:luv_electrolyzer",
+    6
+   ],
+   [
+    "gtceu:large_electrolyzer",
+    0
+   ],
+   [
+    "gtceu:iv_electrolyzer",
+    5
+   ],
+   [
+    "gtceu:ev_electrolyzer",
+    4
+   ]
+  ],
+  "gtceu:electromagnetic_separator": [
+   [
+    "gtceu:mv_electromagnetic_separator",
+    2
+   ],
+   [
+    "gtceu:zpm_electromagnetic_separator",
+    7
+   ],
+   [
+    "gtceu:uv_electromagnetic_separator",
+    8
+   ],
+   [
+    "gtceu:iv_electromagnetic_separator",
+    5
+   ],
+   [
+    "gtceu:lv_electromagnetic_separator",
+    1
+   ],
+   [
+    "gtceu:luv_electromagnetic_separator",
+    6
+   ],
+   [
+    "gtceu:hv_electromagnetic_separator",
+    3
+   ],
+   [
+    "gtceu:ev_electromagnetic_separator",
+    4
+   ]
+  ],
+  "gtceu:electromagnetic_separator,gtceu:polarizer": [
+   [
+    "gtceu:large_electromagnet",
+    0
+   ]
+  ],
+  "gtceu:extractor": [
+   [
+    "gtceu:mv_extractor",
+    2
+   ],
+   [
+    "gtceu:hp_steam_extractor",
+    1
+   ],
+   [
+    "gtceu:lp_steam_extractor",
+    0
+   ],
+   [
+    "gtceu:luv_extractor",
+    6
+   ],
+   [
+    "gtceu:zpm_extractor",
+    7
+   ],
+   [
+    "gtceu:hv_extractor",
+    3
+   ],
+   [
+    "gtceu:lv_extractor",
+    1
+   ],
+   [
+    "gtceu:ev_extractor",
+    4
+   ],
+   [
+    "gtceu:iv_extractor",
+    5
+   ],
+   [
+    "gtceu:uv_extractor",
+    8
+   ]
+  ],
+  "gtceu:extractor,gtceu:canner": [
+   [
+    "gtceu:large_extractor",
+    0
+   ]
+  ],
+  "gtceu:extruder": [
+   [
+    "gtceu:mv_extruder",
+    2
+   ],
+   [
+    "gtceu:large_extruder",
+    0
+   ],
+   [
+    "gtceu:ev_extruder",
+    4
+   ],
+   [
+    "gtceu:uv_extruder",
+    8
+   ],
+   [
+    "gtceu:zpm_extruder",
+    7
+   ],
+   [
+    "gtceu:luv_extruder",
+    6
+   ],
+   [
+    "gtceu:lv_extruder",
+    1
+   ],
+   [
+    "gtceu:iv_extruder",
+    5
+   ],
+   [
+    "gtceu:hv_extruder",
+    3
+   ]
+  ],
+  "gtceu:fermenter": [
+   [
+    "gtceu:uv_fermenter",
+    8
+   ],
+   [
+    "gtceu:luv_fermenter",
+    6
+   ],
+   [
+    "gtceu:iv_fermenter",
+    5
+   ],
+   [
+    "gtceu:lv_fermenter",
+    1
+   ],
+   [
+    "gtceu:mv_fermenter",
+    2
+   ],
+   [
+    "gtceu:zpm_fermenter",
+    7
+   ],
+   [
+    "gtceu:hv_fermenter",
+    3
+   ],
+   [
+    "gtceu:ev_fermenter",
+    4
+   ]
+  ],
+  "gtceu:fluid_heater": [
+   [
+    "gtceu:zpm_fluid_heater",
+    7
+   ],
+   [
+    "gtceu:mv_fluid_heater",
+    2
+   ],
+   [
+    "gtceu:iv_fluid_heater",
+    5
+   ],
+   [
+    "gtceu:ev_fluid_heater",
+    4
+   ],
+   [
+    "gtceu:luv_fluid_heater",
+    6
+   ],
+   [
+    "gtceu:uv_fluid_heater",
+    8
+   ],
+   [
+    "gtceu:lv_fluid_heater",
+    1
+   ],
+   [
+    "gtceu:hv_fluid_heater",
+    3
+   ]
+  ],
+  "gtceu:fluid_solidifier": [
+   [
+    "gtceu:hv_fluid_solidifier",
+    3
+   ],
+   [
+    "gtceu:iv_fluid_solidifier",
+    5
+   ],
+   [
+    "gtceu:lv_fluid_solidifier",
+    1
+   ],
+   [
+    "gtceu:large_solidifier",
+    0
+   ],
+   [
+    "gtceu:zpm_fluid_solidifier",
+    7
+   ],
+   [
+    "gtceu:luv_fluid_solidifier",
+    6
+   ],
+   [
+    "gtceu:mv_fluid_solidifier",
+    2
+   ],
+   [
+    "gtceu:uv_fluid_solidifier",
+    8
+   ],
+   [
+    "gtceu:ev_fluid_solidifier",
+    4
+   ]
+  ],
+  "gtceu:forge_hammer": [
+   [
+    "gtceu:uv_forge_hammer",
+    8
+   ],
+   [
+    "gtceu:luv_forge_hammer",
+    6
+   ],
+   [
+    "gtceu:ev_forge_hammer",
+    4
+   ],
+   [
+    "gtceu:iv_forge_hammer",
+    5
+   ],
+   [
+    "gtceu:hv_forge_hammer",
+    3
+   ],
+   [
+    "gtceu:lv_forge_hammer",
+    1
+   ],
+   [
+    "gtceu:mv_forge_hammer",
+    2
+   ],
+   [
+    "gtceu:zpm_forge_hammer",
+    7
+   ],
+   [
+    "gtceu:hp_steam_forge_hammer",
+    1
+   ],
+   [
+    "gtceu:lp_steam_forge_hammer",
+    0
+   ]
+  ],
+  "gtceu:forming_press": [
+   [
+    "gtceu:iv_forming_press",
+    5
+   ],
+   [
+    "gtceu:mv_forming_press",
+    2
+   ],
+   [
+    "gtceu:luv_forming_press",
+    6
+   ],
+   [
+    "gtceu:lv_forming_press",
+    1
+   ],
+   [
+    "gtceu:uv_forming_press",
+    8
+   ],
+   [
+    "gtceu:hv_forming_press",
+    3
+   ],
+   [
+    "gtceu:zpm_forming_press",
+    7
+   ],
+   [
+    "gtceu:ev_forming_press",
+    4
+   ]
+  ],
+  "gtceu:fusion_reactor": [
+   [
+    "gtceu:luv_fusion_reactor",
+    6
+   ],
+   [
+    "gtceu:zpm_fusion_reactor",
+    7
+   ],
+   [
+    "gtceu:uv_fusion_reactor",
+    8
+   ]
+  ],
+  "gtceu:gas_collector": [
+   [
+    "gtceu:hv_gas_collector",
+    3
+   ],
+   [
+    "gtceu:luv_gas_collector",
+    6
+   ],
+   [
+    "gtceu:uv_gas_collector",
+    8
+   ],
+   [
+    "gtceu:ev_gas_collector",
+    4
+   ],
+   [
+    "gtceu:iv_gas_collector",
+    5
+   ],
+   [
+    "gtceu:mv_gas_collector",
+    2
+   ],
+   [
+    "gtceu:lv_gas_collector",
+    1
+   ],
+   [
+    "gtceu:zpm_gas_collector",
+    7
+   ]
+  ],
+  "gtceu:gas_turbine": [
+   [
+    "gtceu:hv_gas_turbine",
+    3
+   ],
+   [
+    "gtceu:gas_large_turbine",
+    0
+   ],
+   [
+    "gtceu:mv_gas_turbine",
+    2
+   ],
+   [
+    "gtceu:lv_gas_turbine",
+    1
+   ]
+  ],
+  "gtceu:implosion_compressor": [
+   [
+    "gtceu:implosion_compressor",
+    0
+   ]
+  ],
+  "gtceu:large_boiler": [
+   [
+    "gtceu:titanium_large_boiler",
+    0
+   ],
+   [
+    "gtceu:tungstensteel_large_boiler",
+    0
+   ],
+   [
+    "gtceu:bronze_large_boiler",
+    0
+   ],
+   [
+    "gtceu:steel_large_boiler",
+    0
+   ]
+  ],
+  "gtceu:large_chemical_reactor": [
+   [
+    "gtceu:large_chemical_reactor",
+    0
+   ]
+  ],
+  "gtceu:laser_engraver": [
+   [
+    "gtceu:zpm_laser_engraver",
+    7
+   ],
+   [
+    "gtceu:ev_laser_engraver",
+    4
+   ],
+   [
+    "gtceu:luv_laser_engraver",
+    6
+   ],
+   [
+    "gtceu:uv_laser_engraver",
+    8
+   ],
+   [
+    "gtceu:lv_laser_engraver",
+    1
+   ],
+   [
+    "gtceu:iv_laser_engraver",
+    5
+   ],
+   [
+    "gtceu:mv_laser_engraver",
+    2
+   ],
+   [
+    "gtceu:hv_laser_engraver",
+    3
+   ],
+   [
+    "gtceu:large_engraving_laser",
+    0
+   ]
+  ],
+  "gtceu:lathe": [
+   [
+    "gtceu:iv_lathe",
+    5
+   ],
+   [
+    "gtceu:uv_lathe",
+    8
+   ],
+   [
+    "gtceu:mv_lathe",
+    2
+   ],
+   [
+    "gtceu:luv_lathe",
+    6
+   ],
+   [
+    "gtceu:hv_lathe",
+    3
+   ],
+   [
+    "gtceu:zpm_lathe",
+    7
+   ],
+   [
+    "gtceu:ev_lathe",
+    4
+   ],
+   [
+    "gtceu:lv_lathe",
+    1
+   ]
+  ],
+  "gtceu:macerator": [
+   [
+    "gtceu:hv_macerator",
+    3
+   ],
+   [
+    "gtceu:large_maceration_tower",
+    0
+   ],
+   [
+    "gtceu:uv_macerator",
+    8
+   ],
+   [
+    "gtceu:ev_large_miner",
+    4
+   ],
+   [
+    "gtceu:lv_macerator",
+    1
+   ],
+   [
+    "gtceu:iv_large_miner",
+    5
+   ],
+   [
+    "gtceu:steam_grinder",
+    0
+   ],
+   [
+    "gtceu:mv_macerator",
+    2
+   ],
+   [
+    "gtceu:iv_macerator",
+    5
+   ],
+   [
+    "gtceu:hp_steam_macerator",
+    1
+   ],
+   [
+    "gtceu:luv_large_miner",
+    6
+   ],
+   [
+    "gtceu:lp_steam_macerator",
+    0
+   ],
+   [
+    "gtceu:ev_macerator",
+    4
+   ],
+   [
+    "gtceu:luv_macerator",
+    6
+   ],
+   [
+    "gtceu:zpm_macerator",
+    7
+   ]
+  ],
+  "gtceu:mixer": [
+   [
+    "gtceu:mv_mixer",
+    2
+   ],
+   [
+    "gtceu:luv_mixer",
+    6
+   ],
+   [
+    "gtceu:iv_mixer",
+    5
+   ],
+   [
+    "gtceu:uv_mixer",
+    8
+   ],
+   [
+    "gtceu:large_mixer",
+    0
+   ],
+   [
+    "gtceu:zpm_mixer",
+    7
+   ],
+   [
+    "gtceu:hv_mixer",
+    3
+   ],
+   [
+    "gtceu:lv_mixer",
+    1
+   ],
+   [
+    "gtceu:ev_mixer",
+    4
+   ]
+  ],
+  "gtceu:ore_washer": [
+   [
+    "gtceu:luv_ore_washer",
+    6
+   ],
+   [
+    "gtceu:hv_ore_washer",
+    3
+   ],
+   [
+    "gtceu:ev_ore_washer",
+    4
+   ],
+   [
+    "gtceu:mv_ore_washer",
+    2
+   ],
+   [
+    "gtceu:uv_ore_washer",
+    8
+   ],
+   [
+    "gtceu:iv_ore_washer",
+    5
+   ],
+   [
+    "gtceu:zpm_ore_washer",
+    7
+   ],
+   [
+    "gtceu:lv_ore_washer",
+    1
+   ]
+  ],
+  "gtceu:packer": [
+   [
+    "gtceu:ev_packer",
+    4
+   ],
+   [
+    "gtceu:mv_packer",
+    2
+   ],
+   [
+    "gtceu:hv_packer",
+    3
+   ],
+   [
+    "gtceu:large_packer",
+    0
+   ],
+   [
+    "gtceu:luv_packer",
+    6
+   ],
+   [
+    "gtceu:uv_packer",
+    8
+   ],
+   [
+    "gtceu:iv_packer",
+    5
+   ],
+   [
+    "gtceu:lv_packer",
+    1
+   ],
+   [
+    "gtceu:zpm_packer",
+    7
+   ]
+  ],
+  "gtceu:plasma_generator": [
+   [
+    "gtceu:plasma_large_turbine",
+    0
+   ]
+  ],
+  "gtceu:polarizer": [
+   [
+    "gtceu:mv_polarizer",
+    2
+   ],
+   [
+    "gtceu:iv_polarizer",
+    5
+   ],
+   [
+    "gtceu:luv_polarizer",
+    6
+   ],
+   [
+    "gtceu:hv_polarizer",
+    3
+   ],
+   [
+    "gtceu:zpm_polarizer",
+    7
+   ],
+   [
+    "gtceu:ev_polarizer",
+    4
+   ],
+   [
+    "gtceu:lv_polarizer",
+    1
+   ],
+   [
+    "gtceu:uv_polarizer",
+    8
+   ]
+  ],
+  "gtceu:primitive_blast_furnace": [
+   [
+    "gtceu:primitive_blast_furnace",
+    0
+   ]
+  ],
+  "gtceu:pyrolyse_oven": [
+   [
+    "gtceu:pyrolyse_oven",
+    0
+   ]
+  ],
+  "gtceu:research_station": [
+   [
+    "gtceu:research_station",
+    0
+   ]
+  ],
+  "gtceu:rock_breaker": [
+   [
+    "gtceu:iv_rock_crusher",
+    5
+   ],
+   [
+    "gtceu:hp_steam_rock_crusher",
+    1
+   ],
+   [
+    "gtceu:lv_rock_crusher",
+    1
+   ],
+   [
+    "gtceu:hv_rock_crusher",
+    3
+   ],
+   [
+    "gtceu:lp_steam_rock_crusher",
+    0
+   ],
+   [
+    "gtceu:luv_rock_crusher",
+    6
+   ],
+   [
+    "gtceu:uv_rock_crusher",
+    8
+   ],
+   [
+    "gtceu:zpm_rock_crusher",
+    7
+   ],
+   [
+    "gtceu:mv_rock_crusher",
+    2
+   ],
+   [
+    "gtceu:ev_rock_crusher",
+    4
+   ]
+  ],
+  "gtceu:scanner": [
+   [
+    "gtceu:iv_scanner",
+    5
+   ],
+   [
+    "gtceu:uv_scanner",
+    8
+   ],
+   [
+    "gtceu:lv_scanner",
+    1
+   ],
+   [
+    "gtceu:zpm_scanner",
+    7
+   ],
+   [
+    "gtceu:ev_scanner",
+    4
+   ],
+   [
+    "gtceu:luv_scanner",
+    6
+   ],
+   [
+    "gtceu:hv_scanner",
+    3
+   ],
+   [
+    "gtceu:mv_scanner",
+    2
+   ]
+  ],
+  "gtceu:sifter": [
+   [
+    "gtceu:hv_sifter",
+    3
+   ],
+   [
+    "gtceu:lv_sifter",
+    1
+   ],
+   [
+    "gtceu:ev_sifter",
+    4
+   ],
+   [
+    "gtceu:luv_sifter",
+    6
+   ],
+   [
+    "gtceu:large_sifting_funnel",
+    0
+   ],
+   [
+    "gtceu:mv_sifter",
+    2
+   ],
+   [
+    "gtceu:uv_sifter",
+    8
+   ],
+   [
+    "gtceu:iv_sifter",
+    5
+   ],
+   [
+    "gtceu:zpm_sifter",
+    7
+   ]
+  ],
+  "gtceu:steam_boiler": [
+   [
+    "gtceu:hp_steam_liquid_boiler",
+    1
+   ],
+   [
+    "gtceu:lp_steam_solid_boiler",
+    0
+   ],
+   [
+    "gtceu:lp_steam_solar_boiler",
+    0
+   ],
+   [
+    "gtceu:hp_steam_solid_boiler",
+    1
+   ],
+   [
+    "gtceu:hp_steam_solar_boiler",
+    1
+   ],
+   [
+    "gtceu:lp_steam_liquid_boiler",
+    0
+   ]
+  ],
+  "gtceu:steam_turbine": [
+   [
+    "gtceu:steam_large_turbine",
+    0
+   ],
+   [
+    "gtceu:mv_steam_turbine",
+    2
+   ],
+   [
+    "gtceu:lv_steam_turbine",
+    1
+   ],
+   [
+    "gtceu:hv_steam_turbine",
+    3
+   ]
+  ],
+  "gtceu:thermal_centrifuge": [
+   [
+    "gtceu:ev_thermal_centrifuge",
+    4
+   ],
+   [
+    "gtceu:mv_thermal_centrifuge",
+    2
+   ],
+   [
+    "gtceu:luv_thermal_centrifuge",
+    6
+   ],
+   [
+    "gtceu:zpm_thermal_centrifuge",
+    7
+   ],
+   [
+    "gtceu:uv_thermal_centrifuge",
+    8
+   ],
+   [
+    "gtceu:iv_thermal_centrifuge",
+    5
+   ],
+   [
+    "gtceu:lv_thermal_centrifuge",
+    1
+   ],
+   [
+    "gtceu:hv_thermal_centrifuge",
+    3
+   ]
+  ],
+  "gtceu:vacuum_freezer": [
+   [
+    "gtceu:mega_vacuum_freezer",
+    0
+   ],
+   [
+    "gtceu:vacuum_freezer",
+    0
+   ]
+  ],
+  "gtceu:wiremill": [
+   [
+    "gtceu:hv_wiremill",
+    3
+   ],
+   [
+    "gtceu:iv_wiremill",
+    5
+   ],
+   [
+    "gtceu:mv_wiremill",
+    2
+   ],
+   [
+    "gtceu:lv_wiremill",
+    1
+   ],
+   [
+    "gtceu:zpm_wiremill",
+    7
+   ],
+   [
+    "gtceu:luv_wiremill",
+    6
+   ],
+   [
+    "gtceu:uv_wiremill",
+    8
+   ],
+   [
+    "gtceu:large_wiremill",
+    0
+   ],
+   [
+    "gtceu:ev_wiremill",
+    4
+   ]
+  ]
+ },
+ "pipes": {
+  "aluminium": {
+   "acid": false,
+   "cryo": false,
+   "gas": true,
+   "plasma": false,
+   "temp": 1166,
+   "thr": 100
+  },
+  "bronze": {
+   "acid": false,
+   "cryo": false,
+   "gas": true,
+   "plasma": false,
+   "temp": 1696,
+   "thr": 20
+  },
+  "chromium": {
+   "acid": true,
+   "cryo": false,
+   "gas": true,
+   "plasma": false,
+   "temp": 2180,
+   "thr": 35
+  },
+  "copper": {
+   "acid": false,
+   "cryo": false,
+   "gas": true,
+   "plasma": false,
+   "temp": 1696,
+   "thr": 6
+  },
+  "duranium": {
+   "acid": true,
+   "cryo": true,
+   "gas": true,
+   "plasma": true,
+   "temp": 9625,
+   "thr": 500
+  },
+  "europium": {
+   "acid": false,
+   "cryo": false,
+   "gas": true,
+   "plasma": false,
+   "temp": 7750,
+   "thr": 300
+  },
+  "gold": {
+   "acid": true,
+   "cryo": false,
+   "gas": true,
+   "plasma": false,
+   "temp": 1671,
+   "thr": 25
+  },
+  "iridium": {
+   "acid": false,
+   "cryo": true,
+   "gas": true,
+   "plasma": false,
+   "temp": 3398,
+   "thr": 250
+  },
+  "lead": {
+   "acid": false,
+   "cryo": false,
+   "gas": true,
+   "plasma": false,
+   "temp": 1200,
+   "thr": 32
+  },
+  "naquadah": {
+   "acid": false,
+   "cryo": true,
+   "gas": true,
+   "plasma": true,
+   "temp": 3776,
+   "thr": 200
+  },
+  "neutronium": {
+   "acid": true,
+   "cryo": true,
+   "gas": true,
+   "plasma": true,
+   "temp": 100000,
+   "thr": 5000
+  },
+  "niobium_titanium": {
+   "acid": false,
+   "cryo": false,
+   "gas": true,
+   "plasma": false,
+   "temp": 5900,
+   "thr": 175
+  },
+  "polybenzimidazole": {
+   "acid": false,
+   "cryo": false,
+   "gas": true,
+   "plasma": false,
+   "temp": 1000,
+   "thr": 350
+  },
+  "polyethylene": {
+   "acid": false,
+   "cryo": false,
+   "gas": true,
+   "plasma": false,
+   "temp": 370,
+   "thr": 60
+  },
+  "polytetrafluoroethylene": {
+   "acid": true,
+   "cryo": false,
+   "gas": true,
+   "plasma": false,
+   "temp": 600,
+   "thr": 100
+  },
+  "potin": {
+   "acid": false,
+   "cryo": false,
+   "gas": true,
+   "plasma": false,
+   "temp": 1456,
+   "thr": 40
+  },
+  "stainless_steel": {
+   "acid": true,
+   "cryo": true,
+   "gas": true,
+   "plasma": false,
+   "temp": 2428,
+   "thr": 75
+  },
+  "steel": {
+   "acid": false,
+   "cryo": false,
+   "gas": true,
+   "plasma": false,
+   "temp": 1855,
+   "thr": 50
+  },
+  "tin_alloy": {
+   "acid": false,
+   "cryo": false,
+   "gas": true,
+   "plasma": false,
+   "temp": 1572,
+   "thr": 20
+  },
+  "titanium": {
+   "acid": false,
+   "cryo": false,
+   "gas": true,
+   "plasma": false,
+   "temp": 2426,
+   "thr": 150
+  },
+  "treated_wood": {
+   "acid": false,
+   "cryo": false,
+   "gas": false,
+   "plasma": false,
+   "temp": 340,
+   "thr": 10
+  },
+  "tungsten": {
+   "acid": true,
+   "cryo": false,
+   "gas": true,
+   "plasma": true,
+   "temp": 4618,
+   "thr": 50
+  },
+  "tungsten_carbide": {
+   "acid": false,
+   "cryo": false,
+   "gas": true,
+   "plasma": false,
+   "temp": 3837,
+   "thr": 200
+  },
+  "tungsten_steel": {
+   "acid": false,
+   "cryo": false,
+   "gas": true,
+   "plasma": false,
+   "temp": 3587,
+   "thr": 225
+  },
+  "vanadium_steel": {
+   "acid": true,
+   "cryo": false,
+   "gas": true,
+   "plasma": false,
+   "temp": 2073,
+   "thr": 50
+  },
+  "wood": {
+   "acid": false,
+   "cryo": false,
+   "gas": false,
+   "plasma": false,
+   "temp": 340,
+   "thr": 5
+  }
+ },
+ "recipes": {
+  "gtceu:alloy_smelter/copper_dust_and_tin_dust_into_bronze": {
+   "dur": 200,
+   "eut": 16,
+   "in": [
+    {
+     "n": 3,
+     "tag": "forge:dusts/copper"
+    },
+    {
+     "tag": "forge:dusts/tin"
+    }
+   ],
+   "out": [
+    {
+     "item": "gtceu:bronze_ingot",
+     "n": 4
+    }
+   ],
+   "type": "gtceu:alloy_smelter"
+  },
+  "gtceu:assembler/casing_bronze_bricks": {
+   "dur": 50,
+   "eut": 16,
+   "in": [
+    {
+     "n": 6,
+     "tag": "forge:plates/bronze"
+    },
+    {
+     "item": "minecraft:bricks"
+    },
+    {
+     "chance": 0,
+     "circuit": 6
+    }
+   ],
+   "out": [
+    {
+     "item": "gtceu:steam_machine_casing",
+     "n": 2
+    }
+   ],
+   "type": "gtceu:assembler"
+  },
+  "gtceu:assembler/casing_lv": {
+   "dur": 50,
+   "eut": 16,
+   "in": [
+    {
+     "n": 8,
+     "tag": "forge:plates/steel"
+    },
+    {
+     "chance": 0,
+     "circuit": 8
+    }
+   ],
+   "out": [
+    {
+     "item": "gtceu:lv_machine_casing"
+    }
+   ],
+   "type": "gtceu:assembler"
+  },
+  "gtceu:assembler/casing_steel_solid": {
+   "dur": 50,
+   "eut": 16,
+   "in": [
+    {
+     "n": 6,
+     "tag": "forge:plates/steel"
+    },
+    {
+     "tag": "forge:frames/steel"
+    },
+    {
+     "chance": 0,
+     "circuit": 6
+    }
+   ],
+   "out": [
+    {
+     "item": "gtceu:solid_machine_casing",
+     "n": 2
+    }
+   ],
+   "type": "gtceu:assembler"
+  },
+  "gtceu:assembler/coil_cupronickel": {
+   "dur": 200,
+   "eut": 30,
+   "fin": [
+    {
+     "fluid": "forge:tin_alloy",
+     "mb": 144
+    }
+   ],
+   "in": [
+    {
+     "item": "gtceu:cupronickel_double_wire",
+     "n": 8
+    },
+    {
+     "n": 8,
+     "tag": "forge:foils/bronze"
+    }
+   ],
+   "out": [
+    {
+     "item": "gtceu:cupronickel_coil_block"
+    }
+   ],
+   "type": "gtceu:assembler"
+  },
+  "gtceu:assembler/coil_kanthal": {
+   "dur": 300,
+   "eut": 120,
+   "fin": [
+    {
+     "fluid": "forge:copper",
+     "mb": 144
+    }
+   ],
+   "in": [
+    {
+     "item": "gtceu:kanthal_double_wire",
+     "n": 8
+    },
+    {
+     "n": 8,
+     "tag": "forge:foils/aluminium"
+    }
+   ],
+   "out": [
+    {
+     "item": "gtceu:kanthal_coil_block"
+    }
+   ],
+   "type": "gtceu:assembler"
+  },
+  "gtceu:assembler/hull_lv": {
+   "dur": 50,
+   "eut": 16,
+   "fin": [
+    {
+     "fluid": "forge:polyethylene",
+     "mb": 288
+    }
+   ],
+   "in": [
+    {
+     "item": "gtceu:lv_machine_casing"
+    },
+    {
+     "item": "gtceu:tin_single_cable",
+     "n": 2
+    }
+   ],
+   "out": [
+    {
+     "item": "gtceu:lv_machine_hull"
+    }
+   ],
+   "type": "gtceu:assembler"
+  },
+  "gtceu:assembler/inductor": {
+   "dur": 320,
+   "eut": 120,
+   "fin": [
+    {
+     "fluid": "forge:polyethylene",
+     "mb": 36
+    }
+   ],
+   "in": [
+    {
+     "tag": "forge:rings/steel"
+    },
+    {
+     "n": 2,
+     "tag": "forge:fine_wires/copper"
+    }
+   ],
+   "out": [
+    {
+     "item": "gtceu:inductor",
+     "n": 2
+    }
+   ],
+   "type": "gtceu:assembler"
+  },
+  "gtceu:assembler/piston_steel": {
+   "dur": 100,
+   "eut": 16,
+   "in": [
+    {
+     "tag": "forge:plates/steel"
+    },
+    {
+     "n": 3,
+     "tag": "minecraft:planks"
+    },
+    {
+     "n": 4,
+     "tag": "minecraft:stone_crafting_materials"
+    },
+    {
+     "tag": "forge:dusts/redstone"
+    }
+   ],
+   "out": [
+    {
+     "item": "minecraft:piston",
+     "n": 2
+    }
+   ],
+   "type": "gtceu:assembler"
+  },
+  "gtceu:assembler/plascrete": {
+   "dur": 200,
+   "eut": 48,
+   "fin": [
+    {
+     "fluid": "forge:concrete",
+     "mb": 144
+    }
+   ],
+   "in": [
+    {
+     "tag": "forge:frames/steel"
+    },
+    {
+     "n": 6,
+     "tag": "forge:plates/polyethylene"
+    }
+   ],
+   "out": [
+    {
+     "item": "gtceu:plascrete",
+     "n": 2
+    }
+   ],
+   "type": "gtceu:assembler"
+  },
+  "gtceu:assembly_line/electric_motor_luv": {
+   "dur": 600,
+   "eut": 6000,
+   "fin": [
+    {
+     "fluid": "forge:soldering_alloy",
+     "mb": 144
+    },
+    {
+     "fluid": "forge:lubricant",
+     "mb": 250
+    }
+   ],
+   "in": [
+    {
+     "tag": "forge:rods/long/magnetic_samarium"
+    },
+    {
+     "n": 2,
+     "tag": "forge:rods/long/hsss"
+    },
+    {
+     "n": 2,
+     "tag": "forge:rings/hsss"
+    },
+    {
+     "n": 4,
+     "tag": "forge:rounds/hsss"
+    },
+    {
+     "n": 64,
+     "tag": "forge:fine_wires/ruridit"
+    },
+    {
+     "item": "gtceu:niobium_titanium_single_cable",
+     "n": 2
+    }
+   ],
+   "out": [
+    {
+     "item": "gtceu:luv_electric_motor"
+    }
+   ],
+   "type": "gtceu:assembly_line"
+  },
+  "gtceu:bender/bend_bronze_ingot_to_foil": {
+   "dur": 76,
+   "eut": 24,
+   "in": [
+    {
+     "tag": "forge:ingots/bronze"
+    },
+    {
+     "chance": 0,
+     "circuit": 10
+    }
+   ],
+   "out": [
+    {
+     "item": "gtceu:bronze_foil",
+     "n": 4
+    }
+   ],
+   "type": "gtceu:bender"
+  },
+  "gtceu:bender/bend_cobalt_to_plate": {
+   "dur": 59,
+   "eut": 24,
+   "in": [
+    {
+     "chance": 0,
+     "circuit": 1
+    },
+    {
+     "tag": "forge:ingots/cobalt"
+    }
+   ],
+   "out": [
+    {
+     "item": "gtceu:cobalt_plate"
+    }
+   ],
+   "type": "gtceu:bender"
+  },
+  "gtceu:bender/bend_tin_ingot_to_double_plate": {
+   "dur": 236,
+   "eut": 96,
+   "in": [
+    {
+     "n": 2,
+     "tag": "forge:ingots/tin"
+    },
+    {
+     "chance": 0,
+     "circuit": 2
+    }
+   ],
+   "out": [
+    {
+     "item": "gtceu:double_tin_plate"
+    }
+   ],
+   "type": "gtceu:bender"
+  },
+  "gtceu:centrifuge/ash_separation": {
+   "dur": 240,
+   "eut": 30,
+   "in": [
+    {
+     "tag": "forge:dusts/ash"
+    }
+   ],
+   "out": [
+    {
+     "chance": 49.5,
+     "item": "gtceu:quicklime_dust"
+    },
+    {
+     "chance": 16.0,
+     "item": "gtceu:potash_dust"
+    },
+    {
+     "chance": 15.0,
+     "item": "gtceu:magnesia_dust"
+    },
+    {
+     "chance": 0.6,
+     "item": "gtceu:phosphorus_pentoxide_dust"
+    },
+    {
+     "chance": 6.0,
+     "item": "gtceu:soda_ash_dust"
+    },
+    {
+     "chance": 2.75,
+     "item": "gtceu:hematite_dust"
+    }
+   ],
+   "type": "gtceu:centrifuge"
+  },
+  "gtceu:centrifuge/centrifuge_iron_dirty_dust_to_dust": {
+   "dur": 224,
+   "eut": 24,
+   "in": [
+    {
+     "tag": "forge:impure_dusts/iron"
+    }
+   ],
+   "out": [
+    {
+     "item": "gtceu:iron_dust"
+    },
+    {
+     "chance": 11.11,
+     "item": "gtceu:nickel_dust"
+    }
+   ],
+   "type": "gtceu:centrifuge"
+  },
+  "gtceu:centrifuge/centrifuge_iron_pure_dust_to_dust": {
+   "dur": 100,
+   "eut": 5,
+   "in": [
+    {
+     "tag": "forge:pure_dusts/iron"
+    }
+   ],
+   "out": [
+    {
+     "item": "gtceu:iron_dust"
+    },
+    {
+     "chance": 11.11,
+     "item": "gtceu:tin_dust"
+    }
+   ],
+   "type": "gtceu:centrifuge"
+  },
+  "gtceu:centrifuge/decomposition_centrifuging__bronze": {
+   "dur": 456,
+   "eut": 30,
+   "in": [
+    {
+     "n": 4,
+     "tag": "forge:dusts/bronze"
+    }
+   ],
+   "out": [
+    {
+     "item": "gtceu:tin_dust"
+    },
+    {
+     "item": "gtceu:copper_dust",
+     "n": 3
+    }
+   ],
+   "type": "gtceu:centrifuge"
+  },
+  "gtceu:chemical_reactor/calcium_hydroxide": {
+   "dur": 100,
+   "eut": 60,
+   "fin": [
+    {
+     "fluid": "forge:water",
+     "mb": 1000
+    }
+   ],
+   "in": [
+    {
+     "n": 2,
+     "tag": "forge:dusts/quicklime"
+    }
+   ],
+   "out": [
+    {
+     "item": "gtceu:calcium_hydroxide_dust",
+     "n": 3
+    }
+   ],
+   "type": "gtceu:chemical_reactor"
+  },
+  "gtceu:chemical_reactor/formaldehyde": {
+   "dur": 100,
+   "eut": 480,
+   "fin": [
+    {
+     "fluid": "forge:methanol",
+     "mb": 1000
+    },
+    {
+     "fluid": "forge:oxygen",
+     "mb": 1000
+    }
+   ],
+   "fout": [
+    {
+     "fluid": "gtceu:formaldehyde",
+     "mb": 1000
+    },
+    {
+     "fluid": "minecraft:water",
+     "mb": 1000
+    }
+   ],
+   "in": [
+    {
+     "chance": 0.0,
+     "tag": "forge:dusts/silver"
+    }
+   ],
+   "out": [],
+   "type": "gtceu:chemical_reactor"
+  },
+  "gtceu:chemical_reactor/sulfur_trioxide": {
+   "dur": 200,
+   "eut": 7,
+   "fin": [
+    {
+     "fluid": "forge:sulfur_dioxide",
+     "mb": 1000
+    },
+    {
+     "fluid": "forge:oxygen",
+     "mb": 1000
+    }
+   ],
+   "fout": [
+    {
+     "fluid": "gtceu:sulfur_trioxide",
+     "mb": 1000
+    }
+   ],
+   "in": [],
+   "out": [],
+   "type": "gtceu:chemical_reactor"
+  },
+  "gtceu:circuit_assembler/electronic_circuit_lv": {
+   "dur": 200,
+   "eut": 16,
+   "fin": [
+    {
+     "fluid": "forge:tin",
+     "mb": 144
+    }
+   ],
+   "in": [
+    {
+     "item": "gtceu:resin_printed_circuit_board"
+    },
+    {
+     "n": 2,
+     "tag": "gtceu:resistors"
+    },
+    {
+     "item": "gtceu:red_alloy_single_wire",
+     "n": 2
+    },
+    {
+     "n": 2,
+     "tag": "gtceu:circuits/ulv"
+    }
+   ],
+   "out": [
+    {
+     "item": "gtceu:basic_electronic_circuit",
+     "n": 2
+    }
+   ],
+   "type": "gtceu:circuit_assembler"
+  },
+  "gtceu:circuit_assembler/electronic_circuit_mv": {
+   "dur": 300,
+   "eut": 30,
+   "fin": [
+    {
+     "fluid": "forge:tin",
+     "mb": 144
+    }
+   ],
+   "in": [
+    {
+     "item": "gtceu:phenolic_printed_circuit_board"
+    },
+    {
+     "item": "gtceu:basic_electronic_circuit",
+     "n": 2
+    },
+    {
+     "n": 2,
+     "tag": "gtceu:diodes"
+    },
+    {
+     "item": "gtceu:copper_single_wire",
+     "n": 2
+    }
+   ],
+   "out": [
+    {
+     "item": "gtceu:good_electronic_circuit"
+    }
+   ],
+   "type": "gtceu:circuit_assembler"
+  },
+  "gtceu:circuit_assembler/microprocessor_lv": {
+   "dur": 200,
+   "eut": 60,
+   "fin": [
+    {
+     "fluid": "forge:tin",
+     "mb": 144
+    }
+   ],
+   "in": [
+    {
+     "item": "gtceu:plastic_printed_circuit_board"
+    },
+    {
+     "item": "gtceu:cpu_chip"
+    },
+    {
+     "n": 2,
+     "tag": "gtceu:resistors"
+    },
+    {
+     "n": 2,
+     "tag": "gtceu:capacitors"
+    },
+    {
+     "n": 2,
+     "tag": "gtceu:transistors"
+    },
+    {
+     "n": 2,
+     "tag": "forge:fine_wires/copper"
+    }
+   ],
+   "out": [
+    {
+     "item": "gtceu:microchip_processor",
+     "n": 3
+    }
+   ],
+   "type": "gtceu:circuit_assembler"
+  },
+  "gtceu:combustion_generator/diesel": {
+   "dur": 15,
+   "eut": 32,
+   "fin": [
+    {
+     "fluid": "forge:diesel",
+     "mb": 1
+    }
+   ],
+   "in": [],
+   "out": [],
+   "type": "gtceu:combustion_generator"
+  },
+  "gtceu:compressor/compress_iron_nugget_to_ingot": {
+   "dur": 300,
+   "eut": 2,
+   "in": [
+    {
+     "n": 9,
+     "tag": "forge:nuggets/iron"
+    }
+   ],
+   "out": [
+    {
+     "item": "minecraft:iron_ingot"
+    }
+   ],
+   "type": "gtceu:compressor"
+  },
+  "gtceu:compressor/compress_red_alloy_to_block": {
+   "dur": 300,
+   "eut": 2,
+   "in": [
+    {
+     "n": 9,
+     "tag": "forge:ingots/red_alloy"
+    }
+   ],
+   "out": [
+    {
+     "item": "gtceu:red_alloy_block"
+    }
+   ],
+   "type": "gtceu:compressor"
+  },
+  "gtceu:compressor/plant_ball_from_wheat": {
+   "dur": 300,
+   "eut": 2,
+   "in": [
+    {
+     "item": "minecraft:wheat",
+     "n": 8
+    }
+   ],
+   "out": [
+    {
+     "item": "gtceu:plant_ball"
+    }
+   ],
+   "type": "gtceu:compressor"
+  },
+  "gtceu:electric_blast_furnace/blast_aluminium": {
+   "data": {
+    "ebf_temp": 1700
+   },
+   "dur": 884,
+   "eut": 120,
+   "in": [
+    {
+     "tag": "forge:dusts/aluminium"
+    },
+    {
+     "chance": 0,
+     "circuit": 1
+    }
+   ],
+   "out": [
+    {
+     "item": "gtceu:aluminium_ingot"
+    }
+   ],
+   "type": "gtceu:electric_blast_furnace"
+  },
+  "gtceu:electric_blast_furnace/blast_titanium": {
+   "data": {
+    "ebf_temp": 1941
+   },
+   "dur": 1500,
+   "eut": 480,
+   "in": [
+    {
+     "tag": "forge:dusts/titanium"
+    },
+    {
+     "chance": 0,
+     "circuit": 1
+    }
+   ],
+   "out": [
+    {
+     "item": "gtceu:hot_titanium_ingot"
+    }
+   ],
+   "type": "gtceu:electric_blast_furnace"
+  },
+  "gtceu:electric_blast_furnace/blast_tungsten_steel": {
+   "data": {
+    "ebf_temp": 3000
+   },
+   "dur": 1000,
+   "eut": 1920,
+   "in": [
+    {
+     "tag": "forge:dusts/tungsten_steel"
+    },
+    {
+     "chance": 0,
+     "circuit": 1
+    }
+   ],
+   "out": [
+    {
+     "item": "gtceu:hot_tungsten_steel_ingot"
+    }
+   ],
+   "type": "gtceu:electric_blast_furnace"
+  },
+  "gtceu:electric_blast_furnace/steel_from_iron": {
+   "data": {
+    "ebf_temp": 1000
+   },
+   "dur": 500,
+   "eut": 120,
+   "fin": [
+    {
+     "fluid": "forge:oxygen",
+     "mb": 200
+    }
+   ],
+   "in": [
+    {
+     "tag": "forge:ingots/iron"
+    }
+   ],
+   "out": [
+    {
+     "item": "gtceu:steel_ingot"
+    },
+    {
+     "chance": 11.11,
+     "item": "gtceu:ash_dust"
+    }
+   ],
+   "type": "gtceu:electric_blast_furnace"
+  },
+  "gtceu:electrolyzer/decomposition_electrolyzing_clay": {
+   "dur": 182,
+   "eut": 60,
+   "fout": [
+    {
+     "fluid": "minecraft:water",
+     "mb": 6000
+    }
+   ],
+   "in": [
+    {
+     "n": 13,
+     "tag": "forge:dusts/clay"
+    }
+   ],
+   "out": [
+    {
+     "item": "gtceu:sodium_dust",
+     "n": 2
+    },
+    {
+     "item": "gtceu:lithium_dust"
+    },
+    {
+     "item": "gtceu:aluminium_dust",
+     "n": 2
+    },
+    {
+     "item": "gtceu:silicon_dust",
+     "n": 2
+    }
+   ],
+   "type": "gtceu:electrolyzer"
+  },
+  "gtceu:electrolyzer/salt_water_electrolysis": {
+   "dur": 720,
+   "eut": 30,
+   "fin": [
+    {
+     "fluid": "forge:salt_water",
+     "mb": 1000
+    }
+   ],
+   "fout": [
+    {
+     "fluid": "gtceu:chlorine",
+     "mb": 1000
+    },
+    {
+     "fluid": "gtceu:hydrogen",
+     "mb": 1000
+    }
+   ],
+   "in": [],
+   "out": [
+    {
+     "item": "gtceu:sodium_hydroxide_dust",
+     "n": 3
+    }
+   ],
+   "type": "gtceu:electrolyzer"
+  },
+  "gtceu:electrolyzer/sphalerite_electrolysis": {
+   "dur": 200,
+   "eut": 30,
+   "in": [
+    {
+     "n": 2,
+     "tag": "forge:dusts/sphalerite"
+    }
+   ],
+   "out": [
+    {
+     "item": "gtceu:zinc_dust"
+    },
+    {
+     "item": "gtceu:sulfur_dust"
+    },
+    {
+     "chance": 7.5,
+     "item": "gtceu:gallium_dust"
+    }
+   ],
+   "type": "gtceu:electrolyzer"
+  },
+  "gtceu:extractor/extract_cupronickel_ingot": {
+   "dur": 60,
+   "eut": 30,
+   "fout": [
+    {
+     "fluid": "gtceu:cupronickel",
+     "mb": 144
+    }
+   ],
+   "in": [
+    {
+     "tag": "forge:ingots/cupronickel"
+    }
+   ],
+   "out": [],
+   "type": "gtceu:extractor"
+  },
+  "gtceu:extractor/raw_rubber_from_resin": {
+   "dur": 150,
+   "eut": 2,
+   "in": [
+    {
+     "item": "gtceu:sticky_resin"
+    }
+   ],
+   "out": [
+    {
+     "item": "gtceu:raw_rubber_dust",
+     "n": 3
+    }
+   ],
+   "type": "gtceu:extractor"
+  },
+  "gtceu:extruder/extrude_bronze_pipe": {
+   "dur": 228,
+   "eut": 42,
+   "in": [
+    {
+     "n": 3,
+     "tag": "forge:ingots/bronze"
+    },
+    {
+     "chance": 0.0,
+     "item": "gtceu:normal_pipe_extruder_mold"
+    }
+   ],
+   "out": [
+    {
+     "item": "gtceu:bronze_normal_fluid_pipe"
+    }
+   ],
+   "type": "gtceu:extruder"
+  },
+  "gtceu:gas_turbine/methane": {
+   "dur": 7,
+   "eut": 32,
+   "fin": [
+    {
+     "fluid": "forge:methane",
+     "mb": 2
+    }
+   ],
+   "in": [],
+   "out": [],
+   "type": "gtceu:gas_turbine"
+  },
+  "gtceu:implosion_compressor/implode_dust_diamond_dynamite": {
+   "dur": 20,
+   "eut": 30,
+   "in": [
+    {
+     "item": "gtceu:diamond_dust",
+     "n": 4
+    },
+    {
+     "item": "gtceu:dynamite",
+     "n": 2
+    }
+   ],
+   "out": [
+    {
+     "item": "minecraft:diamond",
+     "n": 3
+    },
+    {
+     "chance": 25.0,
+     "item": "gtceu:dark_ash_dust"
+    }
+   ],
+   "type": "gtceu:implosion_compressor"
+  },
+  "gtceu:implosion_compressor/implode_dust_diamond_tnt": {
+   "dur": 20,
+   "eut": 30,
+   "in": [
+    {
+     "item": "gtceu:diamond_dust",
+     "n": 4
+    },
+    {
+     "item": "minecraft:tnt",
+     "n": 4
+    }
+   ],
+   "out": [
+    {
+     "item": "minecraft:diamond",
+     "n": 3
+    },
+    {
+     "chance": 25.0,
+     "item": "gtceu:dark_ash_dust"
+    }
+   ],
+   "type": "gtceu:implosion_compressor"
+  },
+  "gtceu:macerator/macerate_copper_ore_to_crushed_ore": {
+   "dur": 400,
+   "eut": 2,
+   "in": [
+    {
+     "item": "gtceu:copper_ore"
+    }
+   ],
+   "out": [
+    {
+     "item": "gtceu:crushed_copper_ore",
+     "n": 2
+    },
+    {
+     "chance": 14.0,
+     "item": "gtceu:cobalt_dust"
+    },
+    {
+     "chance": 67.0,
+     "item": "gtceu:stone_dust"
+    }
+   ],
+   "type": "gtceu:macerator"
+  },
+  "gtceu:macerator/macerate_iron_crushed_ore_to_dust": {
+   "dur": 400,
+   "eut": 2,
+   "in": [
+    {
+     "tag": "forge:purified_ores/iron"
+    }
+   ],
+   "out": [
+    {
+     "item": "gtceu:pure_iron_dust"
+    },
+    {
+     "chance": 14.0,
+     "item": "gtceu:tin_dust"
+    }
+   ],
+   "type": "gtceu:macerator"
+  },
+  "gtceu:macerator/macerate_iron_crushed_ore_to_impure_dust": {
+   "dur": 400,
+   "eut": 2,
+   "in": [
+    {
+     "tag": "forge:crushed_ores/iron"
+    }
+   ],
+   "out": [
+    {
+     "item": "gtceu:impure_iron_dust"
+    },
+    {
+     "chance": 14.0,
+     "item": "gtceu:nickel_dust"
+    }
+   ],
+   "type": "gtceu:macerator"
+  },
+  "gtceu:macerator/macerate_iron_ore_to_crushed_ore": {
+   "dur": 400,
+   "eut": 2,
+   "in": [
+    {
+     "item": "gtceu:iron_ore"
+    }
+   ],
+   "out": [
+    {
+     "item": "gtceu:crushed_iron_ore",
+     "n": 2
+    },
+    {
+     "chance": 14.0,
+     "item": "gtceu:nickel_dust"
+    },
+    {
+     "chance": 67.0,
+     "item": "gtceu:stone_dust"
+    }
+   ],
+   "type": "gtceu:macerator"
+  },
+  "gtceu:macerator/macerate_iron_refined_ore_to_dust": {
+   "dur": 400,
+   "eut": 2,
+   "in": [
+    {
+     "tag": "forge:refined_ores/iron"
+    }
+   ],
+   "out": [
+    {
+     "item": "gtceu:iron_dust"
+    },
+    {
+     "chance": 14.0,
+     "item": "gtceu:tin_dust"
+    }
+   ],
+   "type": "gtceu:macerator"
+  },
+  "gtceu:macerator/macerate_raw_iron_ore_to_crushed_ore": {
+   "dur": 400,
+   "eut": 2,
+   "in": [
+    {
+     "tag": "forge:raw_materials/iron"
+    }
+   ],
+   "out": [
+    {
+     "item": "gtceu:crushed_iron_ore",
+     "n": 2
+    },
+    {
+     "chance": 14.0,
+     "item": "gtceu:nickel_dust"
+    }
+   ],
+   "type": "gtceu:macerator"
+  },
+  "gtceu:mixer/bronze": {
+   "dur": 400,
+   "eut": 7,
+   "in": [
+    {
+     "n": 3,
+     "tag": "forge:dusts/copper"
+    },
+    {
+     "tag": "forge:dusts/tin"
+    },
+    {
+     "chance": 0,
+     "circuit": 1
+    }
+   ],
+   "out": [
+    {
+     "item": "gtceu:bronze_dust",
+     "n": 4
+    }
+   ],
+   "type": "gtceu:mixer"
+  },
+  "gtceu:ore_washer/wash_iron_crushed_ore_to_purified_ore": {
+   "dur": 400,
+   "eut": 16,
+   "fin": [
+    {
+     "fluid": "forge:water",
+     "mb": 1000
+    }
+   ],
+   "in": [
+    {
+     "tag": "forge:crushed_ores/iron"
+    },
+    {
+     "chance": 0,
+     "circuit": 1
+    }
+   ],
+   "out": [
+    {
+     "item": "gtceu:purified_iron_ore"
+    },
+    {
+     "chance": 33.33,
+     "item": "gtceu:nickel_dust"
+    },
+    {
+     "item": "gtceu:stone_dust"
+    }
+   ],
+   "type": "gtceu:ore_washer"
+  },
+  "gtceu:ore_washer/wash_iron_crushed_ore_to_purified_ore_distilled": {
+   "dur": 200,
+   "eut": 16,
+   "fin": [
+    {
+     "fluid": "forge:distilled_water",
+     "mb": 100
+    }
+   ],
+   "in": [
+    {
+     "tag": "forge:crushed_ores/iron"
+    }
+   ],
+   "out": [
+    {
+     "item": "gtceu:purified_iron_ore"
+    },
+    {
+     "chance": 33.33,
+     "item": "gtceu:nickel_dust"
+    },
+    {
+     "item": "gtceu:stone_dust"
+    }
+   ],
+   "type": "gtceu:ore_washer"
+  },
+  "gtceu:ore_washer/wash_iron_crushed_ore_to_purified_ore_fast": {
+   "dur": 8,
+   "eut": 4,
+   "fin": [
+    {
+     "fluid": "forge:water",
+     "mb": 100
+    }
+   ],
+   "in": [
+    {
+     "tag": "forge:crushed_ores/iron"
+    },
+    {
+     "chance": 0,
+     "circuit": 2
+    }
+   ],
+   "out": [
+    {
+     "item": "gtceu:purified_iron_ore"
+    }
+   ],
+   "type": "gtceu:ore_washer"
+  },
+  "gtceu:ore_washer/wash_iron_dirty_dust_to_dust": {
+   "dur": 8,
+   "eut": 4,
+   "fin": [
+    {
+     "fluid": "forge:water",
+     "mb": 100
+    }
+   ],
+   "in": [
+    {
+     "tag": "forge:impure_dusts/iron"
+    },
+    {
+     "chance": 0,
+     "circuit": 2
+    }
+   ],
+   "out": [
+    {
+     "item": "gtceu:iron_dust"
+    }
+   ],
+   "type": "gtceu:ore_washer"
+  },
+  "gtceu:pyrolyse_oven/coal_to_coke_creosote": {
+   "dur": 640,
+   "eut": 64,
+   "fout": [
+    {
+     "fluid": "gtceu:creosote",
+     "mb": 8000
+    }
+   ],
+   "in": [
+    {
+     "chance": 0,
+     "circuit": 1
+    },
+    {
+     "n": 16,
+     "tag": "forge:gems/coal"
+    }
+   ],
+   "out": [
+    {
+     "item": "gtceu:coke_gem",
+     "n": 16
+    }
+   ],
+   "type": "gtceu:pyrolyse_oven"
+  },
+  "gtceu:pyrolyse_oven/log_to_charcoal_byproducts": {
+   "dur": 320,
+   "eut": 96,
+   "fin": [
+    {
+     "fluid": "forge:nitrogen",
+     "mb": 1000
+    }
+   ],
+   "fout": [
+    {
+     "fluid": "gtceu:charcoal_byproducts",
+     "mb": 4000
+    }
+   ],
+   "in": [
+    {
+     "chance": 0,
+     "circuit": 4
+    },
+    {
+     "n": 16,
+     "tag": "minecraft:logs_that_burn"
+    }
+   ],
+   "out": [
+    {
+     "item": "minecraft:charcoal",
+     "n": 20
+    }
+   ],
+   "type": "gtceu:pyrolyse_oven"
+  },
+  "gtceu:pyrolyse_oven/log_to_creosote": {
+   "dur": 640,
+   "eut": 64,
+   "fout": [
+    {
+     "fluid": "gtceu:creosote",
+     "mb": 4000
+    }
+   ],
+   "in": [
+    {
+     "chance": 0,
+     "circuit": 1
+    },
+    {
+     "n": 16,
+     "tag": "minecraft:logs_that_burn"
+    }
+   ],
+   "out": [
+    {
+     "item": "minecraft:charcoal",
+     "n": 20
+    }
+   ],
+   "type": "gtceu:pyrolyse_oven"
+  },
+  "gtceu:smelting/smelt_dust_bronze_to_ingot": {
+   "in": [
+    {
+     "tag": "forge:dusts/bronze"
+    }
+   ],
+   "out": [
+    {
+     "item": "gtceu:bronze_ingot"
+    }
+   ],
+   "type": "minecraft:smelting"
+  },
+  "gtceu:smelting/smelt_dust_wrought_iron_to_ingot": {
+   "in": [
+    {
+     "tag": "forge:dusts/wrought_iron"
+    }
+   ],
+   "out": [
+    {
+     "item": "gtceu:wrought_iron_ingot"
+    }
+   ],
+   "type": "minecraft:smelting"
+  },
+  "gtceu:steam_boiler/gtceu_coke_block": {
+   "dur": 28800,
+   "eut": null,
+   "in": [
+    {
+     "item": "gtceu:coke_block"
+    }
+   ],
+   "out": [],
+   "type": "gtceu:steam_boiler"
+  },
+  "gtceu:steam_boiler/gtceu_coke_gem": {
+   "dur": 3200,
+   "eut": null,
+   "in": [
+    {
+     "item": "gtceu:coke_gem"
+    }
+   ],
+   "out": [],
+   "type": "gtceu:steam_boiler"
+  },
+  "gtceu:steam_boiler/minecraft_charcoal": {
+   "dur": 1600,
+   "eut": null,
+   "in": [
+    {
+     "item": "minecraft:charcoal"
+    }
+   ],
+   "out": [],
+   "type": "gtceu:steam_boiler"
+  },
+  "gtceu:steam_boiler/minecraft_coal": {
+   "dur": 1600,
+   "eut": null,
+   "in": [
+    {
+     "item": "minecraft:coal"
+    }
+   ],
+   "out": [],
+   "type": "gtceu:steam_boiler"
+  },
+  "gtceu:steam_turbine/steam": {
+   "dur": 10,
+   "eut": 32,
+   "fin": [
+    {
+     "fluid": "forge:steam",
+     "mb": 640
+    }
+   ],
+   "fout": [
+    {
+     "fluid": "gtceu:distilled_water",
+     "mb": 4
+    }
+   ],
+   "in": [],
+   "out": [],
+   "type": "gtceu:steam_turbine"
+  },
+  "gtceu:thermal_centrifuge/centrifuge_iron_crushed_ore_to_refined_ore": {
+   "dur": 400,
+   "eut": 30,
+   "in": [
+    {
+     "tag": "forge:crushed_ores/iron"
+    }
+   ],
+   "out": [
+    {
+     "item": "gtceu:refined_iron_ore"
+    },
+    {
+     "chance": 33.33,
+     "item": "gtceu:tin_dust"
+    },
+    {
+     "item": "gtceu:stone_dust"
+    }
+   ],
+   "type": "gtceu:thermal_centrifuge"
+  },
+  "gtceu:thermal_centrifuge/centrifuge_iron_purified_ore_to_refined_ore": {
+   "dur": 400,
+   "eut": 30,
+   "in": [
+    {
+     "tag": "forge:purified_ores/iron"
+    }
+   ],
+   "out": [
+    {
+     "item": "gtceu:refined_iron_ore"
+    },
+    {
+     "chance": 33.33,
+     "item": "gtceu:tin_dust"
+    }
+   ],
+   "type": "gtceu:thermal_centrifuge"
+  },
+  "gtceu:vacuum_freezer/cool_hot_kanthal_ingot": {
+   "dur": 132,
+   "eut": 120,
+   "in": [
+    {
+     "tag": "forge:hot_ingots/kanthal"
+    }
+   ],
+   "out": [
+    {
+     "item": "gtceu:kanthal_ingot"
+    }
+   ],
+   "type": "gtceu:vacuum_freezer"
+  },
+  "gtceu:vacuum_freezer/cool_hot_titanium_ingot": {
+   "dur": 144,
+   "eut": 480,
+   "in": [
+    {
+     "tag": "forge:hot_ingots/titanium"
+    }
+   ],
+   "out": [
+    {
+     "item": "gtceu:titanium_ingot"
+    }
+   ],
+   "type": "gtceu:vacuum_freezer"
+  },
+  "gtceu:vacuum_freezer/liquid_oxygen": {
+   "dur": 240,
+   "eut": 1920,
+   "fin": [
+    {
+     "fluid": "forge:oxygen",
+     "mb": 1000
+    }
+   ],
+   "fout": [
+    {
+     "fluid": "gtceu:liquid_oxygen",
+     "mb": 1000
+    }
+   ],
+   "in": [],
+   "out": [],
+   "type": "gtceu:vacuum_freezer"
+  },
+  "gtceu:wiremill/mill_copper_wire_16": {
+   "dur": 504,
+   "eut": 7,
+   "in": [
+    {
+     "n": 8,
+     "tag": "forge:ingots/copper"
+    },
+    {
+     "chance": 0,
+     "circuit": 16
+    }
+   ],
+   "out": [
+    {
+     "item": "gtceu:copper_hex_wire"
+    }
+   ],
+   "type": "gtceu:wiremill"
+  },
+  "gtceu:wiremill/mill_nickel_wire": {
+   "dur": 58,
+   "eut": 7,
+   "in": [
+    {
+     "tag": "forge:ingots/nickel"
+    },
+    {
+     "chance": 0,
+     "circuit": 1
+    }
+   ],
+   "out": [
+    {
+     "item": "gtceu:nickel_single_wire",
+     "n": 2
+    }
+   ],
+   "type": "gtceu:wiremill"
+  },
+  "gtceu:wiremill/mill_tin_wire_fine": {
+   "dur": 354,
+   "eut": 7,
+   "in": [
+    {
+     "tag": "forge:ingots/tin"
+    },
+    {
+     "chance": 0,
+     "circuit": 3
+    }
+   ],
+   "out": [
+    {
+     "item": "gtceu:fine_tin_wire",
+     "n": 8
+    }
+   ],
+   "type": "gtceu:wiremill"
+  }
+ },
+ "vanilla_items": [
+  "acacia_boat",
+  "acacia_button",
+  "acacia_chest_boat",
+  "acacia_door",
+  "acacia_fence",
+  "acacia_fence_gate",
+  "acacia_hanging_sign",
+  "acacia_leaves",
+  "acacia_log",
+  "acacia_planks",
+  "acacia_pressure_plate",
+  "acacia_sapling",
+  "acacia_sign",
+  "acacia_slab",
+  "acacia_stairs",
+  "acacia_trapdoor",
+  "acacia_wall_hanging_sign",
+  "acacia_wall_sign",
+  "acacia_wood",
+  "activator_rail",
+  "air",
+  "allay_spawn_egg",
+  "allium",
+  "amethyst_block",
+  "amethyst_cluster",
+  "amethyst_shard",
+  "ancient_debris",
+  "andesite",
+  "andesite_slab",
+  "andesite_stairs",
+  "andesite_wall",
+  "angler_pottery_shard",
+  "angler_pottery_sherd",
+  "anvil",
+  "apple",
+  "archer_pottery_shard",
+  "archer_pottery_sherd",
+  "armor_stand",
+  "arms_up_pottery_shard",
+  "arms_up_pottery_sherd",
+  "arrow",
+  "attached_melon_stem",
+  "attached_pumpkin_stem",
+  "axolotl_bucket",
+  "axolotl_spawn_egg",
+  "azalea",
+  "azalea_leaves",
+  "azure_bluet",
+  "baked_potato",
+  "bamboo",
+  "bamboo_block",
+  "bamboo_button",
+  "bamboo_chest_raft",
+  "bamboo_door",
+  "bamboo_fence",
+  "bamboo_fence_gate",
+  "bamboo_hanging_sign",
+  "bamboo_mosaic",
+  "bamboo_mosaic_slab",
+  "bamboo_mosaic_stairs",
+  "bamboo_planks",
+  "bamboo_pressure_plate",
+  "bamboo_raft",
+  "bamboo_sapling",
+  "bamboo_sign",
+  "bamboo_slab",
+  "bamboo_stairs",
+  "bamboo_trapdoor",
+  "bamboo_wall_hanging_sign",
+  "bamboo_wall_sign",
+  "barrel",
+  "barrier",
+  "basalt",
+  "bat_spawn_egg",
+  "beacon",
+  "bedrock",
+  "bee_nest",
+  "bee_spawn_egg",
+  "beef",
+  "beehive",
+  "beetroot",
+  "beetroot_seeds",
+  "beetroot_soup",
+  "beetroots",
+  "bell",
+  "big_dripleaf",
+  "big_dripleaf_stem",
+  "birch_boat",
+  "birch_button",
+  "birch_chest_boat",
+  "birch_door",
+  "birch_fence",
+  "birch_fence_gate",
+  "birch_hanging_sign",
+  "birch_leaves",
+  "birch_log",
+  "birch_planks",
+  "birch_pressure_plate",
+  "birch_sapling",
+  "birch_sign",
+  "birch_slab",
+  "birch_stairs",
+  "birch_trapdoor",
+  "birch_wall_hanging_sign",
+  "birch_wall_sign",
+  "birch_wood",
+  "black_banner",
+  "black_bed",
+  "black_candle",
+  "black_candle_cake",
+  "black_carpet",
+  "black_concrete",
+  "black_concrete_powder",
+  "black_dye",
+  "black_glazed_terracotta",
+  "black_shulker_box",
+  "black_stained_glass",
+  "black_stained_glass_pane",
+  "black_terracotta",
+  "black_wool",
+  "blackstone",
+  "blackstone_slab",
+  "blackstone_stairs",
+  "blackstone_wall",
+  "blade_pottery_shard",
+  "blade_pottery_sherd",
+  "blast_furnace",
+  "blaze_powder",
+  "blaze_rod",
+  "blaze_spawn_egg",
+  "blue_banner",
+  "blue_bed",
+  "blue_candle",
+  "blue_candle_cake",
+  "blue_carpet",
+  "blue_concrete",
+  "blue_concrete_powder",
+  "blue_dye",
+  "blue_glazed_terracotta",
+  "blue_ice",
+  "blue_orchid",
+  "blue_shulker_box",
+  "blue_stained_glass",
+  "blue_stained_glass_pane",
+  "blue_terracotta",
+  "blue_wool",
+  "bone",
+  "bone_block",
+  "bone_meal",
+  "book",
+  "bookshelf",
+  "bow",
+  "bowl",
+  "brain_coral",
+  "brain_coral_block",
+  "brain_coral_fan",
+  "brain_coral_wall_fan",
+  "bread",
+  "brewer_pottery_shard",
+  "brewer_pottery_sherd",
+  "brewing_stand",
+  "brick",
+  "brick_slab",
+  "brick_stairs",
+  "brick_wall",
+  "bricks",
+  "brown_banner",
+  "brown_bed",
+  "brown_candle",
+  "brown_candle_cake",
+  "brown_carpet",
+  "brown_concrete",
+  "brown_concrete_powder",
+  "brown_dye",
+  "brown_glazed_terracotta",
+  "brown_mushroom",
+  "brown_mushroom_block",
+  "brown_shulker_box",
+  "brown_stained_glass",
+  "brown_stained_glass_pane",
+  "brown_terracotta",
+  "brown_wool",
+  "brush",
+  "bubble_column",
+  "bubble_coral",
+  "bubble_coral_block",
+  "bubble_coral_fan",
+  "bubble_coral_wall_fan",
+  "bucket",
+  "budding_amethyst",
+  "bundle",
+  "burn_pottery_shard",
+  "burn_pottery_sherd",
+  "cactus",
+  "cake",
+  "calcite",
+  "calibrated_sculk_sensor",
+  "camel_spawn_egg",
+  "campfire",
+  "candle",
+  "candle_cake",
+  "carrot",
+  "carrot_on_a_stick",
+  "carrots",
+  "cartography_table",
+  "carved_pumpkin",
+  "cat_spawn_egg",
+  "cauldron",
+  "cave_air",
+  "cave_spider_spawn_egg",
+  "cave_vines",
+  "cave_vines_plant",
+  "chain",
+  "chain_command_block",
+  "chainmail_boots",
+  "chainmail_chestplate",
+  "chainmail_helmet",
+  "chainmail_leggings",
+  "charcoal",
+  "cherry_boat",
+  "cherry_button",
+  "cherry_chest_boat",
+  "cherry_door",
+  "cherry_fence",
+  "cherry_fence_gate",
+  "cherry_hanging_sign",
+  "cherry_leaves",
+  "cherry_log",
+  "cherry_planks",
+  "cherry_pressure_plate",
+  "cherry_sapling",
+  "cherry_sign",
+  "cherry_slab",
+  "cherry_stairs",
+  "cherry_trapdoor",
+  "cherry_wall_hanging_sign",
+  "cherry_wall_sign",
+  "cherry_wood",
+  "chest",
+  "chest_minecart",
+  "chicken",
+  "chicken_spawn_egg",
+  "chipped_anvil",
+  "chiseled_bookshelf",
+  "chiseled_deepslate",
+  "chiseled_nether_bricks",
+  "chiseled_polished_blackstone",
+  "chiseled_quartz_block",
+  "chiseled_red_sandstone",
+  "chiseled_sandstone",
+  "chiseled_stone_bricks",
+  "chorus_flower",
+  "chorus_fruit",
+  "chorus_plant",
+  "clay",
+  "clay_ball",
+  "clock",
+  "coal",
+  "coal_block",
+  "coal_ore",
+  "coarse_dirt",
+  "cobbled_deepslate",
+  "cobbled_deepslate_slab",
+  "cobbled_deepslate_stairs",
+  "cobbled_deepslate_wall",
+  "cobblestone",
+  "cobblestone_slab",
+  "cobblestone_stairs",
+  "cobblestone_wall",
+  "cobweb",
+  "cocoa",
+  "cocoa_beans",
+  "cod",
+  "cod_bucket",
+  "cod_spawn_egg",
+  "command_block",
+  "command_block_minecart",
+  "comparator",
+  "compass",
+  "composter",
+  "conduit",
+  "cooked_beef",
+  "cooked_chicken",
+  "cooked_cod",
+  "cooked_mutton",
+  "cooked_porkchop",
+  "cooked_rabbit",
+  "cooked_salmon",
+  "cookie",
+  "copper_block",
+  "copper_ingot",
+  "copper_ore",
+  "cornflower",
+  "cow_spawn_egg",
+  "cracked_deepslate_bricks",
+  "cracked_deepslate_tiles",
+  "cracked_nether_bricks",
+  "cracked_polished_blackstone_bricks",
+  "cracked_stone_bricks",
+  "crafting_table",
+  "creeper_banner_pattern",
+  "creeper_head",
+  "creeper_spawn_egg",
+  "creeper_wall_head",
+  "crimson_button",
+  "crimson_door",
+  "crimson_fence",
+  "crimson_fence_gate",
+  "crimson_fungus",
+  "crimson_hanging_sign",
+  "crimson_hyphae",
+  "crimson_nylium",
+  "crimson_planks",
+  "crimson_pressure_plate",
+  "crimson_roots",
+  "crimson_sign",
+  "crimson_slab",
+  "crimson_stairs",
+  "crimson_stem",
+  "crimson_trapdoor",
+  "crimson_wall_hanging_sign",
+  "crimson_wall_sign",
+  "crossbow",
+  "crying_obsidian",
+  "cut_copper",
+  "cut_copper_slab",
+  "cut_copper_stairs",
+  "cut_red_sandstone",
+  "cut_red_sandstone_slab",
+  "cut_sandstone",
+  "cut_sandstone_slab",
+  "cyan_banner",
+  "cyan_bed",
+  "cyan_candle",
+  "cyan_candle_cake",
+  "cyan_carpet",
+  "cyan_concrete",
+  "cyan_concrete_powder",
+  "cyan_dye",
+  "cyan_glazed_terracotta",
+  "cyan_shulker_box",
+  "cyan_stained_glass",
+  "cyan_stained_glass_pane",
+  "cyan_terracotta",
+  "cyan_wool",
+  "damaged_anvil",
+  "dandelion",
+  "danger_pottery_shard",
+  "danger_pottery_sherd",
+  "dark_oak_boat",
+  "dark_oak_button",
+  "dark_oak_chest_boat",
+  "dark_oak_door",
+  "dark_oak_fence",
+  "dark_oak_fence_gate",
+  "dark_oak_hanging_sign",
+  "dark_oak_leaves",
+  "dark_oak_log",
+  "dark_oak_planks",
+  "dark_oak_pressure_plate",
+  "dark_oak_sapling",
+  "dark_oak_sign",
+  "dark_oak_slab",
+  "dark_oak_stairs",
+  "dark_oak_trapdoor",
+  "dark_oak_wall_hanging_sign",
+  "dark_oak_wall_sign",
+  "dark_oak_wood",
+  "dark_prismarine",
+  "dark_prismarine_slab",
+  "dark_prismarine_stairs",
+  "daylight_detector",
+  "dead_brain_coral",
+  "dead_brain_coral_block",
+  "dead_brain_coral_fan",
+  "dead_brain_coral_wall_fan",
+  "dead_bubble_coral",
+  "dead_bubble_coral_block",
+  "dead_bubble_coral_fan",
+  "dead_bubble_coral_wall_fan",
+  "dead_bush",
+  "dead_fire_coral",
+  "dead_fire_coral_block",
+  "dead_fire_coral_fan",
+  "dead_fire_coral_wall_fan",
+  "dead_horn_coral",
+  "dead_horn_coral_block",
+  "dead_horn_coral_fan",
+  "dead_horn_coral_wall_fan",
+  "dead_tube_coral",
+  "dead_tube_coral_block",
+  "dead_tube_coral_fan",
+  "dead_tube_coral_wall_fan",
+  "debug_stick",
+  "decorated_pot",
+  "deepslate",
+  "deepslate_brick_slab",
+  "deepslate_brick_stairs",
+  "deepslate_brick_wall",
+  "deepslate_bricks",
+  "deepslate_coal_ore",
+  "deepslate_copper_ore",
+  "deepslate_diamond_ore",
+  "deepslate_emerald_ore",
+  "deepslate_gold_ore",
+  "deepslate_iron_ore",
+  "deepslate_lapis_ore",
+  "deepslate_redstone_ore",
+  "deepslate_tile_slab",
+  "deepslate_tile_stairs",
+  "deepslate_tile_wall",
+  "deepslate_tiles",
+  "detector_rail",
+  "diamond",
+  "diamond_axe",
+  "diamond_block",
+  "diamond_boots",
+  "diamond_chestplate",
+  "diamond_helmet",
+  "diamond_hoe",
+  "diamond_horse_armor",
+  "diamond_leggings",
+  "diamond_ore",
+  "diamond_pickaxe",
+  "diamond_shovel",
+  "diamond_sword",
+  "diorite",
+  "diorite_slab",
+  "diorite_stairs",
+  "diorite_wall",
+  "dirt",
+  "dirt_path",
+  "disc_fragment_5",
+  "dispenser",
+  "dolphin_spawn_egg",
+  "donkey_spawn_egg",
+  "dragon_breath",
+  "dragon_egg",
+  "dragon_head",
+  "dragon_wall_head",
+  "dried_kelp",
+  "dried_kelp_block",
+  "dripstone_block",
+  "dropper",
+  "drowned_spawn_egg",
+  "echo_shard",
+  "egg",
+  "elder_guardian_spawn_egg",
+  "elytra",
+  "emerald",
+  "emerald_block",
+  "emerald_ore",
+  "enchanted_book",
+  "enchanted_golden_apple",
+  "enchanting_table",
+  "end_crystal",
+  "end_gateway",
+  "end_portal",
+  "end_portal_frame",
+  "end_rod",
+  "end_stone",
+  "end_stone_brick_slab",
+  "end_stone_brick_stairs",
+  "end_stone_brick_wall",
+  "end_stone_bricks",
+  "ender_chest",
+  "ender_dragon_spawn_egg",
+  "ender_eye",
+  "ender_pearl",
+  "enderman_spawn_egg",
+  "endermite_spawn_egg",
+  "evoker_spawn_egg",
+  "experience_bottle",
+  "explorer_pottery_shard",
+  "explorer_pottery_sherd",
+  "exposed_copper",
+  "exposed_cut_copper",
+  "exposed_cut_copper_slab",
+  "exposed_cut_copper_stairs",
+  "farmland",
+  "feather",
+  "fermented_spider_eye",
+  "fern",
+  "filled_map",
+  "fire",
+  "fire_charge",
+  "fire_coral",
+  "fire_coral_block",
+  "fire_coral_fan",
+  "fire_coral_wall_fan",
+  "firework_rocket",
+  "firework_star",
+  "fishing_rod",
+  "fletching_table",
+  "flint",
+  "flint_and_steel",
+  "flower_banner_pattern",
+  "flower_pot",
+  "flowering_azalea",
+  "flowering_azalea_leaves",
+  "fox_spawn_egg",
+  "friend_pottery_shard",
+  "friend_pottery_sherd",
+  "frog_spawn_egg",
+  "frogspawn",
+  "frosted_ice",
+  "furnace",
+  "furnace_minecart",
+  "ghast_spawn_egg",
+  "ghast_tear",
+  "gilded_blackstone",
+  "glass",
+  "glass_bottle",
+  "glass_pane",
+  "glistering_melon_slice",
+  "globe_banner_pattern",
+  "glow_berries",
+  "glow_ink_sac",
+  "glow_item_frame",
+  "glow_lichen",
+  "glow_squid_spawn_egg",
+  "glowstone",
+  "glowstone_dust",
+  "goat_horn",
+  "goat_spawn_egg",
+  "gold_block",
+  "gold_ingot",
+  "gold_nugget",
+  "gold_ore",
+  "golden_apple",
+  "golden_axe",
+  "golden_boots",
+  "golden_carrot",
+  "golden_chestplate",
+  "golden_helmet",
+  "golden_hoe",
+  "golden_horse_armor",
+  "golden_leggings",
+  "golden_pickaxe",
+  "golden_shovel",
+  "golden_sword",
+  "granite",
+  "granite_slab",
+  "granite_stairs",
+  "granite_wall",
+  "grass",
+  "grass_block",
+  "gravel",
+  "gray_banner",
+  "gray_bed",
+  "gray_candle",
+  "gray_candle_cake",
+  "gray_carpet",
+  "gray_concrete",
+  "gray_concrete_powder",
+  "gray_dye",
+  "gray_glazed_terracotta",
+  "gray_shulker_box",
+  "gray_stained_glass",
+  "gray_stained_glass_pane",
+  "gray_terracotta",
+  "gray_wool",
+  "green_banner",
+  "green_bed",
+  "green_candle",
+  "green_candle_cake",
+  "green_carpet",
+  "green_concrete",
+  "green_concrete_powder",
+  "green_dye",
+  "green_glazed_terracotta",
+  "green_shulker_box",
+  "green_stained_glass",
+  "green_stained_glass_pane",
+  "green_terracotta",
+  "green_wool",
+  "grindstone",
+  "guardian_spawn_egg",
+  "gunpowder",
+  "hanging_roots",
+  "hay_block",
+  "heart_of_the_sea",
+  "heart_pottery_shard",
+  "heart_pottery_sherd",
+  "heartbreak_pottery_shard",
+  "heartbreak_pottery_sherd",
+  "heavy_weighted_pressure_plate",
+  "hoglin_spawn_egg",
+  "honey_block",
+  "honey_bottle",
+  "honeycomb",
+  "honeycomb_block",
+  "hopper",
+  "hopper_minecart",
+  "horn_coral",
+  "horn_coral_block",
+  "horn_coral_fan",
+  "horn_coral_wall_fan",
+  "horse_spawn_egg",
+  "howl_pottery_shard",
+  "howl_pottery_sherd",
+  "husk_spawn_egg",
+  "ice",
+  "infested_chiseled_stone_bricks",
+  "infested_cobblestone",
+  "infested_cracked_stone_bricks",
+  "infested_deepslate",
+  "infested_mossy_stone_bricks",
+  "infested_stone",
+  "infested_stone_bricks",
+  "ink_sac",
+  "iron_axe",
+  "iron_bars",
+  "iron_block",
+  "iron_boots",
+  "iron_chestplate",
+  "iron_door",
+  "iron_golem_spawn_egg",
+  "iron_helmet",
+  "iron_hoe",
+  "iron_horse_armor",
+  "iron_ingot",
+  "iron_leggings",
+  "iron_nugget",
+  "iron_ore",
+  "iron_pickaxe",
+  "iron_shovel",
+  "iron_sword",
+  "iron_trapdoor",
+  "item_frame",
+  "jack_o_lantern",
+  "jigsaw",
+  "jukebox",
+  "jungle_boat",
+  "jungle_button",
+  "jungle_chest_boat",
+  "jungle_door",
+  "jungle_fence",
+  "jungle_fence_gate",
+  "jungle_hanging_sign",
+  "jungle_leaves",
+  "jungle_log",
+  "jungle_planks",
+  "jungle_pressure_plate",
+  "jungle_sapling",
+  "jungle_sign",
+  "jungle_slab",
+  "jungle_stairs",
+  "jungle_trapdoor",
+  "jungle_wall_hanging_sign",
+  "jungle_wall_sign",
+  "jungle_wood",
+  "kelp",
+  "kelp_plant",
+  "knowledge_book",
+  "ladder",
+  "lantern",
+  "lapis_block",
+  "lapis_lazuli",
+  "lapis_ore",
+  "large_amethyst_bud",
+  "large_fern",
+  "lava",
+  "lava_bucket",
+  "lava_cauldron",
+  "lead",
+  "leather",
+  "leather_boots",
+  "leather_chestplate",
+  "leather_helmet",
+  "leather_horse_armor",
+  "leather_leggings",
+  "lectern",
+  "lever",
+  "light",
+  "light_blue_banner",
+  "light_blue_bed",
+  "light_blue_candle",
+  "light_blue_candle_cake",
+  "light_blue_carpet",
+  "light_blue_concrete",
+  "light_blue_concrete_powder",
+  "light_blue_dye",
+  "light_blue_glazed_terracotta",
+  "light_blue_shulker_box",
+  "light_blue_stained_glass",
+  "light_blue_stained_glass_pane",
+  "light_blue_terracotta",
+  "light_blue_wool",
+  "light_gray_banner",
+  "light_gray_bed",
+  "light_gray_candle",
+  "light_gray_candle_cake",
+  "light_gray_carpet",
+  "light_gray_concrete",
+  "light_gray_concrete_powder",
+  "light_gray_dye",
+  "light_gray_glazed_terracotta",
+  "light_gray_shulker_box",
+  "light_gray_stained_glass",
+  "light_gray_stained_glass_pane",
+  "light_gray_terracotta",
+  "light_gray_wool",
+  "light_weighted_pressure_plate",
+  "lightning_rod",
+  "lilac",
+  "lily_of_the_valley",
+  "lily_pad",
+  "lime_banner",
+  "lime_bed",
+  "lime_candle",
+  "lime_candle_cake",
+  "lime_carpet",
+  "lime_concrete",
+  "lime_concrete_powder",
+  "lime_dye",
+  "lime_glazed_terracotta",
+  "lime_shulker_box",
+  "lime_stained_glass",
+  "lime_stained_glass_pane",
+  "lime_terracotta",
+  "lime_wool",
+  "lingering_potion",
+  "llama_spawn_egg",
+  "lodestone",
+  "lodestone_compass",
+  "loom",
+  "magenta_banner",
+  "magenta_bed",
+  "magenta_candle",
+  "magenta_candle_cake",
+  "magenta_carpet",
+  "magenta_concrete",
+  "magenta_concrete_powder",
+  "magenta_dye",
+  "magenta_glazed_terracotta",
+  "magenta_shulker_box",
+  "magenta_stained_glass",
+  "magenta_stained_glass_pane",
+  "magenta_terracotta",
+  "magenta_wool",
+  "magma_block",
+  "magma_cream",
+  "magma_cube_spawn_egg",
+  "mangrove_boat",
+  "mangrove_button",
+  "mangrove_chest_boat",
+  "mangrove_door",
+  "mangrove_fence",
+  "mangrove_fence_gate",
+  "mangrove_hanging_sign",
+  "mangrove_leaves",
+  "mangrove_log",
+  "mangrove_planks",
+  "mangrove_pressure_plate",
+  "mangrove_propagule",
+  "mangrove_roots",
+  "mangrove_sign",
+  "mangrove_slab",
+  "mangrove_stairs",
+  "mangrove_trapdoor",
+  "mangrove_wall_hanging_sign",
+  "mangrove_wall_sign",
+  "mangrove_wood",
+  "map",
+  "medium_amethyst_bud",
+  "melon",
+  "melon_seeds",
+  "melon_slice",
+  "melon_stem",
+  "milk_bucket",
+  "minecart",
+  "miner_pottery_shard",
+  "miner_pottery_sherd",
+  "mojang_banner_pattern",
+  "mooshroom_spawn_egg",
+  "moss_block",
+  "moss_carpet",
+  "mossy_cobblestone",
+  "mossy_cobblestone_slab",
+  "mossy_cobblestone_stairs",
+  "mossy_cobblestone_wall",
+  "mossy_stone_brick_slab",
+  "mossy_stone_brick_stairs",
+  "mossy_stone_brick_wall",
+  "mossy_stone_bricks",
+  "mourner_pottery_shard",
+  "mourner_pottery_sherd",
+  "moving_piston",
+  "mud",
+  "mud_brick_slab",
+  "mud_brick_stairs",
+  "mud_brick_wall",
+  "mud_bricks",
+  "muddy_mangrove_roots",
+  "mule_spawn_egg",
+  "mushroom_stem",
+  "mushroom_stew",
+  "music_disc_11",
+  "music_disc_13",
+  "music_disc_5",
+  "music_disc_blocks",
+  "music_disc_cat",
+  "music_disc_chirp",
+  "music_disc_far",
+  "music_disc_mall",
+  "music_disc_mellohi",
+  "music_disc_otherside",
+  "music_disc_pigstep",
+  "music_disc_relic",
+  "music_disc_stal",
+  "music_disc_strad",
+  "music_disc_wait",
+  "music_disc_ward",
+  "mutton",
+  "mycelium",
+  "name_tag",
+  "nautilus_shell",
+  "nether_brick",
+  "nether_brick_fence",
+  "nether_brick_slab",
+  "nether_brick_stairs",
+  "nether_brick_wall",
+  "nether_bricks",
+  "nether_gold_ore",
+  "nether_portal",
+  "nether_quartz_ore",
+  "nether_sprouts",
+  "nether_star",
+  "nether_wart",
+  "nether_wart_block",
+  "netherite_axe",
+  "netherite_block",
+  "netherite_boots",
+  "netherite_chestplate",
+  "netherite_helmet",
+  "netherite_hoe",
+  "netherite_ingot",
+  "netherite_leggings",
+  "netherite_pickaxe",
+  "netherite_scrap",
+  "netherite_shovel",
+  "netherite_sword",
+  "netherrack",
+  "note_block",
+  "oak_boat",
+  "oak_button",
+  "oak_chest_boat",
+  "oak_door",
+  "oak_fence",
+  "oak_fence_gate",
+  "oak_hanging_sign",
+  "oak_leaves",
+  "oak_log",
+  "oak_planks",
+  "oak_pressure_plate",
+  "oak_sapling",
+  "oak_sign",
+  "oak_slab",
+  "oak_stairs",
+  "oak_trapdoor",
+  "oak_wall_hanging_sign",
+  "oak_wall_sign",
+  "oak_wood",
+  "observer",
+  "obsidian",
+  "ocelot_spawn_egg",
+  "ochre_froglight",
+  "ominous_banner",
+  "orange_banner",
+  "orange_bed",
+  "orange_candle",
+  "orange_candle_cake",
+  "orange_carpet",
+  "orange_concrete",
+  "orange_concrete_powder",
+  "orange_dye",
+  "orange_glazed_terracotta",
+  "orange_shulker_box",
+  "orange_stained_glass",
+  "orange_stained_glass_pane",
+  "orange_terracotta",
+  "orange_tulip",
+  "orange_wool",
+  "oxeye_daisy",
+  "oxidized_copper",
+  "oxidized_cut_copper",
+  "oxidized_cut_copper_slab",
+  "oxidized_cut_copper_stairs",
+  "packed_ice",
+  "packed_mud",
+  "painting",
+  "panda_spawn_egg",
+  "paper",
+  "parrot_spawn_egg",
+  "pearlescent_froglight",
+  "peony",
+  "petrified_oak_slab",
+  "phantom_membrane",
+  "phantom_spawn_egg",
+  "pig_spawn_egg",
+  "piglin_banner_pattern",
+  "piglin_brute_spawn_egg",
+  "piglin_head",
+  "piglin_spawn_egg",
+  "piglin_wall_head",
+  "pillager_spawn_egg",
+  "pink_banner",
+  "pink_bed",
+  "pink_candle",
+  "pink_candle_cake",
+  "pink_carpet",
+  "pink_concrete",
+  "pink_concrete_powder",
+  "pink_dye",
+  "pink_glazed_terracotta",
+  "pink_petals",
+  "pink_shulker_box",
+  "pink_stained_glass",
+  "pink_stained_glass_pane",
+  "pink_terracotta",
+  "pink_tulip",
+  "pink_wool",
+  "piston",
+  "piston_head",
+  "pitcher_crop",
+  "pitcher_plant",
+  "pitcher_pod",
+  "player_head",
+  "player_wall_head",
+  "plenty_pottery_shard",
+  "plenty_pottery_sherd",
+  "podzol",
+  "pointed_dripstone",
+  "poisonous_potato",
+  "polar_bear_spawn_egg",
+  "polished_andesite",
+  "polished_andesite_slab",
+  "polished_andesite_stairs",
+  "polished_basalt",
+  "polished_blackstone",
+  "polished_blackstone_brick_slab",
+  "polished_blackstone_brick_stairs",
+  "polished_blackstone_brick_wall",
+  "polished_blackstone_bricks",
+  "polished_blackstone_button",
+  "polished_blackstone_pressure_plate",
+  "polished_blackstone_slab",
+  "polished_blackstone_stairs",
+  "polished_blackstone_wall",
+  "polished_deepslate",
+  "polished_deepslate_slab",
+  "polished_deepslate_stairs",
+  "polished_deepslate_wall",
+  "polished_diorite",
+  "polished_diorite_slab",
+  "polished_diorite_stairs",
+  "polished_granite",
+  "polished_granite_slab",
+  "polished_granite_stairs",
+  "popped_chorus_fruit",
+  "poppy",
+  "porkchop",
+  "potato",
+  "potatoes",
+  "potion",
+  "potted_acacia_sapling",
+  "potted_allium",
+  "potted_azalea_bush",
+  "potted_azure_bluet",
+  "potted_bamboo",
+  "potted_birch_sapling",
+  "potted_blue_orchid",
+  "potted_brown_mushroom",
+  "potted_cactus",
+  "potted_cherry_sapling",
+  "potted_cornflower",
+  "potted_crimson_fungus",
+  "potted_crimson_roots",
+  "potted_dandelion",
+  "potted_dark_oak_sapling",
+  "potted_dead_bush",
+  "potted_fern",
+  "potted_flowering_azalea_bush",
+  "potted_jungle_sapling",
+  "potted_lily_of_the_valley",
+  "potted_mangrove_propagule",
+  "potted_oak_sapling",
+  "potted_orange_tulip",
+  "potted_oxeye_daisy",
+  "potted_pink_tulip",
+  "potted_poppy",
+  "potted_red_mushroom",
+  "potted_red_tulip",
+  "potted_spruce_sapling",
+  "potted_torchflower",
+  "potted_warped_fungus",
+  "potted_warped_roots",
+  "potted_white_tulip",
+  "potted_wither_rose",
+  "pottery_shard_archer",
+  "pottery_shard_arms_up",
+  "pottery_shard_prize",
+  "pottery_shard_skull",
+  "powder_snow",
+  "powder_snow_bucket",
+  "powder_snow_cauldron",
+  "powered_rail",
+  "prismarine",
+  "prismarine_brick_slab",
+  "prismarine_brick_stairs",
+  "prismarine_bricks",
+  "prismarine_crystals",
+  "prismarine_shard",
+  "prismarine_slab",
+  "prismarine_stairs",
+  "prismarine_wall",
+  "prize_pottery_shard",
+  "prize_pottery_sherd",
+  "pufferfish",
+  "pufferfish_bucket",
+  "pufferfish_spawn_egg",
+  "pumpkin",
+  "pumpkin_pie",
+  "pumpkin_seeds",
+  "pumpkin_stem",
+  "purple_banner",
+  "purple_bed",
+  "purple_candle",
+  "purple_candle_cake",
+  "purple_carpet",
+  "purple_concrete",
+  "purple_concrete_powder",
+  "purple_dye",
+  "purple_glazed_terracotta",
+  "purple_shulker_box",
+  "purple_stained_glass",
+  "purple_stained_glass_pane",
+  "purple_terracotta",
+  "purple_wool",
+  "purpur_block",
+  "purpur_pillar",
+  "purpur_slab",
+  "purpur_stairs",
+  "quartz",
+  "quartz_block",
+  "quartz_bricks",
+  "quartz_pillar",
+  "quartz_slab",
+  "quartz_stairs",
+  "rabbit",
+  "rabbit_foot",
+  "rabbit_hide",
+  "rabbit_spawn_egg",
+  "rabbit_stew",
+  "rail",
+  "ravager_spawn_egg",
+  "raw_copper",
+  "raw_copper_block",
+  "raw_gold",
+  "raw_gold_block",
+  "raw_iron",
+  "raw_iron_block",
+  "recovery_compass",
+  "red_banner",
+  "red_bed",
+  "red_candle",
+  "red_candle_cake",
+  "red_carpet",
+  "red_concrete",
+  "red_concrete_powder",
+  "red_dye",
+  "red_glazed_terracotta",
+  "red_mushroom",
+  "red_mushroom_block",
+  "red_nether_brick_slab",
+  "red_nether_brick_stairs",
+  "red_nether_brick_wall",
+  "red_nether_bricks",
+  "red_sand",
+  "red_sandstone",
+  "red_sandstone_slab",
+  "red_sandstone_stairs",
+  "red_sandstone_wall",
+  "red_shulker_box",
+  "red_stained_glass",
+  "red_stained_glass_pane",
+  "red_terracotta",
+  "red_tulip",
+  "red_wool",
+  "redstone",
+  "redstone_block",
+  "redstone_lamp",
+  "redstone_ore",
+  "redstone_torch",
+  "redstone_wall_torch",
+  "redstone_wire",
+  "reinforced_deepslate",
+  "repeater",
+  "repeating_command_block",
+  "respawn_anchor",
+  "rooted_dirt",
+  "rose_bush",
+  "rotten_flesh",
+  "saddle",
+  "salmon",
+  "salmon_bucket",
+  "salmon_spawn_egg",
+  "sand",
+  "sandstone",
+  "sandstone_slab",
+  "sandstone_stairs",
+  "sandstone_wall",
+  "scaffolding",
+  "sculk",
+  "sculk_catalyst",
+  "sculk_sensor",
+  "sculk_shrieker",
+  "sculk_vein",
+  "scute",
+  "sea_lantern",
+  "sea_pickle",
+  "seagrass",
+  "set_spawn",
+  "sheaf_pottery_shard",
+  "sheaf_pottery_sherd",
+  "shears",
+  "sheep_spawn_egg",
+  "shelter_pottery_shard",
+  "shelter_pottery_sherd",
+  "shield",
+  "shroomlight",
+  "shulker_box",
+  "shulker_shell",
+  "shulker_spawn_egg",
+  "sign",
+  "silverfish_spawn_egg",
+  "skeleton_horse_spawn_egg",
+  "skeleton_skull",
+  "skeleton_spawn_egg",
+  "skeleton_wall_skull",
+  "skull_banner_pattern",
+  "skull_pottery_shard",
+  "skull_pottery_sherd",
+  "slime_ball",
+  "slime_block",
+  "slime_spawn_egg",
+  "small_amethyst_bud",
+  "small_dripleaf",
+  "smithing_table",
+  "smithing_template",
+  "smoker",
+  "smooth_basalt",
+  "smooth_quartz",
+  "smooth_quartz_slab",
+  "smooth_quartz_stairs",
+  "smooth_red_sandstone",
+  "smooth_red_sandstone_slab",
+  "smooth_red_sandstone_stairs",
+  "smooth_sandstone",
+  "smooth_sandstone_slab",
+  "smooth_sandstone_stairs",
+  "smooth_stone",
+  "smooth_stone_slab",
+  "sniffer_egg",
+  "sniffer_spawn_egg",
+  "snort_pottery_shard",
+  "snort_pottery_sherd",
+  "snow",
+  "snow_block",
+  "snow_golem_spawn_egg",
+  "snowball",
+  "soul_campfire",
+  "soul_fire",
+  "soul_lantern",
+  "soul_sand",
+  "soul_soil",
+  "soul_torch",
+  "soul_wall_torch",
+  "spawner",
+  "spectral_arrow",
+  "spider_eye",
+  "spider_spawn_egg",
+  "splash_potion",
+  "sponge",
+  "spore_blossom",
+  "spruce_boat",
+  "spruce_button",
+  "spruce_chest_boat",
+  "spruce_door",
+  "spruce_fence",
+  "spruce_fence_gate",
+  "spruce_hanging_sign",
+  "spruce_leaves",
+  "spruce_log",
+  "spruce_planks",
+  "spruce_pressure_plate",
+  "spruce_sapling",
+  "spruce_sign",
+  "spruce_slab",
+  "spruce_stairs",
+  "spruce_trapdoor",
+  "spruce_wall_hanging_sign",
+  "spruce_wall_sign",
+  "spruce_wood",
+  "spyglass",
+  "squid_spawn_egg",
+  "stick",
+  "sticky_piston",
+  "stone",
+  "stone_axe",
+  "stone_brick_slab",
+  "stone_brick_stairs",
+  "stone_brick_wall",
+  "stone_bricks",
+  "stone_button",
+  "stone_hoe",
+  "stone_pickaxe",
+  "stone_pressure_plate",
+  "stone_shovel",
+  "stone_slab",
+  "stone_stairs",
+  "stone_sword",
+  "stonecutter",
+  "stray_spawn_egg",
+  "strider_spawn_egg",
+  "string",
+  "stripped_acacia_log",
+  "stripped_acacia_wood",
+  "stripped_bamboo_block",
+  "stripped_birch_log",
+  "stripped_birch_wood",
+  "stripped_cherry_log",
+  "stripped_cherry_wood",
+  "stripped_crimson_hyphae",
+  "stripped_crimson_stem",
+  "stripped_dark_oak_log",
+  "stripped_dark_oak_wood",
+  "stripped_jungle_log",
+  "stripped_jungle_wood",
+  "stripped_mangrove_log",
+  "stripped_mangrove_wood",
+  "stripped_oak_log",
+  "stripped_oak_wood",
+  "stripped_spruce_log",
+  "stripped_spruce_wood",
+  "stripped_warped_hyphae",
+  "stripped_warped_stem",
+  "structure_block",
+  "structure_void",
+  "sugar",
+  "sugar_cane",
+  "sunflower",
+  "suspicious_gravel",
+  "suspicious_sand",
+  "suspicious_stew",
+  "sweet_berries",
+  "sweet_berry_bush",
+  "tadpole_bucket",
+  "tadpole_spawn_egg",
+  "tall_grass",
+  "tall_seagrass",
+  "target",
+  "terracotta",
+  "tinted_glass",
+  "tipped_arrow",
+  "tnt",
+  "tnt_minecart",
+  "torch",
+  "torchflower",
+  "torchflower_crop",
+  "torchflower_seeds",
+  "totem_of_undying",
+  "trader_llama_spawn_egg",
+  "trapped_chest",
+  "trident",
+  "tripwire",
+  "tripwire_hook",
+  "tropical_fish",
+  "tropical_fish_bucket",
+  "tropical_fish_spawn_egg",
+  "tube_coral",
+  "tube_coral_block",
+  "tube_coral_fan",
+  "tube_coral_wall_fan",
+  "tuff",
+  "turtle_egg",
+  "turtle_helmet",
+  "turtle_spawn_egg",
+  "twisting_vines",
+  "twisting_vines_plant",
+  "verdant_froglight",
+  "vex_spawn_egg",
+  "villager_spawn_egg",
+  "vindicator_spawn_egg",
+  "vine",
+  "void_air",
+  "wall_torch",
+  "wandering_trader_spawn_egg",
+  "warden_spawn_egg",
+  "warped_button",
+  "warped_door",
+  "warped_fence",
+  "warped_fence_gate",
+  "warped_fungus",
+  "warped_fungus_on_a_stick",
+  "warped_hanging_sign",
+  "warped_hyphae",
+  "warped_nylium",
+  "warped_planks",
+  "warped_pressure_plate",
+  "warped_roots",
+  "warped_sign",
+  "warped_slab",
+  "warped_stairs",
+  "warped_stem",
+  "warped_trapdoor",
+  "warped_wall_hanging_sign",
+  "warped_wall_sign",
+  "warped_wart_block",
+  "water",
+  "water_bucket",
+  "water_cauldron",
+  "waxed_copper_block",
+  "waxed_cut_copper",
+  "waxed_cut_copper_slab",
+  "waxed_cut_copper_stairs",
+  "waxed_exposed_copper",
+  "waxed_exposed_cut_copper",
+  "waxed_exposed_cut_copper_slab",
+  "waxed_exposed_cut_copper_stairs",
+  "waxed_oxidized_copper",
+  "waxed_oxidized_cut_copper",
+  "waxed_oxidized_cut_copper_slab",
+  "waxed_oxidized_cut_copper_stairs",
+  "waxed_weathered_copper",
+  "waxed_weathered_cut_copper",
+  "waxed_weathered_cut_copper_slab",
+  "waxed_weathered_cut_copper_stairs",
+  "weathered_copper",
+  "weathered_cut_copper",
+  "weathered_cut_copper_slab",
+  "weathered_cut_copper_stairs",
+  "weeping_vines",
+  "weeping_vines_plant",
+  "wet_sponge",
+  "wheat",
+  "wheat_seeds",
+  "white_banner",
+  "white_bed",
+  "white_candle",
+  "white_candle_cake",
+  "white_carpet",
+  "white_concrete",
+  "white_concrete_powder",
+  "white_dye",
+  "white_glazed_terracotta",
+  "white_shulker_box",
+  "white_stained_glass",
+  "white_stained_glass_pane",
+  "white_terracotta",
+  "white_tulip",
+  "white_wool",
+  "witch_spawn_egg",
+  "wither_rose",
+  "wither_skeleton_skull",
+  "wither_skeleton_spawn_egg",
+  "wither_skeleton_wall_skull",
+  "wither_spawn_egg",
+  "wolf_spawn_egg",
+  "wooden_axe",
+  "wooden_hoe",
+  "wooden_pickaxe",
+  "wooden_shovel",
+  "wooden_sword",
+  "writable_book",
+  "written_book",
+  "yellow_banner",
+  "yellow_bed",
+  "yellow_candle",
+  "yellow_candle_cake",
+  "yellow_carpet",
+  "yellow_concrete",
+  "yellow_concrete_powder",
+  "yellow_dye",
+  "yellow_glazed_terracotta",
+  "yellow_shulker_box",
+  "yellow_stained_glass",
+  "yellow_stained_glass_pane",
+  "yellow_terracotta",
+  "yellow_wool",
+  "zoglin_spawn_egg",
+  "zombie_head",
+  "zombie_horse_spawn_egg",
+  "zombie_spawn_egg",
+  "zombie_villager_spawn_egg",
+  "zombie_wall_head",
+  "zombified_piglin_spawn_egg"
+ ],
+ "wires": {
+  "aluminium": {
+   "a": 1,
+   "loss": 1,
+   "sc": false,
+   "v": 2048
+  },
+  "annealed_copper": {
+   "a": 1,
+   "loss": 1,
+   "sc": false,
+   "v": 128
+  },
+  "black_steel": {
+   "a": 3,
+   "loss": 2,
+   "sc": false,
+   "v": 2048
+  },
+  "blue_alloy": {
+   "a": 2,
+   "loss": 1,
+   "sc": false,
+   "v": 512
+  },
+  "cobalt": {
+   "a": 2,
+   "loss": 2,
+   "sc": false,
+   "v": 32
+  },
+  "copper": {
+   "a": 1,
+   "loss": 2,
+   "sc": false,
+   "v": 128
+  },
+  "cupronickel": {
+   "a": 1,
+   "loss": 1,
+   "sc": false,
+   "v": 128
+  },
+  "electrum": {
+   "a": 2,
+   "loss": 2,
+   "sc": false,
+   "v": 512
+  },
+  "enriched_naquadah_trinium_europium_duranide": {
+   "a": 16,
+   "loss": 0,
+   "sc": true,
+   "v": 524288
+  },
+  "europium": {
+   "a": 2,
+   "loss": 32,
+   "sc": false,
+   "v": 2097152
+  },
+  "gold": {
+   "a": 3,
+   "loss": 2,
+   "sc": false,
+   "v": 512
+  },
+  "graphene": {
+   "a": 1,
+   "loss": 1,
+   "sc": false,
+   "v": 8192
+  },
+  "hssg": {
+   "a": 4,
+   "loss": 2,
+   "sc": false,
+   "v": 32768
+  },
+  "indium_tin_barium_titanium_cuprate": {
+   "a": 8,
+   "loss": 0,
+   "sc": true,
+   "v": 32768
+  },
+  "iron": {
+   "a": 2,
+   "loss": 3,
+   "sc": false,
+   "v": 128
+  },
+  "kanthal": {
+   "a": 4,
+   "loss": 3,
+   "sc": false,
+   "v": 512
+  },
+  "lead": {
+   "a": 2,
+   "loss": 2,
+   "sc": false,
+   "v": 8
+  },
+  "magnesium_diboride": {
+   "a": 4,
+   "loss": 0,
+   "sc": true,
+   "v": 128
+  },
+  "manganese_phosphide": {
+   "a": 2,
+   "loss": 0,
+   "sc": true,
+   "v": 32
+  },
+  "mercury_barium_calcium_cuprate": {
+   "a": 4,
+   "loss": 0,
+   "sc": true,
+   "v": 512
+  },
+  "naquadah": {
+   "a": 2,
+   "loss": 2,
+   "sc": false,
+   "v": 131072
+  },
+  "naquadah_alloy": {
+   "a": 2,
+   "loss": 4,
+   "sc": false,
+   "v": 524288
+  },
+  "nichrome": {
+   "a": 4,
+   "loss": 4,
+   "sc": false,
+   "v": 2048
+  },
+  "nickel": {
+   "a": 3,
+   "loss": 3,
+   "sc": false,
+   "v": 32
+  },
+  "niobium_nitride": {
+   "a": 1,
+   "loss": 1,
+   "sc": false,
+   "v": 32768
+  },
+  "niobium_titanium": {
+   "a": 4,
+   "loss": 2,
+   "sc": false,
+   "v": 32768
+  },
+  "osmium": {
+   "a": 4,
+   "loss": 2,
+   "sc": false,
+   "v": 32768
+  },
+  "platinum": {
+   "a": 2,
+   "loss": 1,
+   "sc": false,
+   "v": 8192
+  },
+  "red_alloy": {
+   "a": 1,
+   "loss": 0,
+   "sc": false,
+   "v": 8
+  },
+  "rtm_alloy": {
+   "a": 6,
+   "loss": 2,
+   "sc": false,
+   "v": 2048
+  },
+  "ruthenium_trinium_americium_neutronate": {
+   "a": 24,
+   "loss": 0,
+   "sc": true,
+   "v": 2097152
+  },
+  "samarium_iron_arsenic_oxide": {
+   "a": 6,
+   "loss": 0,
+   "sc": true,
+   "v": 8192
+  },
+  "silver": {
+   "a": 1,
+   "loss": 1,
+   "sc": false,
+   "v": 512
+  },
+  "steel": {
+   "a": 2,
+   "loss": 2,
+   "sc": false,
+   "v": 2048
+  },
+  "tin": {
+   "a": 1,
+   "loss": 1,
+   "sc": false,
+   "v": 32
+  },
+  "trinium": {
+   "a": 6,
+   "loss": 4,
+   "sc": false,
+   "v": 131072
+  },
+  "tritanium": {
+   "a": 1,
+   "loss": 8,
+   "sc": false,
+   "v": 524288
+  },
+  "tungsten": {
+   "a": 2,
+   "loss": 2,
+   "sc": false,
+   "v": 8192
+  },
+  "tungsten_steel": {
+   "a": 3,
+   "loss": 2,
+   "sc": false,
+   "v": 8192
+  },
+  "uranium_rhodium_dinaquadide": {
+   "a": 8,
+   "loss": 0,
+   "sc": true,
+   "v": 131072
+  },
+  "uranium_triplatinum": {
+   "a": 6,
+   "loss": 0,
+   "sc": true,
+   "v": 2048
+  },
+  "vanadium_gallium": {
+   "a": 4,
+   "loss": 2,
+   "sc": false,
+   "v": 131072
+  },
+  "yttrium_barium_cuprate": {
+   "a": 4,
+   "loss": 4,
+   "sc": false,
+   "v": 524288
+  }
+ }
+}

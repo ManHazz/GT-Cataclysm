@@ -1,6 +1,7 @@
 # GT-Cataclysm
 
 [![CI](https://github.com/ManHazz/GT-Cataclysm/actions/workflows/ci.yml/badge.svg)](https://github.com/ManHazz/GT-Cataclysm/actions/workflows/ci.yml)
+[![Release](https://img.shields.io/github/v/release/ManHazz/GT-Cataclysm)](https://github.com/ManHazz/GT-Cataclysm/releases)
 ![Minecraft](https://img.shields.io/badge/Minecraft-1.20.1-62B47A)
 ![Forge](https://img.shields.io/badge/Forge-47.4.13-DFA86A)
 ![GregTech CEu Modern](https://img.shields.io/badge/GregTech%20CEu%20Modern-7.5.3-blue)
@@ -10,6 +11,12 @@
 ## About
 
 A Minecraft 1.20.1 Forge modpack where GregTech progression is gated by L_Ender's Cataclysm bosses. Performance-first, with lightweight shaders, AE2, Xaero's map, and no Create.
+
+## Download
+
+Get the latest `.mrpack` (client) and server pack from the [Releases page](https://github.com/ManHazz/GT-Cataclysm/releases).
+
+For automatic updates, see [docs/AUTO_UPDATE.md](docs/AUTO_UPDATE.md).
 
 ## Status
 

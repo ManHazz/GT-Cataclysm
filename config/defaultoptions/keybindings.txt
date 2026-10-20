@@ -1,1 +1,4 @@
 key_key.heracles.open_quests:key.keyboard.j
+key_key.guideme.guide:key.keyboard.g
+key_key.curios.open.desc:key.keyboard.semicolon
+key_gtceu.key.enable_jetpack:key.keyboard.left.bracket

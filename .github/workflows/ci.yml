@@ -74,6 +74,7 @@ jobs:
         run: |
           java -jar pakku.jar -y fetch
           python3 -I tools/audit_deps.py mods
+          python3 -I tools/validate_gtguide.py
           java -jar pakku.jar -y export
           ls -laR build || true
 
@@ -144,3 +145,125 @@ jobs:
             server/logs/
             server/crash-reports/
           if-no-files-found: ignore
+
+  client-boot:
+    needs: validate
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: '17'
+
+      - name: Cache Pakku / mod downloads
+        uses: actions/cache@v4
+        with:
+          path: |
+            ~/.pakku
+            .pakku
+            ~/.cache/pakku
+          key: pakku-${{ hashFiles('pakku-lock.json') }}
+          restore-keys: pakku-
+
+      - name: Get Pakku
+        run: |
+          if [ ! -f pakku.jar ]; then
+            curl -fsSL -o pakku.jar https://github.com/juraj-hrivnak/Pakku/releases/download/v1.5.0/pakku.jar
+          fi
+
+      - name: Fetch mods and export mrpack
+        run: |
+          java -jar pakku.jar -y fetch
+          java -jar pakku.jar -y export
+
+      - name: Unpack client files into run/
+        run: |
+          mrpack=$(find build/modrinth -name '*.mrpack' | head -n1)
+          [ -n "$mrpack" ] || { echo "::error::No mrpack exported"; exit 1; }
+          python3 -I tools/unpack_mrpack.py "$mrpack" run
+          ls run/mods | wc -l
+          [ -d run/kubejs ] || { echo "::error::overrides lacked kubejs/"; exit 1; }
+
+      - name: Run client (join world, then exit)
+        uses: headlesshq/mc-runtime-test@5.0.0
+        timeout-minutes: 20
+        with:
+          mc: 1.20.1
+          modloader: forge
+          mc-runtime-test: lexforge
+          mc-runtime-test-version: '5.0.0'
+          java: '17'
+          xvfb: 'true'
+          headlessmc-command: >-
+            --jvm "-Djava.awt.headless=true -Xmx6G"
+
+      - name: Check client logs
+        if: always()
+        run: python3 -I tools/check_client_logs.py run
+
+      - name: Upload logs
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: client-boot-logs
+          path: |
+            run/logs/
+            run/crash-reports/
+            run/kubejs/logs/
+          if-no-files-found: ignore
+
+  publish-pack:
+    needs: [server-boot, client-boot]
+    if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: '17'
+
+      - name: Cache Pakku / mod downloads
+        uses: actions/cache@v4
+        with:
+          path: |
+            ~/.pakku
+            .pakku
+            ~/.cache/pakku
+          key: pakku-${{ hashFiles('pakku-lock.json') }}
+          restore-keys: pakku-
+
+      - name: Get Pakku
+        run: |
+          if [ ! -f pakku.jar ]; then
+            curl -fsSL -o pakku.jar https://github.com/juraj-hrivnak/Pakku/releases/download/v1.5.0/pakku.jar
+          fi
+
+      - name: Export mrpack
+        run: |
+          java -jar pakku.jar -y fetch
+          java -jar pakku.jar -y export
+
+      - name: Convert to packwiz
+        run: |
+          mrpack=$(find build/modrinth -name '*.mrpack' | head -n1)
+          [ -n "$mrpack" ] || { echo "::error::No mrpack exported"; exit 1; }
+          python3 -I tools/mrpack_to_packwiz.py "$mrpack" "$RUNNER_TEMP/pack"
+
+      - name: Publish pack branch (orphan, overwritten each time)
+        run: |
+          cd "$RUNNER_TEMP/pack"
+          git init -q
+          git checkout -q --orphan pack
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git commit -q -m "Publish packwiz pack from ${GITHUB_SHA}"
+          git push -f "https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git" pack:pack

@@ -796,7 +796,7 @@
         {
             "pakku_id": "mqCZzNvtY9HaK0hW",
             "type": "MOD",
-            "side": "SERVER",
+            "side": "BOTH",
             "slug": {
                 "modrinth": "fallingtree"
             },
@@ -1931,6 +1931,43 @@
             ]
         },
         {
+            "pakku_id": "F07qyeN0yF2HKj2a",
+            "type": "MOD",
+            "side": "BOTH",
+            "slug": {
+                "modrinth": "patchouli"
+            },
+            "name": {
+                "modrinth": "Patchouli"
+            },
+            "id": {
+                "modrinth": "nU0bVIaL"
+            },
+            "files": [
+                {
+                    "type": "modrinth",
+                    "file_name": "Patchouli-1.20.1-85-FORGE.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/nU0bVIaL/versions/94dtOLgZ/Patchouli-1.20.1-85-FORGE.jar",
+                    "id": "94dtOLgZ",
+                    "parent_id": "nU0bVIaL",
+                    "hashes": {
+                        "sha512": "15aedda4efcc553d5e3c83aa867b62554bc2fab298b43f55ed324e10507a3605f0ec2c59c01476e6d80b2a49275ef080142e43a6e663f9463b62f520960fc203",
+                        "sha1": "d4614507d6e4c7cb464bba5eca891978272062ef"
+                    },
+                    "required_dependencies": [],
+                    "size": 642732,
+                    "date_published": "2026-03-08T21:08:41.512166Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "iZDwKLjzMS5rTWeA",
             "type": "MOD",
             "side": "BOTH",
@@ -2002,6 +2039,48 @@
                     "required_dependencies": [],
                     "size": 301935,
                     "date_published": "2026-09-11T01:01:40.062087Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "4Qe4c0yP61QvyLB4",
+            "pakku_links": [
+                "7hfEWQCkQvqugs8g"
+            ],
+            "type": "MOD",
+            "side": "BOTH",
+            "slug": {
+                "modrinth": "ponder"
+            },
+            "name": {
+                "modrinth": "Ponder for KubeJS"
+            },
+            "id": {
+                "modrinth": "5A34Stj8"
+            },
+            "files": [
+                {
+                    "type": "modrinth",
+                    "file_name": "ponderjs-1.20.1-2.1.0.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/5A34Stj8/versions/5J8TMODW/ponderjs-1.20.1-2.1.0.jar",
+                    "id": "5J8TMODW",
+                    "parent_id": "5A34Stj8",
+                    "hashes": {
+                        "sha512": "a51a284792c9344d7e79ee9c3b982edecbf9208021d5e8fa5d2957fe59cf6413e89846934b04c18737a465a5c8229931a4071d9e45e550be50de97e525f5485c",
+                        "sha1": "a661c5dc6cf28815154e71e066a9e8b13a9fc0c1"
+                    },
+                    "required_dependencies": [
+                        "umyGl7zF"
+                    ],
+                    "size": 2285835,
+                    "date_published": "2025-11-05T13:30:18.834881Z"
                 }
             ]
         },
@@ -2261,6 +2340,48 @@
                     ],
                     "size": 26957,
                     "date_published": "2026-06-19T01:50:04.726399Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "jJ9AIlYG2RTE496l",
+            "type": "MOD",
+            "side": "CLIENT",
+            "slug": {
+                "modrinth": "tooltip-scaler"
+            },
+            "name": {
+                "modrinth": "Tooltip Scaler"
+            },
+            "id": {
+                "modrinth": "XryPYNmV"
+            },
+            "files": [
+                {
+                    "type": "modrinth",
+                    "file_name": "tooltipscaler-0.1.2.jar",
+                    "mc_versions": [
+                        "1.20.1",
+                        "1.20.2",
+                        "1.20.3",
+                        "1.20.4",
+                        "1.20.5",
+                        "1.20.6"
+                    ],
+                    "loaders": [
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/XryPYNmV/versions/bvI1XZQN/tooltipscaler-0.1.2.jar",
+                    "id": "bvI1XZQN",
+                    "parent_id": "XryPYNmV",
+                    "hashes": {
+                        "sha512": "161411677589021eace7b77d81c3231d4e6865fe4e6e9053a040f90493cc96de6ca115b159668ca35ea36514697cc882c8124688d32f0c08e0850645b692785b",
+                        "sha1": "2211a97e3e52906ad9e585a55762cd77b1a63ea9"
+                    },
+                    "required_dependencies": [],
+                    "size": 8996,
+                    "date_published": "2025-10-31T01:25:23.639831Z"
                 }
             ]
         },
