@@ -49,9 +49,18 @@ def parse_yaml(txt):
 
 
 # ---------------------------------------------------------------- known ids
+MODS = ROOT / "mods"
+if "--mods" in sys.argv:
+    MODS = Path(sys.argv[sys.argv.index("--mods") + 1]).resolve()
+
+
 def known_ids():
     ids, mats = set(), set()
-    for j in glob.glob(str(ROOT / "mods" / "*.jar")):
+    jars = glob.glob(str(MODS / "*.jar"))
+    if not jars:
+        print(f"ERROR no mod jars in {MODS} - run `java -jar pakku.jar -y fetch` first or pass --mods <dir>")
+        sys.exit(1)
+    for j in jars:
         try:
             z = zipfile.ZipFile(j)
         except Exception:

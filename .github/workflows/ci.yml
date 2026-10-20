@@ -34,9 +34,6 @@ jobs:
             exit $fail
           fi
 
-      - name: Validate GuideME guide
-        run: python3 -I tools/validate_gtguide.py
-
       - name: Check required docs
         run: |
           for f in PLAN.md README.md CLAUDE.md; do
@@ -77,6 +74,7 @@ jobs:
         run: |
           java -jar pakku.jar -y fetch
           python3 -I tools/audit_deps.py mods
+          python3 -I tools/validate_gtguide.py
           java -jar pakku.jar -y export
           ls -laR build || true
 
