@@ -1,5 +1,12 @@
 # Changelog
 
+## 0.3.1 - 2026-10-20
+
+### Fixed
+- GregTech machine recipes in JEI show item tooltips again (JEI pinned to 15.49.0.200; newer JEI broke GTCEu/LDLib slot tooltips).
+- Polymorph pinned to 0.49.10 for compatibility with JEI 15.49.0.200.
+- JEI config moved to the correct path (config/jei/client/).
+
 ## 0.3.0 - 2026-10-20
 
 Upgrading: re-import the 0.3.0 mrpack once, then set up auto-update (see docs/AUTO_UPDATE.md).

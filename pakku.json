@@ -1,6 +1,6 @@
 {
     "name": "GT-Cataclysm",
-    "version": "0.3.0",
+    "version": "0.3.1",
     "overrides": [
         "config",
         "kubejs",
@@ -28,6 +28,12 @@
         },
         "ponder": {
             "side": "BOTH"
+        },
+        "jei": {
+            "update_strategy": "NONE"
+        },
+        "polymorph": {
+            "update_strategy": "NONE"
         }
     }
 }
