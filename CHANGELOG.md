@@ -1,5 +1,20 @@
 # Changelog
 
+## 0.3.0 - 2026-10-20
+
+Upgrading: re-import the 0.3.0 mrpack once, then set up auto-update (see docs/AUTO_UPDATE.md).
+
+### Added
+- GuideME GregTech visual guide: 44 pages, 9 3D structures. Hold G on items to open.
+- Ponder scenes via PonderJS (hold W): LV macerator, EBF, steam setup, power line, cleanroom, ore line.
+- Automatic updates via packwiz-installer.
+- CI headless client test.
+
+### Changed
+- JEI tag-content grid hidden; Tooltip Scaler added.
+- Tooltips wrapped and extended.
+- G key conflicts moved: Curios to `;`, jetpack to `[`.
+
 ## 0.2.2 - 2026-10-20
 
 ### Fixed
