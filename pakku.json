@@ -25,6 +25,9 @@
         },
         "fallingtree": {
             "side": "BOTH"
+        },
+        "ponder": {
+            "side": "BOTH"
         }
     }
 }

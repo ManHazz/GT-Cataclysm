@@ -2043,6 +2043,48 @@
             ]
         },
         {
+            "pakku_id": "4Qe4c0yP61QvyLB4",
+            "pakku_links": [
+                "7hfEWQCkQvqugs8g"
+            ],
+            "type": "MOD",
+            "side": "CLIENT",
+            "slug": {
+                "modrinth": "ponder"
+            },
+            "name": {
+                "modrinth": "Ponder for KubeJS"
+            },
+            "id": {
+                "modrinth": "5A34Stj8"
+            },
+            "files": [
+                {
+                    "type": "modrinth",
+                    "file_name": "ponderjs-1.20.1-2.1.0.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/5A34Stj8/versions/5J8TMODW/ponderjs-1.20.1-2.1.0.jar",
+                    "id": "5J8TMODW",
+                    "parent_id": "5A34Stj8",
+                    "hashes": {
+                        "sha512": "a51a284792c9344d7e79ee9c3b982edecbf9208021d5e8fa5d2957fe59cf6413e89846934b04c18737a465a5c8229931a4071d9e45e550be50de97e525f5485c",
+                        "sha1": "a661c5dc6cf28815154e71e066a9e8b13a9fc0c1"
+                    },
+                    "required_dependencies": [
+                        "umyGl7zF"
+                    ],
+                    "size": 2285835,
+                    "date_published": "2025-11-05T13:30:18.834881Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "F35RPwkI9AyjfrM7",
             "type": "SHADER",
             "side": "CLIENT",
