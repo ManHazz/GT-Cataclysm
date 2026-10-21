@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.3.2 - 2026-10-21
+
+### Changed
+- `hardGlassRecipes` disabled: sand smelts to glass in a furnace again, so the steam extractor (and rubber/tin cable) no longer require steel first.
+
 ## 0.3.1 - 2026-10-20
 
 ### Fixed
