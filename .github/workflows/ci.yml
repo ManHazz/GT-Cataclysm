@@ -183,11 +183,22 @@ jobs:
         run: |
           mrpack=$(find build/modrinth -name '*.mrpack' | head -n1)
           [ -n "$mrpack" ] || { echo "::error::No mrpack exported"; exit 1; }
-          # Inventory Profiles Next + libIPN hang the headless client (xvfb) while joining
-          # a world; verified working on a real client 2026-10-22. Skipped here only.
-          python3 -I tools/unpack_mrpack.py "$mrpack" run             --exclude "*inventoryprofilesnext*" --exclude "*libipn*"
+          python3 -I tools/unpack_mrpack.py "$mrpack" run
           ls run/mods | wc -l
           [ -d run/kubejs ] || { echo "::error::overrides lacked kubejs/"; exit 1; }
+
+      - name: Disable Forge early window (no GL under xvfb)
+        run: |
+          mkdir -p run/config
+          f=run/config/fml.toml
+          if [ -f "$f" ] && grep -q '^earlyWindowControl' "$f"; then
+            sed -i 's/^earlyWindowControl.*/earlyWindowControl = false/' "$f"
+          elif [ -f "$f" ]; then
+            echo 'earlyWindowControl = false' >> "$f"
+          else
+            echo 'earlyWindowControl = false' > "$f"
+          fi
+          cat "$f"
 
       - name: Run client (join world, then exit)
         uses: headlesshq/mc-runtime-test@5.0.0
