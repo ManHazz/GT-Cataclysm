@@ -1,0 +1,43 @@
+{
+  "display": {
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:lv_machine_hull"
+    },
+    "title": "LV machine hull",
+    "subtitle": "Base of LV machines",
+    "description": [
+      "The hull is the base of every LV single-block machine. LV and below are not gated by a boss.",
+      "Craft one, then right-click machines with a wrench to set their facing."
+    ],
+    "groups": {
+      "Steam & LV": {
+        "position": [
+          264,
+          44
+        ]
+      }
+    }
+  },
+  "settings": {
+    "individual_progress": false,
+    "showDependencyArrow": true
+  },
+  "dependencies": [
+    "steam_steel"
+  ],
+  "tasks": {
+    "task_1": {
+      "type": "heracles:item",
+      "item": "gtceu:lv_machine_hull",
+      "amount": 1
+    }
+  },
+  "rewards": {
+    "reward_1": {
+      "type": "heracles:xp",
+      "xptype": "LEVEL",
+      "amount": 1
+    }
+  }
+}

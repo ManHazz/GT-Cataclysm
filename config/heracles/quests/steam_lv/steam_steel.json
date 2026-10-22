@@ -1,0 +1,42 @@
+{
+  "display": {
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:steel_ingot"
+    },
+    "title": "Steel",
+    "subtitle": "The LV material",
+    "description": [
+      "Steel is needed for nearly everything in the LV age. Make a good stack of it."
+    ],
+    "groups": {
+      "Steam & LV": {
+        "position": [
+          264,
+          0
+        ]
+      }
+    }
+  },
+  "settings": {
+    "individual_progress": false,
+    "showDependencyArrow": true
+  },
+  "dependencies": [
+    "steam_pbf"
+  ],
+  "tasks": {
+    "task_1": {
+      "type": "heracles:item",
+      "item": "gtceu:steel_ingot",
+      "amount": 16
+    }
+  },
+  "rewards": {
+    "reward_1": {
+      "type": "heracles:xp",
+      "xptype": "LEVEL",
+      "amount": 2
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "name": "Shaders, map, keys",
+  "category": "patchouli:pack",
+  "icon": "minecraft:map",
+  "sortnum": 2,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Shaders (optional): Options > Video Settings > Shader Packs. Potato Shaders is light; MakeUp - Ultra Fast looks nicer. Set Off if FPS drops."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Xaero's maps: minimap in a corner, world map on M. Waypoint your base and every boss structure."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Quest book: key J (Open Quests), or right-click the Quest Book item. Rebind in Controls if it clashes."
+    }
+  ]
+}

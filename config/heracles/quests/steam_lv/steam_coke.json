@@ -1,0 +1,48 @@
+{
+  "display": {
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:coke_oven"
+    },
+    "title": "Coke oven",
+    "subtitle": "Fuel for steel",
+    "description": [
+      "The Coke Oven turns coal into coke and creosote oil, which you will need for steel.",
+      "Make Coke Oven Bricks, then check the multiblock preview in JEI."
+    ],
+    "groups": {
+      "Steam & LV": {
+        "position": [
+          176,
+          0
+        ]
+      }
+    }
+  },
+  "settings": {
+    "individual_progress": false,
+    "showDependencyArrow": true
+  },
+  "dependencies": [
+    "steam_furnace"
+  ],
+  "tasks": {
+    "task_1": {
+      "type": "heracles:item",
+      "item": "gtceu:coke_oven_brick",
+      "amount": 8
+    },
+    "task_2": {
+      "type": "heracles:item",
+      "item": "gtceu:coke_oven",
+      "amount": 1
+    }
+  },
+  "rewards": {
+    "reward_1": {
+      "type": "heracles:xp",
+      "xptype": "LEVEL",
+      "amount": 1
+    }
+  }
+}

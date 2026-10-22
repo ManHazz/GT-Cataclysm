@@ -1,0 +1,42 @@
+{
+  "display": {
+    "icon": {
+      "type": "heracles:item",
+      "item": "cataclysm:essence_of_the_storm"
+    },
+    "title": "Get the Essence of the Storm",
+    "subtitle": "Catalyst (not consumed)",
+    "description": [
+      "Scylla drops the Essence of the Storm. Keep it safe; it is the ZPM catalyst and is not consumed."
+    ],
+    "groups": {
+      "ZPM": {
+        "position": [
+          44,
+          0
+        ]
+      }
+    }
+  },
+  "settings": {
+    "individual_progress": false,
+    "showDependencyArrow": true
+  },
+  "dependencies": [
+    "zpm_boss"
+  ],
+  "tasks": {
+    "task_1": {
+      "type": "heracles:item",
+      "item": "cataclysm:essence_of_the_storm",
+      "amount": 1
+    }
+  },
+  "rewards": {
+    "reward_1": {
+      "type": "heracles:xp",
+      "xptype": "LEVEL",
+      "amount": 2
+    }
+  }
+}

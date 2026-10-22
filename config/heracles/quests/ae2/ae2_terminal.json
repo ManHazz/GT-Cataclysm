@@ -1,0 +1,42 @@
+{
+  "display": {
+    "icon": {
+      "type": "heracles:item",
+      "item": "ae2:terminal"
+    },
+    "title": "ME terminal",
+    "subtitle": "Access your items",
+    "description": [
+      "The terminal lets you view and take every item in the network. Right-click it to open."
+    ],
+    "groups": {
+      "AE2": {
+        "position": [
+          220,
+          0
+        ]
+      }
+    }
+  },
+  "settings": {
+    "individual_progress": false,
+    "showDependencyArrow": true
+  },
+  "dependencies": [
+    "ae2_cell"
+  ],
+  "tasks": {
+    "task_1": {
+      "type": "heracles:item",
+      "item": "ae2:terminal",
+      "amount": 1
+    }
+  },
+  "rewards": {
+    "reward_1": {
+      "type": "heracles:xp",
+      "xptype": "LEVEL",
+      "amount": 2
+    }
+  }
+}

@@ -1,0 +1,8 @@
+name = "open-parties-and-claims-forge-1.20.1-0.32.7"
+filename = "open-parties-and-claims-forge-1.20.1-0.32.7.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/gF3BGWvG/versions/PkZL3SuC/open-parties-and-claims-forge-1.20.1-0.32.7.jar"
+hash-format = "sha512"
+hash = "eed600ad9daddccb00e797a7e5c5adaa7e9dc492ff1bd07ada3912998fdf46aaf1e5f309c476c7c7ef18d50179d4bfa6896dff8c28cbc78ebcf06c3efa33f1d0"

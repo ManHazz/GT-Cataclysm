@@ -1,0 +1,42 @@
+{
+  "display": {
+    "icon": {
+      "type": "heracles:item",
+      "item": "cataclysm:monstrous_horn"
+    },
+    "title": "Get the Monstrous Horn",
+    "subtitle": "Catalyst (not consumed)",
+    "description": [
+      "The Netherite Monstrosity drops the Monstrous Horn. Keep it in your inventory or a chest; it is the MV catalyst and is not consumed."
+    ],
+    "groups": {
+      "MV": {
+        "position": [
+          44,
+          0
+        ]
+      }
+    }
+  },
+  "settings": {
+    "individual_progress": false,
+    "showDependencyArrow": true
+  },
+  "dependencies": [
+    "mv_boss"
+  ],
+  "tasks": {
+    "task_1": {
+      "type": "heracles:item",
+      "item": "cataclysm:monstrous_horn",
+      "amount": 1
+    }
+  },
+  "rewards": {
+    "reward_1": {
+      "type": "heracles:xp",
+      "xptype": "LEVEL",
+      "amount": 2
+    }
+  }
+}

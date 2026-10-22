@@ -1,0 +1,42 @@
+{
+  "display": {
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:lv_electric_furnace"
+    },
+    "title": "LV electric furnace",
+    "subtitle": "Retire the boiler",
+    "description": [
+      "Time to retire the steam furnace."
+    ],
+    "groups": {
+      "Steam & LV": {
+        "position": [
+          132,
+          44
+        ]
+      }
+    }
+  },
+  "settings": {
+    "individual_progress": false,
+    "showDependencyArrow": true
+  },
+  "dependencies": [
+    "lv_macerator"
+  ],
+  "tasks": {
+    "task_1": {
+      "type": "heracles:item",
+      "item": "gtceu:lv_electric_furnace",
+      "amount": 1
+    }
+  },
+  "rewards": {
+    "reward_1": {
+      "type": "heracles:xp",
+      "xptype": "LEVEL",
+      "amount": 1
+    }
+  }
+}

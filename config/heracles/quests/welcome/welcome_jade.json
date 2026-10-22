@@ -1,0 +1,42 @@
+{
+  "display": {
+    "icon": {
+      "type": "heracles:item",
+      "item": "minecraft:spyglass"
+    },
+    "title": "Jade tooltips",
+    "subtitle": "Know what you are looking at",
+    "description": [
+      "Look at any block or mob and Jade shows its name, source mod and extra details.",
+      "On GregTech machines it also shows energy and progress, which helps a lot when debugging a setup."
+    ],
+    "groups": {
+      "Welcome": {
+        "position": [
+          132,
+          0
+        ]
+      }
+    }
+  },
+  "settings": {
+    "individual_progress": false,
+    "showDependencyArrow": true
+  },
+  "dependencies": [
+    "welcome_jei"
+  ],
+  "tasks": {
+    "task_1": {
+      "type": "heracles:check",
+      "title": "Got it"
+    }
+  },
+  "rewards": {
+    "reward_1": {
+      "type": "heracles:xp",
+      "xptype": "LEVEL",
+      "amount": 1
+    }
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "display": {
+    "icon": {
+      "type": "heracles:item",
+      "item": "cataclysm:ignitium_ingot"
+    },
+    "title": "Get the Ignitium Ingot",
+    "subtitle": "Catalyst (not consumed)",
+    "description": [
+      "Ignis drops Ignitium Ingots. Keep one; it is the HV catalyst and is not consumed."
+    ],
+    "groups": {
+      "HV": {
+        "position": [
+          44,
+          0
+        ]
+      }
+    }
+  },
+  "settings": {
+    "individual_progress": false,
+    "showDependencyArrow": true
+  },
+  "dependencies": [
+    "hv_boss"
+  ],
+  "tasks": {
+    "task_1": {
+      "type": "heracles:item",
+      "item": "cataclysm:ignitium_ingot",
+      "amount": 1
+    }
+  },
+  "rewards": {
+    "reward_1": {
+      "type": "heracles:xp",
+      "xptype": "LEVEL",
+      "amount": 2
+    }
+  }
+}

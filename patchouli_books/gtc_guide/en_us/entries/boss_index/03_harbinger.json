@@ -1,0 +1,20 @@
+{
+  "name": "The Harbinger",
+  "category": "patchouli:boss_index",
+  "icon": "cataclysm:mech_eye",
+  "sortnum": 7,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(l)No. 03: The Harbinger$()$(br2)Structure: Ancient Factory$(br2)Where: Overworld: underground$(br2)Finder: Eye of Mech (use like an Eye of Ender)."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "cataclysm:witherite_block",
+      "title": "Drops",
+      "text": "Drops: Block of Witherite (uncraft into Witherite Ingots).$(br2)Opens: EV machine hull (Witherite Ingot)."
+    }
+  ],
+  "advancement": "cataclysm:kill_harbinger",
+  "secret": true
+}

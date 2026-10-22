@@ -1,0 +1,20 @@
+{
+  "name": "What GregTech changes",
+  "category": "patchouli:getting_started",
+  "icon": "minecraft:book",
+  "sortnum": 1,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "GregTech replaces vanilla crafting with a long chain: steam, then electric tiers LV, MV, HV and up. Almost everything is made in machines, so open JEI (R on an item) often."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Ore: GT adds its own large ore veins. In this pack vanilla ores also generate alongside them, so early iron and coal are easy. Vanilla's large ore veins are removed.$(br2)A new world is needed to get vanilla ores in old chunks."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Progression: Steam, LV, then one voltage tier per boss. MV to ZPM machine hulls need a Cataclysm boss drop (see Pack Specifics)."
+    }
+  ]
+}

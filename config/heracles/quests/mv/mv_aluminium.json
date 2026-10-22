@@ -1,0 +1,42 @@
+{
+  "display": {
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:aluminium_ingot"
+    },
+    "title": "Aluminium",
+    "subtitle": "Key MV metal",
+    "description": [
+      "Aluminium is the key MV metal. Smelt it in the Electric Blast Furnace from the previous quest."
+    ],
+    "groups": {
+      "MV": {
+        "position": [
+          220,
+          0
+        ]
+      }
+    }
+  },
+  "settings": {
+    "individual_progress": false,
+    "showDependencyArrow": true
+  },
+  "dependencies": [
+    "mv_ebf"
+  ],
+  "tasks": {
+    "task_1": {
+      "type": "heracles:item",
+      "item": "gtceu:aluminium_ingot",
+      "amount": 8
+    }
+  },
+  "rewards": {
+    "reward_1": {
+      "type": "heracles:xp",
+      "xptype": "LEVEL",
+      "amount": 1
+    }
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "display": {
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:research_station"
+    },
+    "title": "Research station",
+    "subtitle": "Unlock recipes",
+    "description": [
+      "Only needed for LuV and higher assembly line recipes, where it creates the research data."
+    ],
+    "groups": {
+      "LuV": {
+        "position": [
+          132,
+          0
+        ]
+      }
+    }
+  },
+  "settings": {
+    "individual_progress": false,
+    "showDependencyArrow": true
+  },
+  "dependencies": [
+    "luv_hull"
+  ],
+  "tasks": {
+    "task_1": {
+      "type": "heracles:item",
+      "item": "gtceu:research_station",
+      "amount": 1
+    }
+  },
+  "rewards": {
+    "reward_1": {
+      "type": "heracles:xp",
+      "xptype": "LEVEL",
+      "amount": 1
+    }
+  }
+}

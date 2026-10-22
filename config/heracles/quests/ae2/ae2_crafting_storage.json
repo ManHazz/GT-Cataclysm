@@ -1,0 +1,47 @@
+{
+  "display": {
+    "icon": {
+      "type": "heracles:item",
+      "item": "ae2:1k_crafting_storage"
+    },
+    "title": "Crafting storage",
+    "subtitle": "Crafting CPU",
+    "description": [
+      "Autocrafting needs a crafting CPU. Build one from a Crafting Unit and a Crafting Storage block, then place them together."
+    ],
+    "groups": {
+      "AE2": {
+        "position": [
+          220,
+          44
+        ]
+      }
+    }
+  },
+  "settings": {
+    "individual_progress": false,
+    "showDependencyArrow": true
+  },
+  "dependencies": [
+    "ae2_terminal"
+  ],
+  "tasks": {
+    "task_1": {
+      "type": "heracles:item",
+      "item": "ae2:crafting_unit",
+      "amount": 1
+    },
+    "task_2": {
+      "type": "heracles:item",
+      "item": "ae2:1k_crafting_storage",
+      "amount": 1
+    }
+  },
+  "rewards": {
+    "reward_1": {
+      "type": "heracles:xp",
+      "xptype": "LEVEL",
+      "amount": 1
+    }
+  }
+}

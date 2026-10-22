@@ -1,0 +1,44 @@
+{
+  "display": {
+    "icon": {
+      "type": "heracles:item",
+      "item": "cataclysm:gauntlet_of_guard"
+    },
+    "title": "Kill the Ender Guardian",
+    "subtitle": "Boss kill",
+    "description": [
+      "The Ender Guardian lives in the Ruined Citadel, which generates in the End (End Highlands and End Midlands).",
+      "An Eye of Void, used like an Eye of Ender, points to the citadel. Be ready for the End first.",
+      "The kill itself is tracked once, in the Bosses chapter. This quest completes after that one; just tick it off."
+    ],
+    "groups": {
+      "IV": {
+        "position": [
+          0,
+          0
+        ]
+      }
+    }
+  },
+  "settings": {
+    "individual_progress": false,
+    "showDependencyArrow": true
+  },
+  "dependencies": [
+    "boss_guardian",
+    "ev_circuit"
+  ],
+  "tasks": {
+    "task_1": {
+      "type": "heracles:check",
+      "title": "Ender Guardian defeated"
+    }
+  },
+  "rewards": {
+    "reward_1": {
+      "type": "heracles:xp",
+      "xptype": "LEVEL",
+      "amount": 5
+    }
+  }
+}

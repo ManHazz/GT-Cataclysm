@@ -1,0 +1,12 @@
+name = "GT-Cataclysm"
+version = "0.3.3"
+pack-format = "packwiz:1.1.0"
+
+[index]
+file = "index.toml"
+hash-format = "sha256"
+hash = "8acf891791717610d2152ad27622c41265a960f6157789ff57146db77bac0adc"
+
+[versions]
+minecraft = "1.20.1"
+forge = "47.4.13"

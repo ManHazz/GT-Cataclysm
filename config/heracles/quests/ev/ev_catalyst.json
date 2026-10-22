@@ -1,0 +1,43 @@
+{
+  "display": {
+    "icon": {
+      "type": "heracles:item",
+      "item": "cataclysm:witherite_ingot"
+    },
+    "title": "Get the Witherite Ingot",
+    "subtitle": "Catalyst (not consumed)",
+    "description": [
+      "The Harbinger drops a Block of Witherite. Put it alone in a crafting grid to get 9 Witherite Ingots.",
+      "Keep one ingot; it is the EV catalyst and is not consumed."
+    ],
+    "groups": {
+      "EV": {
+        "position": [
+          44,
+          0
+        ]
+      }
+    }
+  },
+  "settings": {
+    "individual_progress": false,
+    "showDependencyArrow": true
+  },
+  "dependencies": [
+    "ev_boss"
+  ],
+  "tasks": {
+    "task_1": {
+      "type": "heracles:item",
+      "item": "cataclysm:witherite_ingot",
+      "amount": 1
+    }
+  },
+  "rewards": {
+    "reward_1": {
+      "type": "heracles:xp",
+      "xptype": "LEVEL",
+      "amount": 2
+    }
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "display": {
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:titanium_ingot"
+    },
+    "title": "Titanium",
+    "subtitle": "Main EV metal",
+    "description": [
+      "Titanium is the main EV metal."
+    ],
+    "groups": {
+      "EV": {
+        "position": [
+          132,
+          0
+        ]
+      }
+    }
+  },
+  "settings": {
+    "individual_progress": false,
+    "showDependencyArrow": true
+  },
+  "dependencies": [
+    "ev_hull"
+  ],
+  "tasks": {
+    "task_1": {
+      "type": "heracles:item",
+      "item": "gtceu:titanium_ingot",
+      "amount": 8
+    }
+  },
+  "rewards": {
+    "reward_1": {
+      "type": "heracles:xp",
+      "xptype": "LEVEL",
+      "amount": 1
+    }
+  }
+}

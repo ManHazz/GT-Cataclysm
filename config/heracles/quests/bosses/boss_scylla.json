@@ -1,0 +1,50 @@
+{
+  "display": {
+    "icon": {
+      "type": "heracles:item",
+      "item": "cataclysm:storm_eye"
+    },
+    "title": "Scylla",
+    "subtitle": "Acropolis",
+    "description": [
+      "Acropolis: structure in warm ocean. Drops the Essence of the Storm (ZPM)."
+    ],
+    "groups": {
+      "Bosses": {
+        "position": [
+          264,
+          0
+        ]
+      }
+    }
+  },
+  "settings": {
+    "individual_progress": false,
+    "showDependencyArrow": true
+  },
+  "dependencies": [
+    "boss_maledictus"
+  ],
+  "tasks": {
+    "task_1": {
+      "type": "heracles:structure",
+      "title": "Find the Acropolis",
+      "structures": "cataclysm:acropolis"
+    },
+    "task_2": {
+      "type": "heracles:kill_entity",
+      "title": "Scylla",
+      "entity": {
+        "type": "cataclysm:scylla"
+      },
+      "amount": 1
+    }
+  },
+  "rewards": {
+    "reward_1": {
+      "type": "heracles:xp",
+      "xptype": "LEVEL",
+      "amount": 5
+    }
+  }
+}

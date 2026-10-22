@@ -1,0 +1,42 @@
+{
+  "display": {
+    "icon": {
+      "type": "heracles:item",
+      "item": "minecraft:map"
+    },
+    "title": "Xaero's maps",
+    "subtitle": "Never get lost",
+    "description": [
+      "The minimap sits in a screen corner and the full World Map opens with M.",
+      "Make a waypoint at your base and at every boss structure you find, so you can always find your way back."
+    ],
+    "groups": {
+      "Welcome": {
+        "position": [
+          176,
+          0
+        ]
+      }
+    }
+  },
+  "settings": {
+    "individual_progress": false,
+    "showDependencyArrow": true
+  },
+  "dependencies": [
+    "welcome_jade"
+  ],
+  "tasks": {
+    "task_1": {
+      "type": "heracles:check",
+      "title": "Got it"
+    }
+  },
+  "rewards": {
+    "reward_1": {
+      "type": "heracles:xp",
+      "xptype": "LEVEL",
+      "amount": 1
+    }
+  }
+}

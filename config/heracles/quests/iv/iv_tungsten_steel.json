@@ -1,0 +1,42 @@
+{
+  "display": {
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:tungsten_steel_ingot"
+    },
+    "title": "Tungsten steel",
+    "subtitle": "IV metal",
+    "description": [
+      "Tungsten steel is the IV metal. It needs a lot of power to make."
+    ],
+    "groups": {
+      "IV": {
+        "position": [
+          132,
+          0
+        ]
+      }
+    }
+  },
+  "settings": {
+    "individual_progress": false,
+    "showDependencyArrow": true
+  },
+  "dependencies": [
+    "iv_hull"
+  ],
+  "tasks": {
+    "task_1": {
+      "type": "heracles:item",
+      "item": "gtceu:tungsten_steel_ingot",
+      "amount": 8
+    }
+  },
+  "rewards": {
+    "reward_1": {
+      "type": "heracles:xp",
+      "xptype": "LEVEL",
+      "amount": 1
+    }
+  }
+}

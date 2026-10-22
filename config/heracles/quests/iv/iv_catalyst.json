@@ -1,0 +1,42 @@
+{
+  "display": {
+    "icon": {
+      "type": "heracles:item",
+      "item": "cataclysm:gauntlet_of_guard"
+    },
+    "title": "Get the Gauntlet of Guard",
+    "subtitle": "Catalyst (not consumed)",
+    "description": [
+      "The Ender Guardian drops the Gauntlet of Guard. Keep it safe; it is the IV catalyst and is not consumed."
+    ],
+    "groups": {
+      "IV": {
+        "position": [
+          44,
+          0
+        ]
+      }
+    }
+  },
+  "settings": {
+    "individual_progress": false,
+    "showDependencyArrow": true
+  },
+  "dependencies": [
+    "iv_boss"
+  ],
+  "tasks": {
+    "task_1": {
+      "type": "heracles:item",
+      "item": "cataclysm:gauntlet_of_guard",
+      "amount": 1
+    }
+  },
+  "rewards": {
+    "reward_1": {
+      "type": "heracles:xp",
+      "xptype": "LEVEL",
+      "amount": 2
+    }
+  }
+}

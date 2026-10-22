@@ -1,0 +1,1140 @@
+hash-format = "sha256"
+
+[[files]]
+file = "config/defaultoptions/keybindings.txt"
+hash = "8c77ab80667b0df50546e1be8e7f9d229732c45fb9cdf35bab7487f6cc0c672a"
+
+[[files]]
+file = "config/gtceu.yaml"
+hash = "e088e3f2329d92127210f919dc3a55ba333bd9ff7e4a6d717a2e3d7e8afbdd28"
+
+[[files]]
+file = "config/heracles/groups.txt"
+hash = "7296ac958c72657cdb7d8c5d8c604407e7ec04cc5357e7b09c7d1fc3e081a1fa"
+
+[[files]]
+file = "config/heracles/quests/ae2/ae2_cell.json"
+hash = "9c658fdbfcd07e5ccde63e387ad3c234131c995b52424736621d60460377556a"
+
+[[files]]
+file = "config/heracles/quests/ae2/ae2_certus.json"
+hash = "93e4a92f95f9ded11a59e994bbc8f97e36450953d5d13b99a169d1997e6aa498"
+
+[[files]]
+file = "config/heracles/quests/ae2/ae2_controller.json"
+hash = "e0964f8e8148a477fafb880a144fb9134d304a479e537781f8da819862ae6d03"
+
+[[files]]
+file = "config/heracles/quests/ae2/ae2_crafting_storage.json"
+hash = "d7e5e2a16ea54b32220135722c05e2ff1aeb0795a7a10c72e9db35ee36f3612f"
+
+[[files]]
+file = "config/heracles/quests/ae2/ae2_crafting_terminal.json"
+hash = "311b007bfc79aa4341c25265fdb875413d45700a54a981fb85ec9db88e750deb"
+
+[[files]]
+file = "config/heracles/quests/ae2/ae2_drive.json"
+hash = "6b9ed13f59e2b2800ca156d14dc255ffb2a3e1e8bcd4c82dfed65b021d033a23"
+
+[[files]]
+file = "config/heracles/quests/ae2/ae2_fluix.json"
+hash = "5b48e990cff6a272bb6d541ad8cae841b777e0b5d95c81e164860b20a30d6025"
+
+[[files]]
+file = "config/heracles/quests/ae2/ae2_molecular.json"
+hash = "39c74edeb0088be61b7cff2b673f863143e3c3d2e5f3cafc30d5a7805b1cbe3e"
+
+[[files]]
+file = "config/heracles/quests/ae2/ae2_pattern_terminal.json"
+hash = "8e8d86cb256971717cb37f90d16f8458e95eb45cd5f23ff94c8703a31c4fff2b"
+
+[[files]]
+file = "config/heracles/quests/ae2/ae2_provider.json"
+hash = "0d2eb1beac22fd637b0890b6175e3a0741b85126ed519523f1775312d692f553"
+
+[[files]]
+file = "config/heracles/quests/ae2/ae2_terminal.json"
+hash = "84eebb2931e4bc69dc95c90fde1956f52271a93232f6f987aff385ea49dc7fb2"
+
+[[files]]
+file = "config/heracles/quests/bosses/boss_guardian.json"
+hash = "cbd8dfc05d449a92a86f6357e605bed659c86f44018799f4314d7f615b997734"
+
+[[files]]
+file = "config/heracles/quests/bosses/boss_harbinger.json"
+hash = "a2f3638282c45470c8fa4eced7d1ff9abb3ebcbd02a7f55d800bd38e26bb97c1"
+
+[[files]]
+file = "config/heracles/quests/bosses/boss_ignis.json"
+hash = "3f4238b79867f43d85304823aa9badd2960c7faac09bed69e559ad89522771c1"
+
+[[files]]
+file = "config/heracles/quests/bosses/boss_maledictus.json"
+hash = "283ddf6fb9d53425737c0e8bdedc9bfdf4a2b2827205b61d09125ee47b4a93aa"
+
+[[files]]
+file = "config/heracles/quests/bosses/boss_monstrosity.json"
+hash = "68e09d2009f8f6ee48fdcf11551dd617618065eec0b88a1e603626ea84743903"
+
+[[files]]
+file = "config/heracles/quests/bosses/boss_overview.json"
+hash = "770156f3c2c6566fc7f79da254d17e09d23620049df61376260130ecac03f3f0"
+
+[[files]]
+file = "config/heracles/quests/bosses/boss_scylla.json"
+hash = "b0bdb9a0f5460b6b6b505873443275feb7b2634ef7c74845e4d7e1be9bdd3d56"
+
+[[files]]
+file = "config/heracles/quests/ev/ev_boss.json"
+hash = "a12fa9fc7e955f5b8e7f128009df25a0c860f3dab922c3f99c3dcd81f9b8c9b4"
+
+[[files]]
+file = "config/heracles/quests/ev/ev_catalyst.json"
+hash = "be09b81210d807ada5a7c0caebcaaa05dcb842817244adf88cdef41f20c3cb6d"
+
+[[files]]
+file = "config/heracles/quests/ev/ev_chem.json"
+hash = "d54052714c785dd54ee4c9c0e316b7971cd8f8fc6620b97a62f8cfc9c88ea1cd"
+
+[[files]]
+file = "config/heracles/quests/ev/ev_circuit.json"
+hash = "06d9f245259b73cb7a7317bd239415cbfbedc3887bb889a3e6f768cf2cdbc591"
+
+[[files]]
+file = "config/heracles/quests/ev/ev_hull.json"
+hash = "0f093500fe86f47017d09310b6fbe7c1756ac6f64f6c9d00215df05f492c20a5"
+
+[[files]]
+file = "config/heracles/quests/ev/ev_titanium.json"
+hash = "ec3e6470adb6b1d2ed6ccc680250915ed620b0f38f8f9c2f17f234a97f1c5d30"
+
+[[files]]
+file = "config/heracles/quests/hv/hv_boss.json"
+hash = "c383d1cba06927a7bb25120ca29908963c71ccc295d79600964684fcab31f1cb"
+
+[[files]]
+file = "config/heracles/quests/hv/hv_catalyst.json"
+hash = "9f4c66915daf8a8ae43fc635f19cfe461d9e460685445ed71d2008ab6e5506f4"
+
+[[files]]
+file = "config/heracles/quests/hv/hv_chem.json"
+hash = "c63e8aee8a9e73b46e0ded3d6d8208dd94a212eade9e92bfb23d3259ebf54f45"
+
+[[files]]
+file = "config/heracles/quests/hv/hv_circuit.json"
+hash = "40183f32fb72e24b66c770557455298dbf9b178826beb2d165fcb4dc1d605747"
+
+[[files]]
+file = "config/heracles/quests/hv/hv_cleanroom.json"
+hash = "60681b3032405e9cab6744a659d3b49135b1b6b00558fe351070c5ba29efe1b5"
+
+[[files]]
+file = "config/heracles/quests/hv/hv_freezer.json"
+hash = "a9889628fabddb23a05ae5484c64e9f15f964d536157058ba1c489d8b4307558"
+
+[[files]]
+file = "config/heracles/quests/hv/hv_hull.json"
+hash = "de15e97b1ad36c0f0dddf6655ce8622443989e1521278efa923d59111e643849"
+
+[[files]]
+file = "config/heracles/quests/hv/hv_stainless.json"
+hash = "cbf942452d649a214f727344ecabdd0cd87c01df74c5544670e14100f33fbad0"
+
+[[files]]
+file = "config/heracles/quests/iv/iv_arm.json"
+hash = "ad003d137b86ceb08e3dbadf2711b70f43daab641df6fcf7db9eb1eec42b13c2"
+
+[[files]]
+file = "config/heracles/quests/iv/iv_assembly_line.json"
+hash = "25ad241f819b29b0daad43180ae4fb5fe2239ee824839d0197ba8b889f6f8f54"
+
+[[files]]
+file = "config/heracles/quests/iv/iv_boss.json"
+hash = "a7ca60a5ac2643f51c2a4fa0606675ec8b179bc8110db4a7a6acf82cc0dd377d"
+
+[[files]]
+file = "config/heracles/quests/iv/iv_catalyst.json"
+hash = "e8a530eb246c3f4ec81af0f147a3de8126ec5a52bbc19d9e067e460499b9a3df"
+
+[[files]]
+file = "config/heracles/quests/iv/iv_circuit.json"
+hash = "8f4705a164dc48638bca5adeecc71e2a744ce17d723b3fbc300f6550bd279c04"
+
+[[files]]
+file = "config/heracles/quests/iv/iv_hull.json"
+hash = "864aaf2286b087d6632afac031d242951f350e2b6e3d0af406fa57125b2135a0"
+
+[[files]]
+file = "config/heracles/quests/iv/iv_tungsten_steel.json"
+hash = "bdafd8bba02fd01d6330cc930c4c6750fafe6b8954307608727a8a73ab1191fe"
+
+[[files]]
+file = "config/heracles/quests/luv/luv_boss.json"
+hash = "af5d8c944250b93385a8af44838f2222c959936aa0ae422aeaf1e303f37865e7"
+
+[[files]]
+file = "config/heracles/quests/luv/luv_catalyst.json"
+hash = "c516038917fec12b368eb4c7e03b7fa72641976252c1f910546580d3d5c3ad69"
+
+[[files]]
+file = "config/heracles/quests/luv/luv_circuit.json"
+hash = "4f2ef15fd66148ad45f6f736f407f9fb27345ccd5834ee02459af68759240254"
+
+[[files]]
+file = "config/heracles/quests/luv/luv_fusion.json"
+hash = "4f8ca7392be2deb220a4dee59e1d6c3b7d783392762d6d6b64b027b623bc694d"
+
+[[files]]
+file = "config/heracles/quests/luv/luv_hull.json"
+hash = "64e29659e0a1cc64442f289c6ef36aca9513e3da1389c5115fec4a4be73eceb9"
+
+[[files]]
+file = "config/heracles/quests/luv/luv_research.json"
+hash = "0eb258725dbe732ad4e7637c11baf4d3e9aa616aa6ee0ca957aeccde4cff4d0b"
+
+[[files]]
+file = "config/heracles/quests/mv/mv_aluminium.json"
+hash = "6210f548d6ae2967021cd2ee0032290b649fa794ea3d809096e3bcda8d40549f"
+
+[[files]]
+file = "config/heracles/quests/mv/mv_assembler.json"
+hash = "0963f432ce5673e2dffa539e284e684302dd27df4eff94ecc3f4d1b2b01cd25e"
+
+[[files]]
+file = "config/heracles/quests/mv/mv_boss.json"
+hash = "c5cf81a8f9d80e79a88404a04a4925e04885025925619853b50baab426adbeab"
+
+[[files]]
+file = "config/heracles/quests/mv/mv_catalyst.json"
+hash = "d611e861cf078e08f5e8a22a570080e914a699299b9fbc1dee4d18b2e723ed41"
+
+[[files]]
+file = "config/heracles/quests/mv/mv_circuit.json"
+hash = "c444b403e927c4ce920ae824699953a01656da7ad8b0972d4281161eeac6b9c7"
+
+[[files]]
+file = "config/heracles/quests/mv/mv_ebf.json"
+hash = "5507abbbd43d1f699d8cd2697a7b31c3456432e5abda71b2fa8af15f9d9c2359"
+
+[[files]]
+file = "config/heracles/quests/mv/mv_hull.json"
+hash = "448d9be555298c41692857a649f77e3f597c73ebc12cf4b88c8d5ed6abae307f"
+
+[[files]]
+file = "config/heracles/quests/steam_lv/lv_assembler.json"
+hash = "161349a5e71f686f8414e244b732f7d57bb2c0824805d814a980a95b86372b0d"
+
+[[files]]
+file = "config/heracles/quests/steam_lv/lv_circuit.json"
+hash = "b7e032ed2937268401f5aef0dbd5cdb4565c4334e65368c5bfb4663b0f0a49bd"
+
+[[files]]
+file = "config/heracles/quests/steam_lv/lv_circuit_assembler.json"
+hash = "d13783d924971aa818f845775c27e8c9555b373b45604f87a546b7212d70b495"
+
+[[files]]
+file = "config/heracles/quests/steam_lv/lv_electric_furnace.json"
+hash = "e0d20adbf4191e1a4264aa7da98a3260555fa51403bd817a00ff63fa1117cf53"
+
+[[files]]
+file = "config/heracles/quests/steam_lv/lv_hull.json"
+hash = "d4a6bcb6febb2172a6fedbd11008d721c194dbf48b01258c98b0d9c8a0a30bfd"
+
+[[files]]
+file = "config/heracles/quests/steam_lv/lv_macerator.json"
+hash = "47abfa1cc1a22a515823eebe13bc6cbc248b23a915017c80cad58cae18367225"
+
+[[files]]
+file = "config/heracles/quests/steam_lv/lv_turbine.json"
+hash = "99b55ecfe003feaeea58296b8f4218c3a84ad06112e5a525cec90e72633d3164"
+
+[[files]]
+file = "config/heracles/quests/steam_lv/steam_boiler.json"
+hash = "df14df0001ffef26b03af32adf3db57629e19f7e49b5ee83203a6d91f0139398"
+
+[[files]]
+file = "config/heracles/quests/steam_lv/steam_bronze.json"
+hash = "fc8e51ab787929ec059ff879eec4eca46a5ccb4a6776135651d51dd309bba8ec"
+
+[[files]]
+file = "config/heracles/quests/steam_lv/steam_coke.json"
+hash = "e9541f0e6040a75e18e5b346a079b559050891e95d2fab6b0c6d44b40fb0ce5f"
+
+[[files]]
+file = "config/heracles/quests/steam_lv/steam_furnace.json"
+hash = "6e6d7a98ed9c1af25ca2a8e653959651c4e22183a23111bdb067558d5625f963"
+
+[[files]]
+file = "config/heracles/quests/steam_lv/steam_macerator.json"
+hash = "6df964142874d6eed960d95dc2223d83153e20a9e88f422ac780d58d22d56218"
+
+[[files]]
+file = "config/heracles/quests/steam_lv/steam_pbf.json"
+hash = "e76d315dea988563d1746e390b73c7a50e16bb67daae1316a6e765fd0941c02a"
+
+[[files]]
+file = "config/heracles/quests/steam_lv/steam_steel.json"
+hash = "efff5a65cd346dfa2a453343cb00b9e68d8445cd6b18e287a6259e41561da5c6"
+
+[[files]]
+file = "config/heracles/quests/welcome/welcome_gates.json"
+hash = "ae1e0be2f1594c7d1ceb8832ba027956de28b016e7a74bc2faba367da4f66031"
+
+[[files]]
+file = "config/heracles/quests/welcome/welcome_intro.json"
+hash = "8ad37454c53a7f3b08cdc80d8b3c996f67983a82dcaaee2ebfe21409d10fae30"
+
+[[files]]
+file = "config/heracles/quests/welcome/welcome_jade.json"
+hash = "91c49460eaec3e07827215eec1c7875deee42c45c3f90505b6aff045cb6d9988"
+
+[[files]]
+file = "config/heracles/quests/welcome/welcome_jei.json"
+hash = "23b22c11a627c5a5f136da2a116f3853dec88bc190fd3fa0afb19f80858d9908"
+
+[[files]]
+file = "config/heracles/quests/welcome/welcome_map.json"
+hash = "96dcf8d81fd405cf70235c91ae37b47449b5123ab683b88f4877438b20d911f5"
+
+[[files]]
+file = "config/heracles/quests/welcome/welcome_ram.json"
+hash = "2789ef9ed113f51763a766cf9dc332f232d94f01480c0d0c18bbc8496c2eac82"
+
+[[files]]
+file = "config/heracles/quests/welcome/welcome_shaders.json"
+hash = "aa9be554b45f2978372ce676b260e83f7f502f67754fec03f9c6d77cf630acc5"
+
+[[files]]
+file = "config/heracles/quests/zpm/zpm_boss.json"
+hash = "fff3d78543e74355641dc65fb6d9cb303310542034d0e33b07288f1dd810840f"
+
+[[files]]
+file = "config/heracles/quests/zpm/zpm_catalyst.json"
+hash = "84736c71edc5bc611a2dc933e79e2045e5926fca9a28f98faa7a3f3db3e088fe"
+
+[[files]]
+file = "config/heracles/quests/zpm/zpm_coil.json"
+hash = "bb9e94fabf1de8c906866fc7dca9946eee196ed12189c697d1ebe2f33fd62258"
+
+[[files]]
+file = "config/heracles/quests/zpm/zpm_fusion.json"
+hash = "867dc4f5be6351889556b70b2d5bd2436479dccac44f8ed49140fe643c2bdd7c"
+
+[[files]]
+file = "config/heracles/quests/zpm/zpm_hull.json"
+hash = "81f550d917a0dde7a3b60d6dd68a2016f4cce509f9c2f326a3c13fa3c447ee97"
+
+[[files]]
+file = "config/heracles/quests/zpm/zpm_motor.json"
+hash = "9fd241ac010d8a5f7bfe0c8941ba06263729689ecc7a1b0562483f6ba8845c36"
+
+[[files]]
+file = "config/jei/client/jei-client.ini"
+hash = "be8e6fd419d6d9ef5828ede557e3e9cb28105a32b89c86d0efc20c31c4684805"
+
+[[files]]
+file = "config/modernfix-mixins.properties"
+hash = "f3bb81b3ff276968eea1494341fc600c28925ebb05e4a469f0c3a40321f23cbe"
+
+[[files]]
+file = "heracles_options.json"
+hash = "74a6c2c7a883a48a14e266a5a952deb63497fc9a51ed251966988c80fb02e4b6"
+
+[[files]]
+file = "kubejs/assets/gtc/guideme_guides/gtguide.json"
+hash = "00de4314d5fd02a991e55f758cf6d00e6b6abebf203aa8d961c20394a102158d"
+
+[[files]]
+file = "kubejs/assets/gtc/guides/gtc/gtguide/amperage.md"
+hash = "00476587b1bed2375bf9b07f579a219bdb83c44fc1f01ee033df666d0286e7c8"
+
+[[files]]
+file = "kubejs/assets/gtc/guides/gtc/gtguide/assembly_line.md"
+hash = "5b0147378e0c9223cd381d6f416cbb8752009519953734b5a89f24ca5b81c0bf"
+
+[[files]]
+file = "kubejs/assets/gtc/guides/gtc/gtguide/batteries.md"
+hash = "0d84d3f9f6569eb57ade71f8bfea1952962ed7f4e1ec000436c89d8ad3b04264"
+
+[[files]]
+file = "kubejs/assets/gtc/guides/gtc/gtguide/boss_hulls.md"
+hash = "c0cfe7ebd12459ae6c584ed9d4128ad7ae17f86205b4cd175708d22cddeca07f"
+
+[[files]]
+file = "kubejs/assets/gtc/guides/gtc/gtguide/bronze.md"
+hash = "946ca2617f92185f1271d92f902e70c789f3c059385208dfff70cfe0d39c95c3"
+
+[[files]]
+file = "kubejs/assets/gtc/guides/gtc/gtguide/cables.md"
+hash = "f99930f3a7a99a88d0ea08d0ffb3276f661a2806d208b5e1d13afd9708d346fa"
+
+[[files]]
+file = "kubejs/assets/gtc/guides/gtc/gtguide/cleanroom.md"
+hash = "2eb4633de0ec1c21773fd38cc51ea620570d716ff0988b79b7c81edb47d7110c"
+
+[[files]]
+file = "kubejs/assets/gtc/guides/gtc/gtguide/coils.md"
+hash = "0334a5e9d70960e9621290e3d3460c1c1c75800489e3f57f612391fde77ba01f"
+
+[[files]]
+file = "kubejs/assets/gtc/guides/gtc/gtguide/crushed_ore.md"
+hash = "a00e62ebde7052bc590a5288d2c8d1d6012c0fb687be90646c4d4fec755e8a64"
+
+[[files]]
+file = "kubejs/assets/gtc/guides/gtc/gtguide/ebf.md"
+hash = "a63016a8e7611eba05ce8cdb5b8365a5c4cc976ef3190be080d4ef934a9c1a63"
+
+[[files]]
+file = "kubejs/assets/gtc/guides/gtc/gtguide/fluid_pipes.md"
+hash = "4d18f757a58e5508072511ddeca26a8de3f99cea108fc0704e876ad9a0a27b42"
+
+[[files]]
+file = "kubejs/assets/gtc/guides/gtc/gtguide/generators.md"
+hash = "ef0d350524d29a797d6b24d50cdb74804413af43c042ccfe887448dc79ef5e22"
+
+[[files]]
+file = "kubejs/assets/gtc/guides/gtc/gtguide/hull_recipe.md"
+hash = "d92639d0b1ab91063d1b2ab1557ea67514c89b44cbeddaf58f95bedbae7918f4"
+
+[[files]]
+file = "kubejs/assets/gtc/guides/gtc/gtguide/implosion_compressor.md"
+hash = "e310cd381e96251938e1b006f21a40976648e7a658338e01587cd662f9ad512e"
+
+[[files]]
+file = "kubejs/assets/gtc/guides/gtc/gtguide/index.md"
+hash = "fd9c43bc352de2b81706341e336862f31da38e317dd528a7006ff057ffe4b082"
+
+[[files]]
+file = "kubejs/assets/gtc/guides/gtc/gtguide/large_boilers.md"
+hash = "55fb15316b5a4030ade7bae092fc27f19a332dac5316a297a783bb26bfc5b0ba"
+
+[[files]]
+file = "kubejs/assets/gtc/guides/gtc/gtguide/lv_assembler.md"
+hash = "10ddba31c8b6036a0569b0b7d5799f5ddc1b9e6e6c5bb4149fd2f57acd55af18"
+
+[[files]]
+file = "kubejs/assets/gtc/guides/gtc/gtguide/lv_bender.md"
+hash = "7f57f8b2001933a50cf19e3c345794f86afb6adf31f74bc6580217a076b36505"
+
+[[files]]
+file = "kubejs/assets/gtc/guides/gtc/gtguide/lv_centrifuge.md"
+hash = "dbc6ef7848213ce64bde6fcc0d763a88a5629366e70ca9e07ed472801516021f"
+
+[[files]]
+file = "kubejs/assets/gtc/guides/gtc/gtguide/lv_chemical_reactor.md"
+hash = "4c0fde9bc2be59ae56179e86e0036adc2ba8fe231cb9682ca33893470f645fe1"
+
+[[files]]
+file = "kubejs/assets/gtc/guides/gtc/gtguide/lv_circuit_assembler.md"
+hash = "e4335a4e606c2333b7ce79c13a1d5973577ca498cb3b3e2c113023e3c097c2e2"
+
+[[files]]
+file = "kubejs/assets/gtc/guides/gtc/gtguide/lv_compressor.md"
+hash = "c604fc3f2380222c808a48f8d2855114796847cf42fb60c82965ec386ad2b8fd"
+
+[[files]]
+file = "kubejs/assets/gtc/guides/gtc/gtguide/lv_electric_furnace.md"
+hash = "ac144529189f23dce9a33cc312fb80c7314a670622b38bafb14827cf4e51932d"
+
+[[files]]
+file = "kubejs/assets/gtc/guides/gtc/gtguide/lv_electrolyzer.md"
+hash = "2b7de6cfa3b8dbbb18eb6e4e0c3b8e95da1aefafbbaacabfa032264a11930803"
+
+[[files]]
+file = "kubejs/assets/gtc/guides/gtc/gtguide/lv_extractor.md"
+hash = "a1532ebdcc046d12a36a47d4ea8d9e66a47f875b06ec3103a709c6a998ddfaba"
+
+[[files]]
+file = "kubejs/assets/gtc/guides/gtc/gtguide/lv_macerator.md"
+hash = "1542bae17afa08e441408a00bc29f5cf99d5ae2d01cbf7d86999d21b8ee36680"
+
+[[files]]
+file = "kubejs/assets/gtc/guides/gtc/gtguide/lv_ore_washer.md"
+hash = "782952c41e09b034d19973a22c16e4ea6f8c9d694ff9986df0c00f501277b2c3"
+
+[[files]]
+file = "kubejs/assets/gtc/guides/gtc/gtguide/lv_thermal_centrifuge.md"
+hash = "51b54cf17a68df3b07fef0fa8775e6db2b0bbff2d4a35f76970e6b3c0bbe1338"
+
+[[files]]
+file = "kubejs/assets/gtc/guides/gtc/gtguide/lv_wiremill.md"
+hash = "bab6c6c99792842fd17b2c75a40b3cffd4fd017b15b8ca74eea9845e7e7e52a6"
+
+[[files]]
+file = "kubejs/assets/gtc/guides/gtc/gtguide/machines.md"
+hash = "b4648fa254ff7134d65d4fa5220903c18e84fe8713addef240a6e52efe200230"
+
+[[files]]
+file = "kubejs/assets/gtc/guides/gtc/gtguide/multiblocks.md"
+hash = "aa9ef1d84369a5ff3faa08e225bf76fddfb605b108fc44fc6dda3678991669f5"
+
+[[files]]
+file = "kubejs/assets/gtc/guides/gtc/gtguide/ore_chain.md"
+hash = "2b8b64ef4e6f890bb71ea33d4c966ad8cc93a4fe92a625029c80d1edf3bd9b15"
+
+[[files]]
+file = "kubejs/assets/gtc/guides/gtc/gtguide/ores.md"
+hash = "ed5b464d592dff5564b8752e2e9e36f3566ebb382be463cf0667c31b77e68510"
+
+[[files]]
+file = "kubejs/assets/gtc/guides/gtc/gtguide/pack.md"
+hash = "b0a15859b5e7bbb1a2d4d37e9f8fedbabe91fa91aab1f067e578200220fb576b"
+
+[[files]]
+file = "kubejs/assets/gtc/guides/gtc/gtguide/power.md"
+hash = "f0967b2a6f7d94985ef90bce9d2fbda6b76d5dc739511e557bffee75d6b46abb"
+
+[[files]]
+file = "kubejs/assets/gtc/guides/gtc/gtguide/power_line.md"
+hash = "9152f362a41941e7e94b70342fb12c038580b1c942efdbb5f9082d1b0f1162f2"
+
+[[files]]
+file = "kubejs/assets/gtc/guides/gtc/gtguide/pyrolyse_oven.md"
+hash = "f2efa8aedf51cab27b26a9e46ac2287ca92b466f0d74aa9d2d3a5d41aea63351"
+
+[[files]]
+file = "kubejs/assets/gtc/guides/gtc/gtguide/steam.md"
+hash = "42c860f3720f2b70bd25db7816876158dcadedee930a38bcc612d14b130dcaa2"
+
+[[files]]
+file = "kubejs/assets/gtc/guides/gtc/gtguide/steam_boiler.md"
+hash = "8ba09b6c10bbcd67903536e8a1f67d33eb9423b89123e52a168f2eaceaf24065"
+
+[[files]]
+file = "kubejs/assets/gtc/guides/gtc/gtguide/steam_hulls.md"
+hash = "d3744e5b62006193dfc31eed7243779665f065f6c867ed2d34ba57886e0c5f24"
+
+[[files]]
+file = "kubejs/assets/gtc/guides/gtc/gtguide/steam_macerator.md"
+hash = "de8a6ff1ae5e24c269d6ad6878adaae63fc566cf9e1e56b5a86ce41d559dc2a6"
+
+[[files]]
+file = "kubejs/assets/gtc/guides/gtc/gtguide/structures/assembly_line.nbt"
+hash = "4338b7b8fa1df72c13df32372e996f5e4c5577989cdda0099b0f66c49f52ad86"
+
+[[files]]
+file = "kubejs/assets/gtc/guides/gtc/gtguide/structures/cleanroom.nbt"
+hash = "b79d04c50d1a38527afb535e86e29ed2b0bb2052ea5a6c079fc20af103a49601"
+
+[[files]]
+file = "kubejs/assets/gtc/guides/gtc/gtguide/structures/ebf.nbt"
+hash = "d3936c8cb14741acafe9790abe3636206ace95b2caa299af1ee1bcddb8b617a6"
+
+[[files]]
+file = "kubejs/assets/gtc/guides/gtc/gtguide/structures/implosion_compressor.nbt"
+hash = "6f69045d5e87a6991f72a0818b8a03e04f40a61a40f92be75645e6d3778a9c77"
+
+[[files]]
+file = "kubejs/assets/gtc/guides/gtc/gtguide/structures/large_boiler.nbt"
+hash = "751d858ef41a575e57320e21194e63679a12308a0f40e9c7080cda40d221506f"
+
+[[files]]
+file = "kubejs/assets/gtc/guides/gtc/gtguide/structures/power_line.nbt"
+hash = "0aa8cd54eccb3f56cce97e097d0b6dfd3a6aa9fd59cd16f08da0058807ddf09c"
+
+[[files]]
+file = "kubejs/assets/gtc/guides/gtc/gtguide/structures/pyrolyse_oven.nbt"
+hash = "a53ef30225a8f0e452d7a962afeb48f78a462d6f61ca5c916279c1203afe4c50"
+
+[[files]]
+file = "kubejs/assets/gtc/guides/gtc/gtguide/structures/steam_setup.nbt"
+hash = "cfd400b0b29639a56097e7dd12300843ba6709c2d0d1a441a95a03c205196370"
+
+[[files]]
+file = "kubejs/assets/gtc/guides/gtc/gtguide/structures/vacuum_freezer.nbt"
+hash = "94481c4e8de8571b63fa9498f47b8ff0d19fa9a085ec6d57305b2072cabb530d"
+
+[[files]]
+file = "kubejs/assets/gtc/guides/gtc/gtguide/transformers.md"
+hash = "8c466600c69c13900381445bf2afa995e0b777775113e1cd7e6ac0231f35afd9"
+
+[[files]]
+file = "kubejs/assets/gtc/guides/gtc/gtguide/vacuum_freezer.md"
+hash = "a7ba269f990fd5122e4b3d51e601a91213b05d90cbd6fb76bb909bf0fd0bc3e5"
+
+[[files]]
+file = "kubejs/assets/gtc/guides/gtc/gtguide/voltage_tiers.md"
+hash = "8549f1c7b9b323478a82392d805849941a1609159bd523d2b256f71e12b72740"
+
+[[files]]
+file = "kubejs/assets/gtc/ponder/assembly_line.nbt"
+hash = "4338b7b8fa1df72c13df32372e996f5e4c5577989cdda0099b0f66c49f52ad86"
+
+[[files]]
+file = "kubejs/assets/gtc/ponder/cleanroom.nbt"
+hash = "b79d04c50d1a38527afb535e86e29ed2b0bb2052ea5a6c079fc20af103a49601"
+
+[[files]]
+file = "kubejs/assets/gtc/ponder/ebf.nbt"
+hash = "d3936c8cb14741acafe9790abe3636206ace95b2caa299af1ee1bcddb8b617a6"
+
+[[files]]
+file = "kubejs/assets/gtc/ponder/implosion_compressor.nbt"
+hash = "6f69045d5e87a6991f72a0818b8a03e04f40a61a40f92be75645e6d3778a9c77"
+
+[[files]]
+file = "kubejs/assets/gtc/ponder/large_boiler.nbt"
+hash = "751d858ef41a575e57320e21194e63679a12308a0f40e9c7080cda40d221506f"
+
+[[files]]
+file = "kubejs/assets/gtc/ponder/power_line.nbt"
+hash = "0aa8cd54eccb3f56cce97e097d0b6dfd3a6aa9fd59cd16f08da0058807ddf09c"
+
+[[files]]
+file = "kubejs/assets/gtc/ponder/pyrolyse_oven.nbt"
+hash = "a53ef30225a8f0e452d7a962afeb48f78a462d6f61ca5c916279c1203afe4c50"
+
+[[files]]
+file = "kubejs/assets/gtc/ponder/steam_setup.nbt"
+hash = "cfd400b0b29639a56097e7dd12300843ba6709c2d0d1a441a95a03c205196370"
+
+[[files]]
+file = "kubejs/assets/gtc/ponder/vacuum_freezer.nbt"
+hash = "94481c4e8de8571b63fa9498f47b8ff0d19fa9a085ec6d57305b2072cabb530d"
+
+[[files]]
+file = "kubejs/client_scripts/gating_tooltips.js"
+hash = "bbc631dd953fa182c6f6c2b91410d1aa64579c5b5f92556ebee5babeda200b56"
+
+[[files]]
+file = "kubejs/client_scripts/ponder_gt.js"
+hash = "2e27cafd404d2e40c412defd1df6f4881428ced2ae40bd38642e3e6f6ea3aff9"
+
+[[files]]
+file = "kubejs/server_scripts/gating/00_hull_gate.js"
+hash = "b31dfc1ca85b75ddbfe6bc2b9b6f1f3c1540c9f343958872ff3fb34ba1f0484c"
+
+[[files]]
+file = "kubejs/server_scripts/gating/01_mv.js"
+hash = "0c42723cfd4ef048260ee66e23f16b195b1f3ceb58b8271122728ce87ed6cc37"
+
+[[files]]
+file = "kubejs/server_scripts/gating/02_hv.js"
+hash = "0b9f5de1508dfdf4102bd206085b15b29c421590227b8a65b54f847bb09f65a2"
+
+[[files]]
+file = "kubejs/server_scripts/gating/03_ev.js"
+hash = "8e8b00b2c772c925eefae6a38cc727a4afd4935f00716c09f7be8d340bd914da"
+
+[[files]]
+file = "kubejs/server_scripts/gating/04_iv.js"
+hash = "5fde34b041f8a1ca3690a298afe40bdd4561f5c64775afecfacbd447a470e0c2"
+
+[[files]]
+file = "kubejs/server_scripts/gating/05_luv.js"
+hash = "8c5167770ed48946d414321727a68ce3554c9f73ab8035fdca6129d16af9fc3f"
+
+[[files]]
+file = "kubejs/server_scripts/gating/06_zpm.js"
+hash = "47bc79c41ec4f4aaf967face5a09c0c95620ede5647c287349f632e0917b9e59"
+
+[[files]]
+file = "kubejs/server_scripts/quest_book.js"
+hash = "c151ef69cc777003ab258376366110046069e36612d0e2a15ac777e107adbf1f"
+
+[[files]]
+file = "mods/BetterAdvancements-Forge-1.20.1-0.6.0.73.pw.toml"
+hash = "63ba43ce16d2335674dcce0b3b4a1f1398229a801685524a91b80a7f02c5045f"
+metafile = true
+
+[[files]]
+file = "mods/Bookshelf-Forge-1.20.1-20.2.15.pw.toml"
+hash = "8601dec572db7a5da81627a3c751f85408f206748580a39b38887b6a491c9cf4"
+metafile = true
+
+[[files]]
+file = "mods/Clumps-forge-1.20.1-12.0.0.4.pw.toml"
+hash = "66e65b188f2292c3bf1da7bd6b79aa317f76d4bb870e5def1723985443692022"
+metafile = true
+
+[[files]]
+file = "mods/Controlling-forge-1.20.1-12.0.2.pw.toml"
+hash = "ad33c83a677a7ec3c8ac7eaa42ebfc728343f84331e26a75e3dbb9b6583a5bf2"
+metafile = true
+
+[[files]]
+file = "mods/EnchantmentDescriptions-Forge-1.20.1-17.1.21.pw.toml"
+hash = "8149ee900ad06a51d0353d05c5dbc3554bfe9ee50147fa27005c82f859350c14"
+metafile = true
+
+[[files]]
+file = "mods/FallingTree-1.20.1-4.3.4.pw.toml"
+hash = "0be35bfe66a0b42b7adfc1e6ed3ac36d045765a23ff0d58d22119431abc9d744"
+metafile = true
+
+[[files]]
+file = "mods/FastFurnace-1.20.1-8.0.2.pw.toml"
+hash = "a0b2596b78b18a4565f4e002a4a1d75c67b98fe9a2f3145d4b051b1c19828399"
+metafile = true
+
+[[files]]
+file = "mods/FastSuite-1.20.1-5.1.2.pw.toml"
+hash = "d4656ff71e1011a89b92c55566cfb4daa2ff4400f3c99d7d708c9aed5644f851"
+metafile = true
+
+[[files]]
+file = "mods/FastWorkbench-1.20.1-8.0.4.pw.toml"
+hash = "1d0d6f85a8fac6ad296e915377e429337f2bfdbf242853470953b2a27baa1634"
+metafile = true
+
+[[files]]
+file = "mods/Heracles-forge-1.20.1-1.1.13.pw.toml"
+hash = "27b7a21150d495c58c5d73f296cb3826b253ca42367af470e5ddfd018accb181"
+metafile = true
+
+[[files]]
+file = "mods/ImmediatelyFast-Forge-1.5.5+1.20.4.pw.toml"
+hash = "5a6e6b1e12ecc145cd4523ad3ecbebcdb8aab59caa5455e09c303ac0801ab1c1"
+metafile = true
+
+[[files]]
+file = "mods/InventoryProfilesNext-forge-1.20-1.10.20.pw.toml"
+hash = "f3c2a9afff5a6484f5def2033d1a464545ef35ab2dbf59e2361ce0e54e3d88d9"
+metafile = true
+
+[[files]]
+file = "mods/Jade-1.20.1-Forge-11.13.3.pw.toml"
+hash = "5e2d83e62128011fd8221b3cc9995fdc1d363c4f2e1c44ec95e36e6fba0b523c"
+metafile = true
+
+[[files]]
+file = "mods/JustEnoughResources-1.20.1-1.4.0.247.pw.toml"
+hash = "b0ad46e692c954e82a60f05db339dcb31f3f7526b3017fb5c8e2d6c9b91f4ce7"
+metafile = true
+
+[[files]]
+file = "mods/Ksyxis-1.4.6.pw.toml"
+hash = "6888eb4238d2a0bd3065a250f60dcb5f74b90205ad8c92d9236e844933167be9"
+metafile = true
+
+[[files]]
+file = "mods/L_Enders_Cataclysm-3.31.pw.toml"
+hash = "c4b9c30bf2de5f42338fb6381f379e5cf500733d57387672ca6f0cc326bc3c8d"
+metafile = true
+
+[[files]]
+file = "mods/MouseTweaks-forge-mc1.20.1-2.25.1.pw.toml"
+hash = "a92693934d7c2484522643003f0f9e51dc7262404eaed04796860cc6e6d3ec73"
+metafile = true
+
+[[files]]
+file = "mods/Patchouli-1.20.1-85-FORGE.pw.toml"
+hash = "a6220ea2fd0da78142b2a871f996e5db856bf80040fbd407accbdbe5a3dda0f2"
+metafile = true
+
+[[files]]
+file = "mods/Placebo-1.20.1-8.6.3.pw.toml"
+hash = "6946052456a195d01e35a8b6c19dd13de5d77401d8c0bbe893906c6597168084"
+metafile = true
+
+[[files]]
+file = "mods/Searchables-forge-1.20.1-1.0.3.pw.toml"
+hash = "912daa564c9ea5cf63f5df1ad16989b0502bc03046c931c975bed105b937c566"
+metafile = true
+
+[[files]]
+file = "mods/ToastControl-1.20.1-8.0.3.pw.toml"
+hash = "cadcd0c3ca3ed661386b240532140a39fe8a5fd3ac0630c18697973ec2e30615"
+metafile = true
+
+[[files]]
+file = "mods/ae2wtlib-15.3.3-forge.pw.toml"
+hash = "18cb5a704c538a6e9491b6bcb0926e6a3b7859677b4b586c74d6143a458ba2f4"
+metafile = true
+
+[[files]]
+file = "mods/appleskin-forge-mc1.20.1-2.5.1.pw.toml"
+hash = "2076dca1b96d2a1e8458c1a32b38d1a92db8cca668af983f8feee00d1a9248d9"
+metafile = true
+
+[[files]]
+file = "mods/appliedenergistics2-forge-15.4.11.pw.toml"
+hash = "1c5d9461f03dd874acf923dfa0ed15fc5f0e4b43ba78df475a26fe251ebfdedc"
+metafile = true
+
+[[files]]
+file = "mods/architectury-9.2.14-forge.pw.toml"
+hash = "bbc2551e8e8ab5be5ee460f9d4afc1bc54e2a0e6b8a1d6306d54f70968c0fa8a"
+metafile = true
+
+[[files]]
+file = "mods/balm-forge-1.20.1-7.3.44.pw.toml"
+hash = "7994098aaecc3323d5a712fc68a79c96b352007ff6810699f7abc36aa8c21317"
+metafile = true
+
+[[files]]
+file = "mods/canary-mc1.20.1-0.3.3.pw.toml"
+hash = "e27dc470c12af91156304738b9a8b2023e6a59b31c8aa72628353e03bc39094e"
+metafile = true
+
+[[files]]
+file = "mods/chat_heads-0.15.7-forge-1.20.pw.toml"
+hash = "bf775ef4c952a668815737e4d3d58d7f5f754b95019e3dfb00a1d7362f4d0932"
+metafile = true
+
+[[files]]
+file = "mods/cloth-config-11.1.136-forge.pw.toml"
+hash = "bfa2a1a31348ffbaffb75290cfa1fca93c5752cae2cd314880bb4fd548ca2a4f"
+metafile = true
+
+[[files]]
+file = "mods/corpse-forge-1.20.1-1.0.23.pw.toml"
+hash = "9ad9882bf7b09af72be434fc8ec3c4c6391ba89d6359c400c2f002860df71280"
+metafile = true
+
+[[files]]
+file = "mods/craftingtweaks-forge-1.20.1-18.2.9.pw.toml"
+hash = "d303d5fb36bb7be00bfa50e2fb70e2b93b68833599833ac08198bb8883d6cd1f"
+metafile = true
+
+[[files]]
+file = "mods/curios-forge-5.14.1+1.20.1.pw.toml"
+hash = "529911dc435771919a1048164fa03414e6f1b4b454d0741139cd12da84e2affe"
+metafile = true
+
+[[files]]
+file = "mods/defaultoptions-forge-1.20.1-18.0.5.pw.toml"
+hash = "4fc1018e04e1bf8af8f75692339dc7274a3b31ad8cc39a4f4db2baa83ce78f29"
+metafile = true
+
+[[files]]
+file = "mods/dynamic-fps-3.11.4+minecraft-1.20.0-forge.pw.toml"
+hash = "5cd10e8a7f0cd644f35e2a07965c02d43a5273c764f77ce8d25a278d209c38fe"
+metafile = true
+
+[[files]]
+file = "mods/embeddium-0.3.31+mc1.20.1.pw.toml"
+hash = "2149fd3d28a50afe51e54c4d8b004c558814cfefcbbe7be5ec3246cb4d0cd4b0"
+metafile = true
+
+[[files]]
+file = "mods/entityculling-forge-1.11.3-mc1.20.1.pw.toml"
+hash = "ac522d643e989b2fb0ac78c29941ae5b7e1c8271e71a835972078d59cb2fd68d"
+metafile = true
+
+[[files]]
+file = "mods/ferritecore-6.0.1-forge.pw.toml"
+hash = "7134d2c3eb8713e1497a591fb0d9059afa3b91c1a42752c04eebfed6d1669f4a"
+metafile = true
+
+[[files]]
+file = "mods/gtceu-1.20.1-7.5.3.pw.toml"
+hash = "16db341ddd4f756c2869521a99ba4fc91c676c811e97d1216ad32c546ea40e9a"
+metafile = true
+
+[[files]]
+file = "mods/guideme-20.1.15.pw.toml"
+hash = "a4e3967415b8ef80e15c1ac783d9468e89a6c7acf450fa60141f39bfb93f0011"
+metafile = true
+
+[[files]]
+file = "mods/jei-1.20.1-forge-15.49.0.200.pw.toml"
+hash = "9fe6b5fcefffca545bf8d215859977f91c36b517f30848f5094756d49844929b"
+metafile = true
+
+[[files]]
+file = "mods/kotlinforforge-4.12.0-all.pw.toml"
+hash = "e42820b19251d1eca3d2c4fdea8ec9669dfc0c985bda0417eeceb16efeeaf8b1"
+metafile = true
+
+[[files]]
+file = "mods/kubejs-forge-2001.6.5-build.26.pw.toml"
+hash = "064e7136ce34f8c61da0d35ce6f8d9aabbde83d51c86351ede15c9d06e7ae095"
+metafile = true
+
+[[files]]
+file = "mods/libIPN-forge-1.20-4.0.2.pw.toml"
+hash = "f83049205bc116697ad2b6260e373b2a3ee198dd3b9942a4e60df5dedaf684c4"
+metafile = true
+
+[[files]]
+file = "mods/lionfishapi-3.0.pw.toml"
+hash = "1feb55e08057e5f639a4f5a58c5e61786bac89f8e6465ac4a6033223c352fda4"
+metafile = true
+
+[[files]]
+file = "mods/memoryleakfix-forge-1.17+-1.1.5.pw.toml"
+hash = "2ff0fa0eea02d535df6211918dbd48b4a6f789a79aefcce2ad0e7126380750eb"
+metafile = true
+
+[[files]]
+file = "mods/mezz_config-1.20.1-forge-0.6.8.pw.toml"
+hash = "423475bfc55a1f633a16843c67ece142cf0193341fec6a7cf067833c770361dd"
+metafile = true
+
+[[files]]
+file = "mods/modelfix-1.15.pw.toml"
+hash = "dcc956bea85b83c18654d036f66673a5526265849662b928bffab14965777bc0"
+metafile = true
+
+[[files]]
+file = "mods/modernfix-forge-5.27.88+mc1.20.1.pw.toml"
+hash = "54860bc9c4926d39090be9a6b94cf59d769643c6c8e8e358ef65c72e33084857"
+metafile = true
+
+[[files]]
+file = "mods/noisium-forge-2.3.0+mc1.20-1.20.1.pw.toml"
+hash = "e14e2bf81e28c1d4c3d4c6981ce3117b843ed1eaa05010ad16f784ebe590a0e7"
+metafile = true
+
+[[files]]
+file = "mods/oculus-mc1.20.1-1.8.0.pw.toml"
+hash = "15eadf3c1e6672d56465c20094dbfff6715c3dbc06c82fccab1066e310469938"
+metafile = true
+
+[[files]]
+file = "mods/open-parties-and-claims-forge-1.20.1-0.32.7.pw.toml"
+hash = "f9337187b0950a3f67465ae5f959c612c75835900cc7402ceee9cbf4af0b2a44"
+metafile = true
+
+[[files]]
+file = "mods/polymorph-forge-0.49.10+1.20.1.pw.toml"
+hash = "64762fc02673167bd08a3e1daa3ca875c7703826c234c85f49fb63fbcb636e60"
+metafile = true
+
+[[files]]
+file = "mods/ponderjs-1.20.1-2.1.0.pw.toml"
+hash = "64e60aa67d5a96221471a6be7cd00ad49668f865e2a4ecd45c08b859e514fedc"
+metafile = true
+
+[[files]]
+file = "mods/resourcefullib-forge-1.20.1-2.1.29.pw.toml"
+hash = "0c2d8589b0fdb5c9d54c23ee9b95e5187cd08a8448ba17310bf6d4d452a70801"
+metafile = true
+
+[[files]]
+file = "mods/rhino-forge-2001.2.3-build.10.pw.toml"
+hash = "fc1d9011fcac54790b46f9f8ffced77cb66a0480e88f25a6b1ccb390d150df29"
+metafile = true
+
+[[files]]
+file = "mods/saturn-mc1.20.1-0.1.3.pw.toml"
+hash = "be217b6b6b4e94b69f8192c71cea2abc41a16067a54739b0fd482978dc1b7f58"
+metafile = true
+
+[[files]]
+file = "mods/sophisticatedbackpacks-1.20.1-3.26.14.2226.pw.toml"
+hash = "60b4af9209cce63f699d2eafcc9529cdb75b619dae38603b0ba3098a51d96f86"
+metafile = true
+
+[[files]]
+file = "mods/sophisticatedcore-1.20.1-1.5.15.2427.pw.toml"
+hash = "d71e267228dae0c2ce94b3df7f7052443067112c72e75757798473b49b5b9d3d"
+metafile = true
+
+[[files]]
+file = "mods/tooltipscaler-0.1.2.pw.toml"
+hash = "5388e5908db28474de0855d9fc419b8ac404774c9b77b22c6ec7dab4a302c8aa"
+metafile = true
+
+[[files]]
+file = "mods/xaerominimap-forge-1.20.1-26.6.0.pw.toml"
+hash = "22d6113e1924f1247ee494cb752429bd5f0df88bb0cdd4e6f1d1168c81dd860d"
+metafile = true
+
+[[files]]
+file = "mods/xaeroworldmap-forge-1.20.1-1.47.0.pw.toml"
+hash = "a990ed455b30ade5a0f15614ca3c0b4254508b972288c6ddf42724eb330b8d73"
+metafile = true
+
+[[files]]
+file = "patchouli_books/gtc_guide/book.json"
+hash = "97def13c818a3f32323e8c2806e9439daa76bfa08b844d40ecc6a2a89084d61b"
+
+[[files]]
+file = "patchouli_books/gtc_guide/en_us/categories/boss_index.json"
+hash = "0581c3de840b0d4ab167d9b8a61667404d7d6e9ba9482648d36da99cf94a856e"
+
+[[files]]
+file = "patchouli_books/gtc_guide/en_us/categories/circuits.json"
+hash = "da20b9be62080ec7da84b6dc4e8ddd9eba5d37fa12222feaf5e3321785f279ca"
+
+[[files]]
+file = "patchouli_books/gtc_guide/en_us/categories/getting_started.json"
+hash = "fef082bac0e0a2fe228230094abf374d1c46c61ad3f964a77279ce2e2f366958"
+
+[[files]]
+file = "patchouli_books/gtc_guide/en_us/categories/machines.json"
+hash = "61386ee64510db1ec6b47f62213438c51272e1cb9d46fc712af7fc1b67891826"
+
+[[files]]
+file = "patchouli_books/gtc_guide/en_us/categories/ores.json"
+hash = "62d5da44f5b72c45608c21bac69356f426d0a1626467588cf6431781249bc1c2"
+
+[[files]]
+file = "patchouli_books/gtc_guide/en_us/categories/pack.json"
+hash = "bd27133f603b210c8cd185448c9bcc005953a103e0f243314678142793f75d95"
+
+[[files]]
+file = "patchouli_books/gtc_guide/en_us/categories/power.json"
+hash = "01f2d3cbac9bd0c14c0b7769a950a6f45ac86c097aa23c97da10944e2bead55a"
+
+[[files]]
+file = "patchouli_books/gtc_guide/en_us/categories/steam.json"
+hash = "5c82dcdbcdf0338a1f202ece855b792fd7e28d66aac9273a1695a16348a8e777"
+
+[[files]]
+file = "patchouli_books/gtc_guide/en_us/entries/boss_index/00_about.json"
+hash = "d8c02420d892d8a739792ef15fe7060755191d2e04715de1f7fdec21314a283a"
+
+[[files]]
+file = "patchouli_books/gtc_guide/en_us/entries/boss_index/01_monstrosity.json"
+hash = "3da62ad1d6117fe8656288f107986f1826044388ef313bbc161feb5db103dc27"
+
+[[files]]
+file = "patchouli_books/gtc_guide/en_us/entries/boss_index/01_monstrosity_hint.json"
+hash = "5257f004dd0395aeb46562038c7f00097171b1bbb0c85a024e22f88433ae2977"
+
+[[files]]
+file = "patchouli_books/gtc_guide/en_us/entries/boss_index/02_ignis.json"
+hash = "c6122a89faee09147967699f474e70e276398863c2c77b11c4e1fc652ec36d9d"
+
+[[files]]
+file = "patchouli_books/gtc_guide/en_us/entries/boss_index/02_ignis_hint.json"
+hash = "bd8dc967a8a6c7d6ecda274dedab1191b39f4fccfd4cde5870a683c878d44a8f"
+
+[[files]]
+file = "patchouli_books/gtc_guide/en_us/entries/boss_index/03_harbinger.json"
+hash = "e765ee996ab88f8275a420fb99b09ef0a57644f9c478bd36e97a1564b3b09fa0"
+
+[[files]]
+file = "patchouli_books/gtc_guide/en_us/entries/boss_index/03_harbinger_hint.json"
+hash = "e06a7bee75e3aad353af2f5b4f98acc7aad8b54b401cba129c5ca5192404066c"
+
+[[files]]
+file = "patchouli_books/gtc_guide/en_us/entries/boss_index/04_guardian.json"
+hash = "da32e9a76c8a1d4eb80397efcbcb3d3892fefbfa185c86c9490b8a4f9a332e81"
+
+[[files]]
+file = "patchouli_books/gtc_guide/en_us/entries/boss_index/04_guardian_hint.json"
+hash = "3a099a914bac0ac32c2477a45efdada9b98399c91b52e2b0144c69610fd0ccea"
+
+[[files]]
+file = "patchouli_books/gtc_guide/en_us/entries/boss_index/05_maledictus.json"
+hash = "ce371255cc1c7a61abcc04814f79a00c5d3835ee974eb0094a7fe0917a05d438"
+
+[[files]]
+file = "patchouli_books/gtc_guide/en_us/entries/boss_index/05_maledictus_hint.json"
+hash = "4acc05cc3d6068c1d0c3dbc212668428b17f206b1ba24558c31bcf5099aaa7e1"
+
+[[files]]
+file = "patchouli_books/gtc_guide/en_us/entries/boss_index/06_scylla.json"
+hash = "7a7460605d00b9818178129911d4cdcb85da1802b8f1e3b0f3c637b42b2500a9"
+
+[[files]]
+file = "patchouli_books/gtc_guide/en_us/entries/boss_index/06_scylla_hint.json"
+hash = "5a5a94841e2370ec9163abc1a67a8d284a4f5fa4d734426313fb41f3d60c7ea3"
+
+[[files]]
+file = "patchouli_books/gtc_guide/en_us/entries/boss_index/07_leviathan.json"
+hash = "bd32af75be305d449695e2c4e5d24158f9ad470ebab0ebd7c9766c560ca8ae33"
+
+[[files]]
+file = "patchouli_books/gtc_guide/en_us/entries/boss_index/07_leviathan_hint.json"
+hash = "e9aaca732d3086486fe3e4df424eb7cae4013f9959ef838cf3577bae0f238e94"
+
+[[files]]
+file = "patchouli_books/gtc_guide/en_us/entries/boss_index/08_remnant.json"
+hash = "7b9b286a9300469b0bf3a1db20b1796ae467c8d62e4c7f710c787cf487c3d7b5"
+
+[[files]]
+file = "patchouli_books/gtc_guide/en_us/entries/boss_index/08_remnant_hint.json"
+hash = "643f235659efc1c222c472b974a73b186e227818c106fcc5cdfb5d1846535b7a"
+
+[[files]]
+file = "patchouli_books/gtc_guide/en_us/entries/circuits/chain.json"
+hash = "c96899aab4917b4dbfe894b9b2bda23d3dbd9ccf801c4933098b20d340c8609c"
+
+[[files]]
+file = "patchouli_books/gtc_guide/en_us/entries/circuits/metals.json"
+hash = "c9da0bbfc4c0c65c2a561bcee4363f128587ada3fd5f3f7dc1e9ceb2576b4aef"
+
+[[files]]
+file = "patchouli_books/gtc_guide/en_us/entries/getting_started/first_steps.json"
+hash = "0c327937aeb4bbc8219ee1338a95a389f47669d4dcc7ade0cd0b1b8b0a598708"
+
+[[files]]
+file = "patchouli_books/gtc_guide/en_us/entries/getting_started/what_gt_changes.json"
+hash = "87e9c3c5c765f1f773b232b971b17f930a1503e3254de93c1893a1d33d37bd80"
+
+[[files]]
+file = "patchouli_books/gtc_guide/en_us/entries/machines/assembly_line.json"
+hash = "2e6126a59c7e5d25ca329837bd38b05f0d624531196eea3d37a0faae08700496"
+
+[[files]]
+file = "patchouli_books/gtc_guide/en_us/entries/machines/cleanroom.json"
+hash = "50ad1495c6c73f0b0dbd8cfc720729d16da24ef890a8ab57515a06e9a6b3404e"
+
+[[files]]
+file = "patchouli_books/gtc_guide/en_us/entries/machines/ebf.json"
+hash = "182177191ae4dece5821a0e5a9de289b1f241ce3a11f6ed56839f727e1c20cd4"
+
+[[files]]
+file = "patchouli_books/gtc_guide/en_us/entries/machines/hulls.json"
+hash = "7463898574843a29960bf2ddfb3a398a452b7f70fc6e182114a9da1293661443"
+
+[[files]]
+file = "patchouli_books/gtc_guide/en_us/entries/machines/pyrolyse.json"
+hash = "cbec8c6c54c35353af1622bc1dc85a04103cf1fc1d7545e56a63416a65b3e7ae"
+
+[[files]]
+file = "patchouli_books/gtc_guide/en_us/entries/ores/early_veins.json"
+hash = "b9cb9bd99f73dea10fd7ca36c0e17eab8a755a9c4d1fd6b6bd71b22ea9440c7b"
+
+[[files]]
+file = "patchouli_books/gtc_guide/en_us/entries/ores/how_veins_work.json"
+hash = "4dfb4ddf17ae9fa4c6a6adf71e5333cd658c32e18bd9e4632e104cce8faba8ec"
+
+[[files]]
+file = "patchouli_books/gtc_guide/en_us/entries/ores/prospecting.json"
+hash = "998ff565fa759931907936c1f1969f02a5e0ca721c307830bf2cac1a83c2b93b"
+
+[[files]]
+file = "patchouli_books/gtc_guide/en_us/entries/pack/boss_gates.json"
+hash = "3907d608786a12be3103e5b490f10808acaa0c44284c29f06122eb798150959d"
+
+[[files]]
+file = "patchouli_books/gtc_guide/en_us/entries/pack/links.json"
+hash = "361764ce9e276c5fe3750f3122aed935a5fc7ea02d8e81eb8a0ce5c2490b6fe6"
+
+[[files]]
+file = "patchouli_books/gtc_guide/en_us/entries/pack/qol.json"
+hash = "5aa42a903865e61d2cc28f188e26348e2ff7e808d969295bf959a0daa9481082"
+
+[[files]]
+file = "patchouli_books/gtc_guide/en_us/entries/power/cables.json"
+hash = "121c6c83d3fc120137953c138ee08e0fd6b8fb64da6145fc1d00fb375893a079"
+
+[[files]]
+file = "patchouli_books/gtc_guide/en_us/entries/power/eu_tiers.json"
+hash = "8472a5bdfb48db156694a382ea58d11de3a9f5ed089e720bb252ff81856a7ffb"
+
+[[files]]
+file = "patchouli_books/gtc_guide/en_us/entries/power/explosions.json"
+hash = "d491a9ae0206b6a468a92cbec71bf810c1dc87ab4c703dfe49f0c1b03b3e5e6e"
+
+[[files]]
+file = "patchouli_books/gtc_guide/en_us/entries/power/transformers.json"
+hash = "4be7a10b14128ec4906c3b06248967e04bc2afac43f5aa25973190c40db09ba7"
+
+[[files]]
+file = "patchouli_books/gtc_guide/en_us/entries/steam/boilers.json"
+hash = "451587451581e5a87ddce1f732669b391e510d27b0d22fab775fc0b66b808842"
+
+[[files]]
+file = "patchouli_books/gtc_guide/en_us/entries/steam/bronze.json"
+hash = "6adbb8b8e822cf89086f9dc70541c6c3ccfa56f1be0d76bcf6882c0a776fc98a"
+
+[[files]]
+file = "patchouli_books/gtc_guide/en_us/entries/steam/steam_machines.json"
+hash = "e86358c5c544c1eeaf93bc5c8df9048f72eb1b3dd23deb55d98cc67aed72b4a3"
+
+[[files]]
+file = "shaderpacks/MakeUp-UltraFast-9.5g.pw.toml"
+hash = "ecbdac1a1ecbdb1db86322ef9aad332963d3c929bba3feb626553d4f80be0c69"
+metafile = true
+
+[[files]]
+file = "shaderpacks/PotatoShaders_v1.0d.pw.toml"
+hash = "dbb0744e3792ad874d7b02d0b3195c34ab76c10a6f3a27bd5dc7eecd258bc3fe"
+metafile = true

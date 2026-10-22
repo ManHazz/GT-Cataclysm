@@ -1,0 +1,20 @@
+{
+  "name": "The Leviathan",
+  "category": "patchouli:boss_index",
+  "icon": "cataclysm:abyss_eye",
+  "sortnum": 15,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(l)No. 07: The Leviathan$()$(br2)Structure: Sunken City$(br2)Where: Overworld: Deep Ocean (including lukewarm, cold, frozen)$(br2)Finder: Eye of Abyss (use like an Eye of Ender)."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "cataclysm:tidal_claws",
+      "title": "Drops",
+      "text": "Drops: Tidal Claws, Abyssal Egg.$(br2)Opens: No hull gate in this pack."
+    }
+  ],
+  "advancement": "cataclysm:kill_leviathan",
+  "secret": true
+}

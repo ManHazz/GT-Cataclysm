@@ -1,0 +1,8 @@
+name = "tooltipscaler-0.1.2"
+filename = "tooltipscaler-0.1.2.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/XryPYNmV/versions/bvI1XZQN/tooltipscaler-0.1.2.jar"
+hash-format = "sha512"
+hash = "161411677589021eace7b77d81c3231d4e6865fe4e6e9053a040f90493cc96de6ca115b159668ca35ea36514697cc882c8124688d32f0c08e0850645b692785b"

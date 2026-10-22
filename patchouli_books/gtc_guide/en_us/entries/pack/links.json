@@ -1,0 +1,12 @@
+{
+  "name": "Wiki links",
+  "category": "patchouli:pack",
+  "icon": "minecraft:writable_book",
+  "sortnum": 3,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "GregTech Modern docs (1.20.1):$(br2)gregtechceu.github.io/GregTech-Modern/1.20.1/$(br2)Sections: Gameplay (Steam, Electricity, Ore Generation)."
+    }
+  ]
+}

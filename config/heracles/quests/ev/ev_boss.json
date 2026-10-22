@@ -1,0 +1,44 @@
+{
+  "display": {
+    "icon": {
+      "type": "heracles:item",
+      "item": "cataclysm:witherite_ingot"
+    },
+    "title": "Kill the The Harbinger",
+    "subtitle": "Boss kill",
+    "description": [
+      "A mechanical boss in the Ancient Factory, a large structure that can generate in caves or deep underground. Bring a good pickaxe and light sources.",
+      "It is very hard to spot by chance, so the practical way to find it is an Eye of Mech, used like an Eye of Ender.",
+      "The kill itself is tracked once, in the Bosses chapter. This quest completes after that one; just tick it off."
+    ],
+    "groups": {
+      "EV": {
+        "position": [
+          0,
+          0
+        ]
+      }
+    }
+  },
+  "settings": {
+    "individual_progress": false,
+    "showDependencyArrow": true
+  },
+  "dependencies": [
+    "boss_harbinger",
+    "hv_circuit"
+  ],
+  "tasks": {
+    "task_1": {
+      "type": "heracles:check",
+      "title": "The Harbinger defeated"
+    }
+  },
+  "rewards": {
+    "reward_1": {
+      "type": "heracles:xp",
+      "xptype": "LEVEL",
+      "amount": 5
+    }
+  }
+}

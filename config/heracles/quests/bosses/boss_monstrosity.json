@@ -1,0 +1,50 @@
+{
+  "display": {
+    "icon": {
+      "type": "heracles:item",
+      "item": "cataclysm:monstrous_eye"
+    },
+    "title": "Netherite Monstrosity",
+    "subtitle": "Soul Forge",
+    "description": [
+      "Soul Forge: Nether structure, found in Crimson Forest, Warped Forest, Soul Sand Valley and Nether Wastes. Drops the Monstrous Horn (MV)."
+    ],
+    "groups": {
+      "Bosses": {
+        "position": [
+          44,
+          0
+        ]
+      }
+    }
+  },
+  "settings": {
+    "individual_progress": false,
+    "showDependencyArrow": true
+  },
+  "dependencies": [
+    "boss_overview"
+  ],
+  "tasks": {
+    "task_1": {
+      "type": "heracles:structure",
+      "title": "Find the Soul Forge",
+      "structures": "cataclysm:soul_black_smith"
+    },
+    "task_2": {
+      "type": "heracles:kill_entity",
+      "title": "Netherite Monstrosity",
+      "entity": {
+        "type": "cataclysm:netherite_monstrosity"
+      },
+      "amount": 1
+    }
+  },
+  "rewards": {
+    "reward_1": {
+      "type": "heracles:xp",
+      "xptype": "LEVEL",
+      "amount": 5
+    }
+  }
+}

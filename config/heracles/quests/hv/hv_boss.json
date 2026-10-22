@@ -1,0 +1,44 @@
+{
+  "display": {
+    "icon": {
+      "type": "heracles:item",
+      "item": "cataclysm:ignitium_ingot"
+    },
+    "title": "Kill the Ignis",
+    "subtitle": "Boss kill",
+    "description": [
+      "Ignis is a fire boss that fights in the Burning Arena, a Nether Wastes structure.",
+      "An Eye of Flame, used like an Eye of Ender, points to the arena. Fire resistance helps a lot.",
+      "The kill itself is tracked once, in the Bosses chapter. This quest completes after that one; just tick it off."
+    ],
+    "groups": {
+      "HV": {
+        "position": [
+          0,
+          0
+        ]
+      }
+    }
+  },
+  "settings": {
+    "individual_progress": false,
+    "showDependencyArrow": true
+  },
+  "dependencies": [
+    "boss_ignis",
+    "mv_circuit"
+  ],
+  "tasks": {
+    "task_1": {
+      "type": "heracles:check",
+      "title": "Ignis defeated"
+    }
+  },
+  "rewards": {
+    "reward_1": {
+      "type": "heracles:xp",
+      "xptype": "LEVEL",
+      "amount": 5
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name": "GregTech Field Guide",
+  "landing_text": "Field notes for GT: Cataclysm. GregTech progression, the pack's boss gates, and an index of every Cataclysm boss you have felled.",
+  "version": 1,
+  "show_progress": true,
+  "i18n": false,
+  "pause_game": false,
+  "subtitle": "GT: Cataclysm"
+}

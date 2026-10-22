@@ -1,0 +1,42 @@
+{
+  "display": {
+    "icon": {
+      "type": "heracles:item",
+      "item": "minecraft:crafting_table"
+    },
+    "title": "Recipes with JEI",
+    "subtitle": "R = recipes, U = uses",
+    "description": [
+      "Hover over an item and press R to see how it is made, or U to see what it is used in.",
+      "GregTech machines have their own recipe tabs. Press the Bookmark key (A) over an item to pin it."
+    ],
+    "groups": {
+      "Welcome": {
+        "position": [
+          88,
+          0
+        ]
+      }
+    }
+  },
+  "settings": {
+    "individual_progress": false,
+    "showDependencyArrow": true
+  },
+  "dependencies": [
+    "welcome_gates"
+  ],
+  "tasks": {
+    "task_1": {
+      "type": "heracles:check",
+      "title": "Got it"
+    }
+  },
+  "rewards": {
+    "reward_1": {
+      "type": "heracles:xp",
+      "xptype": "LEVEL",
+      "amount": 1
+    }
+  }
+}

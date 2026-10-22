@@ -1,0 +1,42 @@
+{
+  "display": {
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:basic_electronic_circuit"
+    },
+    "title": "First circuit",
+    "subtitle": "Basic Electronic Circuit",
+    "description": [
+      "Circuits unlock every machine upgrade. The Basic Electronic Circuit is your first one."
+    ],
+    "groups": {
+      "Steam & LV": {
+        "position": [
+          220,
+          44
+        ]
+      }
+    }
+  },
+  "settings": {
+    "individual_progress": false,
+    "showDependencyArrow": true
+  },
+  "dependencies": [
+    "lv_hull"
+  ],
+  "tasks": {
+    "task_1": {
+      "type": "heracles:item",
+      "item": "gtceu:basic_electronic_circuit",
+      "amount": 4
+    }
+  },
+  "rewards": {
+    "reward_1": {
+      "type": "heracles:xp",
+      "xptype": "LEVEL",
+      "amount": 1
+    }
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "display": {
+    "icon": {
+      "type": "heracles:item",
+      "item": "cataclysm:monstrous_horn"
+    },
+    "title": "Kill the Netherite Monstrosity",
+    "subtitle": "Boss kill",
+    "description": [
+      "A huge Nether boss guarding the Soul Forge. Bring strong armour, potions and plenty of food.",
+      "Find the Soul Forge in the Nether (Crimson Forest, Warped Forest, Soul Sand Valley or Nether Wastes). An Eye of Monstrous, used like an Eye of Ender, points to it.",
+      "The kill itself is tracked once, in the Bosses chapter. This quest completes after that one; just tick it off."
+    ],
+    "groups": {
+      "MV": {
+        "position": [
+          0,
+          0
+        ]
+      }
+    }
+  },
+  "settings": {
+    "individual_progress": false,
+    "showDependencyArrow": true
+  },
+  "dependencies": [
+    "boss_monstrosity",
+    "lv_circuit_assembler"
+  ],
+  "tasks": {
+    "task_1": {
+      "type": "heracles:check",
+      "title": "Netherite Monstrosity defeated"
+    }
+  },
+  "rewards": {
+    "reward_1": {
+      "type": "heracles:xp",
+      "xptype": "LEVEL",
+      "amount": 5
+    }
+  }
+}

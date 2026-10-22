@@ -1,0 +1,42 @@
+{
+  "display": {
+    "icon": {
+      "type": "heracles:item",
+      "item": "minecraft:redstone"
+    },
+    "title": "Memory",
+    "subtitle": "6-8 GB recommended",
+    "description": [
+      "Give the game 6 to 8 GB of RAM (for example -Xms6G -Xmx8G in your launcher's Java arguments).",
+      "Much less causes lag spikes in big GregTech setups, and much more does not help."
+    ],
+    "groups": {
+      "Welcome": {
+        "position": [
+          264,
+          0
+        ]
+      }
+    }
+  },
+  "settings": {
+    "individual_progress": false,
+    "showDependencyArrow": true
+  },
+  "dependencies": [
+    "welcome_shaders"
+  ],
+  "tasks": {
+    "task_1": {
+      "type": "heracles:check",
+      "title": "Got it"
+    }
+  },
+  "rewards": {
+    "reward_1": {
+      "type": "heracles:xp",
+      "xptype": "LEVEL",
+      "amount": 2
+    }
+  }
+}

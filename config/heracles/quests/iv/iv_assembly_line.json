@@ -1,0 +1,42 @@
+{
+  "display": {
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:assembly_line"
+    },
+    "title": "Assembly line",
+    "subtitle": "Complex parts",
+    "description": [
+      "A long multiblock that builds the most complex parts. Recipes from LuV onward need research first."
+    ],
+    "groups": {
+      "IV": {
+        "position": [
+          220,
+          0
+        ]
+      }
+    }
+  },
+  "settings": {
+    "individual_progress": false,
+    "showDependencyArrow": true
+  },
+  "dependencies": [
+    "iv_circuit"
+  ],
+  "tasks": {
+    "task_1": {
+      "type": "heracles:item",
+      "item": "gtceu:assembly_line",
+      "amount": 1
+    }
+  },
+  "rewards": {
+    "reward_1": {
+      "type": "heracles:xp",
+      "xptype": "LEVEL",
+      "amount": 1
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "name": "Cables and loss",
+  "category": "patchouli:power",
+  "icon": "gtceu:tin_single_cable",
+  "sortnum": 2,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Cables lose about 1 EU per block per amp, so keep runs short. Higher tier cables do not always lose less."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Overvoltage destroys the cable (it acts as a fuse). Too many amps heats it, burns the insulation and then sets it on fire.$(br2)Touching a bare wire that carried power is dangerous."
+    }
+  ]
+}

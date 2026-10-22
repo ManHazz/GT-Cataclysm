@@ -1,0 +1,43 @@
+{
+  "display": {
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:bronze_ingot"
+    },
+    "title": "Bronze",
+    "subtitle": "3 copper + 1 tin",
+    "description": [
+      "Bronze is the backbone of the steam age. Alloy 3 copper with 1 tin to get it.",
+      "Use JEI on the ingot to see every way of making it."
+    ],
+    "groups": {
+      "Steam & LV": {
+        "position": [
+          0,
+          0
+        ]
+      }
+    }
+  },
+  "settings": {
+    "individual_progress": false,
+    "showDependencyArrow": true
+  },
+  "dependencies": [
+    "welcome_intro"
+  ],
+  "tasks": {
+    "task_1": {
+      "type": "heracles:item",
+      "item": "gtceu:bronze_ingot",
+      "amount": 8
+    }
+  },
+  "rewards": {
+    "reward_1": {
+      "type": "heracles:xp",
+      "xptype": "LEVEL",
+      "amount": 1
+    }
+  }
+}

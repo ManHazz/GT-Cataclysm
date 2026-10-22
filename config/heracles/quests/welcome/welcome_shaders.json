@@ -1,0 +1,42 @@
+{
+  "display": {
+    "icon": {
+      "type": "heracles:item",
+      "item": "minecraft:glowstone"
+    },
+    "title": "Shaders (optional)",
+    "subtitle": "Potato or MakeUp",
+    "description": [
+      "Go to Options > Video Settings > Shader Packs and pick Potato Shaders for a light, fast look.",
+      "MakeUp - Ultra Fast is a nicer-looking alternative if your PC can handle it. If your FPS drops, set Shader Packs back to Off."
+    ],
+    "groups": {
+      "Welcome": {
+        "position": [
+          220,
+          0
+        ]
+      }
+    }
+  },
+  "settings": {
+    "individual_progress": false,
+    "showDependencyArrow": true
+  },
+  "dependencies": [
+    "welcome_map"
+  ],
+  "tasks": {
+    "task_1": {
+      "type": "heracles:check",
+      "title": "Got it"
+    }
+  },
+  "rewards": {
+    "reward_1": {
+      "type": "heracles:xp",
+      "xptype": "LEVEL",
+      "amount": 1
+    }
+  }
+}

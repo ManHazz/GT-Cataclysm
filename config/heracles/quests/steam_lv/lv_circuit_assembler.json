@@ -1,0 +1,42 @@
+{
+  "display": {
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:lv_circuit_assembler"
+    },
+    "title": "Circuit assembler",
+    "subtitle": "Circuits on demand",
+    "description": [
+      "Automates circuit making and makes later tiers far less painful."
+    ],
+    "groups": {
+      "Steam & LV": {
+        "position": [
+          0,
+          44
+        ]
+      }
+    }
+  },
+  "settings": {
+    "individual_progress": false,
+    "showDependencyArrow": true
+  },
+  "dependencies": [
+    "lv_assembler"
+  ],
+  "tasks": {
+    "task_1": {
+      "type": "heracles:item",
+      "item": "gtceu:lv_circuit_assembler",
+      "amount": 1
+    }
+  },
+  "rewards": {
+    "reward_1": {
+      "type": "heracles:xp",
+      "xptype": "LEVEL",
+      "amount": 3
+    }
+  }
+}

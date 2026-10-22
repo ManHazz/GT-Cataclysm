@@ -1,0 +1,17 @@
+{
+  "name": "No. 08: ???",
+  "category": "patchouli:boss_index",
+  "icon": "minecraft:barrier",
+  "sortnum": 16,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Unknown. Rumour: In the open desert, a cursed pyramid hides something ancient.$(br2)Defeat it to record it here."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Recorded. See the entry named Ancient Remnant.",
+      "advancement": "cataclysm:kill_remnant"
+    }
+  ]
+}
