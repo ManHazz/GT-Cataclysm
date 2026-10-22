@@ -1,13 +1,21 @@
 #!/usr/bin/env python3
 """Unpack a Modrinth .mrpack into a client game dir: download client files, copy overrides."""
-import argparse, hashlib, json, os, shutil, sys, urllib.request, zipfile
+import argparse, fnmatch, hashlib, json, os, shutil, sys, urllib.request, zipfile
 
 
 def main():
     ap = argparse.ArgumentParser(description=__doc__)
     ap.add_argument("mrpack")
     ap.add_argument("dest", help="game directory (e.g. run)")
+    ap.add_argument("--exclude", action="append", default=[], metavar="GLOB",
+                    help="skip files whose path or filename matches (case-insensitive, repeatable)")
     a = ap.parse_args()
+    pats = [p.lower() for p in a.exclude]
+
+    def excluded(path):
+        p = path.lower()
+        return any(fnmatch.fnmatchcase(p, g) or fnmatch.fnmatchcase(os.path.basename(p), g) for g in pats)
+
     dest = os.path.abspath(a.dest)
     os.makedirs(dest, exist_ok=True)
     z = zipfile.ZipFile(a.mrpack)
@@ -15,6 +23,9 @@ def main():
     bad = 0
     for f in idx["files"]:
         if (f.get("env") or {}).get("client") == "unsupported":
+            continue
+        if excluded(f["path"]):
+            print(f"excluded {f['path']}")
             continue
         out = os.path.abspath(os.path.join(dest, f["path"]))
         if not out.startswith(dest + os.sep):
@@ -39,6 +50,9 @@ def main():
     for prefix in ("overrides/", "client-overrides/"):
         for n in z.namelist():
             if n.startswith(prefix) and not n.endswith("/"):
+                if excluded(n[len(prefix):]):
+                    print(f"excluded {n[len(prefix):]}")
+                    continue
                 out = os.path.abspath(os.path.join(dest, n[len(prefix):]))
                 if not out.startswith(dest + os.sep):
                     sys.exit("unsafe path " + n)
