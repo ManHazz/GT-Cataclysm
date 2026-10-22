@@ -1113,6 +1113,51 @@
             ]
         },
         {
+            "pakku_id": "IGikYROQtZdDmSOW",
+            "pakku_links": [
+                "zE8Je5I4m6I9igJd",
+                "TAj75zKEOpRCEVJH"
+            ],
+            "type": "MOD",
+            "side": "CLIENT",
+            "slug": {
+                "modrinth": "inventory-profiles-next"
+            },
+            "name": {
+                "modrinth": "Inventory Profiles Next"
+            },
+            "id": {
+                "modrinth": "O7RBXm3n"
+            },
+            "files": [
+                {
+                    "type": "modrinth",
+                    "file_name": "InventoryProfilesNext-forge-1.20-1.10.20.jar",
+                    "mc_versions": [
+                        "1.20",
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/O7RBXm3n/versions/CrtAI3P9/InventoryProfilesNext-forge-1.20-1.10.20.jar",
+                    "id": "CrtAI3P9",
+                    "parent_id": "O7RBXm3n",
+                    "hashes": {
+                        "sha512": "8d2ecb06d6cebe56b1e55c1cf535bd4aefd8c1bd7642741435ea0c07a1073e275c40c6b2bfd9c3f2d8fd73b711422e4e2b5e39f84ae756028517715633ed5658",
+                        "sha1": "979e74fa10b24a7d7c4d9aeb5824b80f4f9235cf"
+                    },
+                    "required_dependencies": [
+                        "onSQdWhM",
+                        "ordsPcFz"
+                    ],
+                    "size": 1457354,
+                    "date_published": "2026-02-02T13:15:26.939847Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "LC6xKhsmRLwPx915",
             "type": "MOD",
             "side": "BOTH",
@@ -1167,6 +1212,7 @@
             "id": {
                 "modrinth": "u6dRKJwZ"
             },
+            "update_strategy": "NONE",
             "files": [
                 {
                     "type": "modrinth",
@@ -1230,6 +1276,50 @@
                     ],
                     "size": 276231,
                     "date_published": "2024-01-24T19:30:02.460341Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "TAj75zKEOpRCEVJH",
+            "type": "MOD",
+            "side": "BOTH",
+            "slug": {
+                "modrinth": "kotlin-for-forge"
+            },
+            "name": {
+                "modrinth": "Kotlin for Forge"
+            },
+            "id": {
+                "modrinth": "ordsPcFz"
+            },
+            "files": [
+                {
+                    "type": "modrinth",
+                    "file_name": "kotlinforforge-4.12.0-all.jar",
+                    "mc_versions": [
+                        "1.19.3",
+                        "1.19.4",
+                        "1.20",
+                        "1.20.1",
+                        "1.20.2",
+                        "1.20.3",
+                        "1.20.4"
+                    ],
+                    "loaders": [
+                        "forge",
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/ordsPcFz/versions/Zsh14XeQ/kotlinforforge-4.12.0-all.jar",
+                    "id": "Zsh14XeQ",
+                    "parent_id": "ordsPcFz",
+                    "hashes": {
+                        "sha512": "767f40030ed4b370a3838fa65ae1b79974f31979342fff7cc834a0d5f39eb28612642519352ff2a1dd5226ce1f745f8b3156ee3625ffde01219137d064c1ee40",
+                        "sha1": "962fdb760409d6d71cbf079235f1ca94e3863a22"
+                    },
+                    "required_dependencies": [],
+                    "size": 7442998,
+                    "date_published": "2025-12-03T19:48:01.561702Z"
                 }
             ]
         },
@@ -2015,6 +2105,7 @@
             "id": {
                 "modrinth": "tagwiZkJ"
             },
+            "update_strategy": "NONE",
             "files": [
                 {
                     "type": "modrinth",
@@ -2300,6 +2391,87 @@
             ]
         },
         {
+            "pakku_id": "eYLvNuGdK7iUlQRI",
+            "pakku_links": [
+                "gguXeEP9WJzbTTHO"
+            ],
+            "type": "MOD",
+            "side": "BOTH",
+            "slug": {
+                "modrinth": "sophisticated-backpacks"
+            },
+            "name": {
+                "modrinth": "Sophisticated Backpacks"
+            },
+            "id": {
+                "modrinth": "TyCTlI4b"
+            },
+            "files": [
+                {
+                    "type": "modrinth",
+                    "file_name": "sophisticatedbackpacks-1.20.1-3.26.14.2226.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "forge",
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/TyCTlI4b/versions/HEEmP5R4/sophisticatedbackpacks-1.20.1-3.26.14.2226.jar",
+                    "id": "HEEmP5R4",
+                    "parent_id": "TyCTlI4b",
+                    "hashes": {
+                        "sha512": "d6c01154540ec77ebb45f14e982ec0c2706b5796784c4c2585e7eb09f5d0d6888e3b0beb5305cee9c13eaa937f1cfdb53b0081ade9fb60073733e3b9fdea1b7b",
+                        "sha1": "26b302df2e67be44bb0b12180a6c22df807417e6"
+                    },
+                    "required_dependencies": [
+                        "nmoqTijg"
+                    ],
+                    "size": 1226134,
+                    "date_published": "2026-10-20T20:41:05.839731Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "gguXeEP9WJzbTTHO",
+            "type": "MOD",
+            "side": "BOTH",
+            "slug": {
+                "modrinth": "sophisticated-core"
+            },
+            "name": {
+                "modrinth": "Sophisticated Core"
+            },
+            "id": {
+                "modrinth": "nmoqTijg"
+            },
+            "files": [
+                {
+                    "type": "modrinth",
+                    "file_name": "sophisticatedcore-1.20.1-1.5.15.2427.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "forge",
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/nmoqTijg/versions/kflpbKPn/sophisticatedcore-1.20.1-1.5.15.2427.jar",
+                    "id": "kflpbKPn",
+                    "parent_id": "nmoqTijg",
+                    "hashes": {
+                        "sha512": "96d1ca37baa486e367665ae9d3d715c747d1ab4df37b97a02d12631a24c2788b255210b465d531229b38d73270bf5b22930973360eaf9246c95130cb2e404b79",
+                        "sha1": "269157a3efa1f4c38eb35fd2132b2a790f88b8f0"
+                    },
+                    "required_dependencies": [],
+                    "size": 1763762,
+                    "date_published": "2026-10-21T17:07:52.701142Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "giqtgwUMt1tx9XOj",
             "pakku_links": [
                 "iZDwKLjzMS5rTWeA"
@@ -2456,6 +2628,49 @@
                     "required_dependencies": [],
                     "size": 1429424,
                     "date_published": "2026-10-05T07:28:04.963901Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "zE8Je5I4m6I9igJd",
+            "pakku_links": [
+                "TAj75zKEOpRCEVJH"
+            ],
+            "type": "MOD",
+            "side": "CLIENT",
+            "slug": {
+                "modrinth": "libipn"
+            },
+            "name": {
+                "modrinth": "libIPN"
+            },
+            "id": {
+                "modrinth": "onSQdWhM"
+            },
+            "files": [
+                {
+                    "type": "modrinth",
+                    "file_name": "libIPN-forge-1.20-4.0.2.jar",
+                    "mc_versions": [
+                        "1.20",
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/onSQdWhM/versions/pdAXmKcS/libIPN-forge-1.20-4.0.2.jar",
+                    "id": "pdAXmKcS",
+                    "parent_id": "onSQdWhM",
+                    "hashes": {
+                        "sha512": "be677ed6dd4aa60a67ec1b83c89db8ed7460c34f54e5783df94245b9e0a5af9d3e12ebb322cb04210dfaa6527ad1e555a998931adfd69c5a4c57ac0e4dc15819",
+                        "sha1": "3e7c7fcdc037a6ae3d9146e718d87fc83f88f6d5"
+                    },
+                    "required_dependencies": [
+                        "ordsPcFz"
+                    ],
+                    "size": 693301,
+                    "date_published": "2024-03-24T18:17:18.578454Z"
                 }
             ]
         }

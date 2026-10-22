@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.3.3 - 2026-10-22
+
+### Added
+- Sophisticated Backpacks (+ Sophisticated Core): upgradeable backpacks, built-in sort buttons in backpack GUIs.
+- Inventory Profiles Next (+ libIPN, Kotlin for Forge): sort button in chests and player inventory (client-side).
+
 ## 0.3.2 - 2026-10-21
 
 ### Changed

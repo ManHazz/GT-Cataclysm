@@ -109,6 +109,8 @@ All verified on Modrinth for Forge 1.20.1 unless noted.
 | FastWorkbench | Both | |
 | FastSuite | Both | |
 | FallingTree 4.3.4 | Both | Tree felling; no required deps (Cloth Config optional, client); config generated on boot |
+| Sophisticated Backpacks 3.26.14 (+ Sophisticated Core 1.5.15) | Both | Upgradeable backpacks |
+| Inventory Profiles Next 1.10.20 (+ libIPN 4.0.2, Kotlin for Forge 4.12.0) | Client (KFF Both) | Sort buttons in chests/inventory |
 
 ### Excluded
 
